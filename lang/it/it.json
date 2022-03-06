@@ -7,95 +7,95 @@
 		"opt0": "Iniziare la configurazione"
 	},
 	"donateMenu": {
-		"opt0": "Premium Features entdecken",
-		"opt1": "Patreon Seite öffnen",
-		"opt2": "Errinere mich später",
-		"err0": "Falsches Spenden Passwort",
-		"msg0": "Du braucht eine Patreon Konto für das Feature. Starte Nostlan neu und gebe dein Spenden Passwort ein."
+		"opt0": "Scopri le caratteristiche premium",
+		"opt1": "Aprire la pagina Patreon",
+		"opt2": "Ricordamelo più tardi",
+		"err0": "Password di donazione sbagliata",
+		"msg0": "Hai bisogno di un account Patreon per questa funzione. Riavvia Nostlan e inserisci la tua password di donazione."
 	},
 	"checkDonationMenu": {
-		"title0": "Vielen Dank!",
-		"msg0": "Gib das Passwort für die Mitgliederüberprüfung dieses Monats ein:",
-		"opt0": "Passwort Verifizierung",
-		"opt1": "Ich supporte Nostlan zur Zeit nicht"
+		"title0": "Grazie!",
+		"msg0": "Inserisci la password per il controllo dei membri di questo mese:",
+		"opt0": "Verifica della password",
+		"opt1": "Non sostengo Nostlan al momento"
 	},
 	"setupMenu": {
-		"opt0": "Installieren im Verzeichnis ~\/Documents\/emu",
-		"opt1": "Installationsverzeichnis auswählen",
-		"opt2": "Setup fertigstellen",
-		"err0": "Du musst ein Installationsverzeichnis auswählen!",
-		"msg0": "Wähle den Ordner, in dem die Vorlage abgelegt werden soll",
-		"err1": "Kann in diesen Ordner nicht schreiben!",
-		"err2": "Dieser Ordner ist read only! Klicke mit der rechten Maustaste auf den Ordner, klicke auf Als Administrator öffnen, klicke mit der rechten Maustaste auf den Ordner, klicke auf Dateiberechtigungen bearbeiten. Ändere auf Lesen/Schreiben und Erstellen/Löschen für alle Benutzergruppen. Oder setzee prefs.load.readOnlyFS in deiner prefs.json-Datei auf true."
+		"opt0": "Installare nella directory ~\/Documents\/emu",
+		"opt1": "Seleziona la directory di installazione",
+		"opt2": "Impostazione completa",
+		"err0": "È necessario selezionare una directory di installazione!",
+		"msg0": "Selezionare la cartella in cui il modello deve essere memorizzato",
+		"err1": "Impossibile scrivere in questa cartella!",
+		"err2": "Questa cartella è read only! Clicca con il tasto destro sulla cartella, clicca su Apri come amministratore, clicca con il tasto destro sulla cartella, clicca su Modifica permessi file. Cambia in lettura/scrittura e crea/cancella per tutti i gruppi di utenti. Oppure impostate prefs.load.readOnlyFS nel vostro file prefs.json su true."
 	},
 	"libMain": {
-		"nav0Lbl": "Spielen",
+		"nav0Lbl": "Gioca",
 		"nav2Lbl": "Emu",
-		"nav3Lbl": "Sys",
-		"err0": "Spiel nicht gefunden"
+		"nav3Lbl": "Sistema",
+		"err0": "Gioco non trovato"
 	},
 	"boxSelect": {
-		"nav0Lbl": "Spielen",
-		"nav2Lbl": "Editieren",
-		"nav3Lbl": "Zurück"
+		"nav0Lbl": "Gioca",
+		"nav2Lbl": "Modifica",
+		"nav3Lbl": "Ritorno"
 	},
 	"editSelect": {
 		"nav0Lbl": "ImgDir",
-		"nav2Lbl": "Bild",
-		"nav3Lbl": "Zurück"
+		"nav2Lbl": "Immagine",
+		"nav3Lbl": "Ritorno"
 	},
 	"boxOpenMenu": {
-		"nav0Lbl": "Manuell",
-		"nav2Lbl": "Speicher",
-		"nav3Lbl": "Zurück"
+		"nav0Lbl": "Manuale",
+		"nav2Lbl": "Memory",
+		"nav3Lbl": "Ritorno"
 	},
 	"gameMediaSelect": {
-		"nav0Lbl": "Datei",
-		"nav2Lbl": "Bearbeiten",
-		"nav3Lbl": "Zurück"
+		"nav0Lbl": "File",
+		"nav2Lbl": "Modifica",
+		"nav3Lbl": "Ritorno"
 	},
 	"nostlanMenu": {
-		"title0": "Hauptmenü",
-		"nav0Lbl": "Verlassen",
+		"title0": "Menu principale",
+		"nav0Lbl": "Uscire",
 		"nav2Lbl": "Mini",
-		"nav3Lbl": "Zurück",
-		"msg0": "Zurück",
+		"nav3Lbl": "Ritorno",
+		"msg0": "Ritorno",
 		"opt0": "mini",
 		"opt1": "Fullscreen",
-		"opt2": "Verlassen",
-		"opt3": "Spielbibliothek bearbeiten",
+		"opt2": "Uscire",
+		"opt3": "Modifica la libreria dei giochi",
 		"opt4": "backup",
 		"opt5": "sync",
 		"opt6": "Patreon",
-		"opt7": "Hilfe",
-		"opt8": "Einstellungen"
+		"opt7": "Aiuto",
+		"opt8": "Impostazioni"
 	},
 	"settingsMenu": {
-		"title0": "Einstellungen",
-		"opt0": "Erscheinungsbild ändern",
-		"opt1": "Controller Einstellungen",
-		"opt2": ["Console anzeigen", "Console verstecken"],
-		"opt3": "Präferenzen bearbeiten",
-		"opt4": "Sprachmenü"
+		"title0": "Impostazioni",
+		"opt0": "Cambiare aspetto",
+		"opt1": "Impostazioni del controllore",
+		"opt2": ["Mostra console", "Nascondi console"],
+		"opt3": "Modifica delle preferenze",
+		"opt4": "Menu lingua"
 	},
 	"gameLibMenu": {
-		"title0": "Spielebibliothek Menü",
-		"opt0": "Neue Spiele hinzufügen",
-		"opt1": "Alle Spiele aktualisieren",
-		"opt2": "Nach Bildern scannen",
-		"opt3": "Spieleordner öffnen"
+		"title0": "Menu della libreria dei giochi",
+		"opt0": "Aggiungere nuovi giochi",
+		"opt1": "Aggiorna tutti i giochi",
+		"opt2": "Scansione di immagini",
+		"opt3": "Aprire la cartella dei giochi"
 	},
 	"gameLibInfoMenu": {
-		"opt0": "Zurück"
+		"opt0": "Ritorno"
 	},
 	"controllerMenu": {
-		"title0": "Controller Einstellungen",
+		"title0": "Impostazioni del controllore",
 		"opt0": "Info",
-		"opt1": ["Rumble deaktivieren", "Rumble aktivieren"],
-		"prof2Lbl": "Anderes"
+		"opt1": ["Disattivare il Rumble", "Attivare il Rumble"],
+		"prof2Lbl": "Altro"
 	},
 	"controInfoMenu": {
-		"opt0": "Zurück"
+		"opt0": "Ritorno"
 	},
 	"addSavesPathMenu": {
 		"opt0": "Hinzufügen",
