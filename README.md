@@ -131,7 +131,7 @@ Click on an image to see it in full quality 4K resolution.
 
 ## Premium Features
 
-Nostlan includes tons of great features for free, but [Patreon](https://www.patreon.com/nostlan) supporters can get premium features for only \$1 a month!
+Nostlan includes tons of great features for free, but [Patreon](https://www.patreon.com/nostlan) supporters can get premium features!
 
 - [backup/sync game saves to the cloud or local storage device](https://github.com/quinton-ashley/nostlan/wiki/Backup-Saves-and-Cloud-Save-Syncing)
 - [unlock alternate UI theme color palettes](https://github.com/quinton-ashley/nostlan/wiki/Change-Theme)
