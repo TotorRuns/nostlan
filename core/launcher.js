@@ -393,7 +393,7 @@ class Launcher {
 			// ${btn} button for ${time} seconds`
 			$('#loadDialog1').text(
 				lang.playing.msg2_0 +
-					` "${cf.inGame.quit.hold}" ` +
+					` ${cf.inGame.quit.hold} ` +
 					lang.playing.msg2_1 +
 					' ' +
 					(cf.inGame.quit.time / 1000).toFixed(0) +
