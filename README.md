@@ -43,7 +43,6 @@ _Emulators supported: bsnes, Cemu, Citra, Cxbx-Reloaded, Dolphin, DeSmuME, DS Pl
 - nostalgic UI themes for each supported console
 - designed for big UHD displays and projectors
 - most controllers connect to Nostlan automatically, no setup required
-- GameCube controller adapter supported with [gca-js](https://github.com/YonicDev/gca-js) via the [contro-ui](https://github.com/quinton-ashley/contro-ui) framework
 - menu translations for Spanish, German, Hebrew, Russian, and Dutch
 - cross-platform support for Linux, macOS, and Windows
 - box edit mode provides an in-app image search on the web (no need to download and manually place image files in the right folder)
@@ -183,6 +182,12 @@ Since Nostlan is open source, anyone can look at the code. I also put a LOT of e
 BUT, please only download Nostlan from my official website!
 
 <https://quinton-ashley.github.io/nostlan-web/>
+
+## Development
+
+In 2018 I started developing Nostlan. I was still learning a lot about JavaScript and Electron was brand new. But Electron has been upgraded significantly over the years and the new paradigms for developing Electron apps are completely different than how things used to be done. Nostlan relies heavily on the `electron-remote` package, a backwards compatibility layer that allows Nostlan to run with the latest versions of Electron. There are definitely some things I would do differently if I were to start over. But I'm probably never going to rewrite the whole app to use module imports or context bridging. I'm just going to keep adding new features and fixing bugs.
+
+Information on how to build the app, update a database, and change the Electron version can be found in the <DEV_INFO.md> file.
 
 ## Legal Disclaimer
 

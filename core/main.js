@@ -238,7 +238,7 @@ module.exports = async function (args) {
 		cui.start({
 			v: true,
 			haptic: cf.ui.gamepad.haptic,
-			gca: cf.ui.gamepad.gca,
+			gca: false, // disabled cf.ui.gamepad.gca for now until gca support can be fixed
 			gamepadMaps: cf.ui.gamepad,
 			normalize: {
 				map: {
