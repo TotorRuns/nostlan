@@ -74,14 +74,17 @@ class Saves {
 			dir += '/dev_hdd0/home/00000001/savedata';
 			cf[emu].saves.dirs = [dir];
 		} else if (emu == 'ryujinx') {
-			if (win) {
-				dir = util.absPath('$home') + '/AppData/Roaming';
-			} else if (linux) {
-				dir = util.absPath('$home') + '/.config';
-			} else if (mac) {
-				dir = util.absPath('$home') + '/Library/Application Support';
+			dir += '/portable';
+			if (!(await fs.exists(dir))) {
+				if (win) {
+					dir = util.absPath('$home') + '/AppData/Roaming';
+				} else if (linux) {
+					dir = util.absPath('$home') + '/.config';
+				} else if (mac) {
+					dir = util.absPath('$home') + '/Library/Application Support';
+				}
+				dir += '/Ryujinx';
 			}
-			dir += '/Ryujinx';
 			cf[emu].saves.dirs = [
 				dir + '/bis/user/save',
 				dir + '/bis/user/saveMeta',

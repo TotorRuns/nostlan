@@ -49,6 +49,7 @@ module.exports = async function (defaults) {
 	if (semver.gte(ver, '2.3.0')) return;
 
 	cf.ui.gamepad.gca = false;
+	if (cf.ryujinx && cf.ryujinx.saves) cf.ryujinx.saves.dirs = [];
 
 	if (semver.gte(ver, '2.2.0')) return;
 

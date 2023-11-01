@@ -175,38 +175,7 @@ class Scanner {
 						continue;
 					}
 				}
-				// exact match identification by retreiving the id
-				// from the game file
-				if (sys == 'switch') {
-					let game = {
-						title: term,
-						file: file
-					};
-					// gives the game an id or not if it fails
-					try {
-						if (sys != 'switch' || !mac) {
-							game = await nostlan.launcher.identifyGame(game);
-						}
-					} catch (ror) {}
-					if (game.id || (sys == 'switch' && game.tid)) {
-						let res;
-						if (sys != 'switch') {
-							log('id: ' + game.id);
-							res = gameDB.find((x) => x.id === game.id);
-						} else {
-							log('id: ' + game.tid);
-							res = gameDB.find((x) => x.tid === game.tid);
-						}
-						if (res) {
-							game = res;
-							this.olog(`exact match:  ${game.title}\r\n`);
-							log(game);
-							game.file = '$' + h + '/' + path.relative(cf[sys].libs[h], file);
-							games.push(game);
-							continue;
-						}
-					}
-				}
+
 				// replacements
 				term = term.replace(/_/g, ' ');
 				term = term.replace(/ -/g, ':');
