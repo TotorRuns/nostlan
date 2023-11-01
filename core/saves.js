@@ -73,14 +73,21 @@ class Saves {
 		} else if (emu == 'rpcs3') {
 			dir += '/dev_hdd0/home/00000001/savedata';
 			cf[emu].saves.dirs = [dir];
-		} else if (emu == 'ryujinx' && win) {
+		} else if (emu == 'ryujinx') {
 			if (win) {
 				dir = util.absPath('$home') + '/AppData/Roaming';
-			} else if (mac || linux) {
+			} else if (linux) {
 				dir = util.absPath('$home') + '/.config';
+			} else if (mac) {
+				dir = util.absPath('$home') + '/Library/Application Support';
 			}
-			dir += '/Ryujinx/bis/user/save';
-			cf[emu].saves.dirs = [dir];
+			dir += '/Ryujinx';
+			cf[emu].saves.dirs = [
+				dir + '/bis/user/save',
+				dir + '/bis/user/saveMeta',
+				dir + '/bis/system/save/8000000000000000',
+				dir + '/system'
+			];
 		} else if (emu == 'xenia') {
 			dir = util.absPath('$home') + '/Documents/Xenia/content';
 			cf[emu].saves.dirs = [dir];
@@ -107,7 +114,8 @@ class Saves {
 	}
 
 	async _backup(onQuit) {
-		let date = Math.trunc(Date.now() / 10000);
+		// convert to UNIX timestamp
+		let date = Math.trunc(Date.now() / 1000);
 
 		for (let save of cf.saves) {
 			if (save.noSaveOnQuit) {

@@ -9,7 +9,7 @@
 			}
 		},
 		"gamepad": {
-			"gca": true,
+			"gca": false,
 			"haptic": true,
 			"nintendo": {
 				"profile": "adaptive",

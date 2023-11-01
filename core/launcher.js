@@ -407,7 +407,7 @@ class Launcher {
 
 		this._launch();
 
-		if (sys == 'wii' && game && game.id && cui.gca.connected && !cui.gamepadConnected) {
+		if (sys == 'wii' && game && game.id && cui.gca?.connected && !cui.gamepadConnected) {
 			// 'Unfortunately only one app at a time can be
 			// connected to your Gamecube Controller
 			// Adapter.  Nostlan will quit.'
@@ -584,7 +584,7 @@ class Launcher {
 			log('exited with code ' + code);
 			if (cui.ui == 'playing') {
 				// only one app at a time can be connected to the gca
-				if (cui.gca.connected) cui.gca.start();
+				if (cui.gca?.connected) cui.gca.start();
 				await cui.doAction('back');
 			}
 			$('body > :not(#dialogs)').removeClass('dim');

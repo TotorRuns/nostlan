@@ -207,7 +207,7 @@ module.exports = function () {
 			adjust(false);
 		}
 
-		if (!(cui.gamepadConnected || cui.gca.connected) || !subState) {
+		if (!(cui.gamepadConnected || cui.gca?.connected) || !subState) {
 			return;
 		}
 		$('#nav0Btn span').text(buttons[0]);
