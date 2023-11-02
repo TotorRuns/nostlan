@@ -51,7 +51,7 @@
 		}
 	],
 	"dependencies": {
-		"@electron/remote": "^2.0.8",
+		"@electron/remote": "^2.0.12",
 		"@mapbox/node-pre-gyp": "^1.0.9",
 		"@popperjs/core": "^2.11.5",
 		"7zip-bin": "^5.2.0",
@@ -134,7 +134,7 @@
 		"start": "electron . --dev",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"clean": "sudo chmod -R 777 .",
-		"rebuild-l": "rm -rf ./node_modules/sharp/vendor | npm rebuild --build-from-source --runtime=electron --target=17.1.2 --disturl=https://electronjs.org/headers ",
+		"rebuild-l": "rm -rf ./node_modules/sharp/vendor | npm rebuild --build-from-source --runtime=electron --target=27.0.2 --disturl=https://electronjs.org/headers ",
 		"rebuild-mi": "SHARP_IGNORE_GLOBAL_LIBVIPS=true rm -rf ./node_modules/sharp/vendor | npm rebuild --build-from-source --runtime=electron --target=27.0.2 --disturl=https://electronjs.org/headers ",
 		"rebuild-m": "SHARP_IGNORE_GLOBAL_LIBVIPS=true rm -rf ./node_modules/sharp/vendor | npm rebuild --build-from-source --runtime=electron --target=27.0.2 --host_arch=arm64 --target_arch=arm64 --arch=arm64 --disturl=https://electronjs.org/headers ",
 		"rebuild-w": "npm rebuild --build-from-source --runtime=electron --target=27.0.2 --disturl=https://electronjs.org/headers ",
