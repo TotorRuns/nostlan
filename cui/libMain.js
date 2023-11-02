@@ -139,7 +139,7 @@ class CuiState extends cui.State {
 		let playMenu = 'h1.title0\n';
 		let emuMenu = 'h1.title0\n';
 		for (let _emu of syst.emus) {
-			// if cmd not found emulator is not available
+			// if cmd not found, then emulator is not available
 			// for the operating system
 			if (!cf[_emu].cmd && !emus[_emu].jsEmu) continue;
 

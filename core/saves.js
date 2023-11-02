@@ -194,7 +194,7 @@ class Saves {
 		}
 	}
 
-	async _update(forced) {
+	async _update(isForced) {
 		let save = cf.saves[0];
 		let dir = `${save.dir}/nostlan_saves/${emu}`;
 		if (!(await fs.exists(dir))) return;
@@ -210,10 +210,27 @@ class Saves {
 			if (latest < date) latest = date;
 		}
 
-		log(`${cf[emu].saves.date} : last saved locally`);
-		log(`${latest} : last saved in ${save.name}`);
-		if (forced) log('save sync update forced!');
-		if (!forced && latest <= cf[emu].saves.date) return;
+		log(`${cf[emu].saves.date} : ${emus[emu].name} last saved locally`);
+		log(`${latest} : ${emus[emu].name} last saved in ${save.name}`);
+		if (isForced) log('save sync update is forced!');
+		if (!isForced && latest <= cf[emu].saves.date) return;
+
+		let now = Date.now() / 1000;
+		let diff = now - latest;
+		// if the last save is more than 2 days old
+		if (diff > 172800) {
+			// tell the user how old their save data is
+			let days = Math.trunc((now - latest) / 86400);
+			let res = await cui.confirm(
+				'Your last synced ' +
+					emus[emu].name +
+					' save with Nostlan was from ' +
+					days +
+					' days ago.\n\nAre you sure you want to overwrite your local save data?',
+				'WARNING'
+			);
+			if (!res) return true;
+		}
 
 		dir += '/' + latest;
 
@@ -221,8 +238,8 @@ class Saves {
 			let src = dir + '/' + i;
 			let dest = cf[emu].saves.dirs[i];
 			if (!(await fs.exists(src))) continue;
-			log(`Updating files from ${save.name} to ${dest}`);
-			$('#loadDialog0').text(`Updating files from ${save.name} to`);
+			log(`Updating ${emus[emu].name} save files from ${save.name} to ${dest}`);
+			$('#loadDialog0').text(`Updating ${emus[emu].name} save files from ${save.name} to`);
 			$('#loadDialog1').text(dest);
 			try {
 				await fs.copy(src, dest);
@@ -236,25 +253,31 @@ class Saves {
 		return true;
 	}
 
-	async update(forced) {
+	async update(isForced) {
 		if (!cf.saves) {
 			log('update save sync failed, no saves folder');
 			return;
 		}
-		if (!cf[emu].saves || !cf[emu].saves.dirs || !cf[emu].saves.dirs.length) {
-			if (!(await this.setup())) return;
-			if (!(await this._update(forced))) {
-				await this._backup();
-			}
-			return;
-		}
+		let ogEmu = emu;
+		for (emu of syst.emus) {
+			if (!cf[emu].cmd && !emus[emu].jsEmu) continue;
 
-		log('update save sync starting...');
-		if (await this._update(forced)) {
-			log('update save sync complete!');
-		} else {
-			log('local save data already the most current');
+			if (!cf[emu].saves || !cf[emu].saves.dirs || !cf[emu].saves.dirs.length) {
+				if (!(await this.setup())) continue;
+				if (!(await this._update(isForced))) {
+					await this._backup();
+				}
+				continue;
+			}
+
+			log('update save sync starting...');
+			if (await this._update(isForced)) {
+				log('update save sync complete!');
+			} else {
+				log('local save data already the most current');
+			}
 		}
+		emu = ogEmu;
 	}
 
 	async backup() {

@@ -916,6 +916,10 @@ button:focus {
 	margin-bottom: 16px;
 }
 
+#alertMenu_9999 {
+	z-index: 200;
+}
+
 #alertMenu_9999 img {
 	margin-bottom: 16px;
 }

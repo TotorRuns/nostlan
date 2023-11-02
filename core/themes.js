@@ -51,11 +51,14 @@ class Themes {
 			return `https://wiki.dolphin-emu.org/index.php?title=${title}`;
 		};
 		this.gcn.getWiki = this.wii.getWiki;
-		this.switch.getWiki = (game) => {
-			let title = game.title.toLowerCase().replace(/ /g, '-');
-			title = title.replace(/:/g, '');
-			return `https://yuzu-emu.org/game/${title}/`;
-		};
+
+		// Error 403 website is down
+		// this.switch.getWiki = (game) => {
+		// 	let title = game.title.toLowerCase().replace(/ /g, '-');
+		// 	title = title.replace(/:/g, '');
+		// 	return `https://yuzu-emu.org/game/${title}/`;
+		// };
+
 		this.n3ds.getWiki = (game) => {
 			let title = game.title.toLowerCase().replace(/ /g, '-');
 			title = title.replace(/:/g, '');
