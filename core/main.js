@@ -142,7 +142,7 @@ module.exports = async function (args) {
 	}
 
 	// only Patreon supporters can use premium features
-	if (!args.dev) {
+	if (!args.dev && (await fs.exists(__root + '/dev/premium.js'))) {
 		nostlan.premium = require(__root + '/dev/premium.js');
 	} else {
 		nostlan.premium = {

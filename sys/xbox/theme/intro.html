@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>intro xbox</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="./intro.css" />
-	</head>
 
-	<body>
-		<canvas></canvas>
+<head>
+	<title>intro xbox</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="./intro.css" />
+</head>
 
-		<div class="controls" style="display: none">
-			<div>
-				<label>Speed</label>
-				<input type="range" min="10" max="120" value="120" step="1" name="speed" />
-			</div>
-			<div>
-				<label>Spikes</label>
-				<input type="range" min=".05" max="2" value=".5" step=".05" name="spikes" />
-			</div>
-			<div>
-				<label>Processing</label>
-				<input type="range" min=".6" max="2.4" value="1.4" step=".01" name="processing" />
-			</div>
+<body>
+	<canvas></canvas>
+
+	<div class="controls" style="display: none">
+		<div>
+			<label>Speed</label>
+			<input type="range" min="10" max="120" value="120" step="1" name="speed" />
 		</div>
-		<script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
-		<script src="../../node_modules/three/build/three.min.js"></script>
-		<script src="./range.js"></script>
-		<script src="./simplex-noise.min.js"></script>
-		<script src="./intro.js"></script>
-	</body>
+		<div>
+			<label>Spikes</label>
+			<input type="range" min=".05" max="2" value=".5" step=".05" name="spikes" />
+		</div>
+		<div>
+			<label>Processing</label>
+			<input type="range" min=".6" max="2.4" value="1.4" step=".01" name="processing" />
+		</div>
+	</div>
+	<script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<script src="../../../libs/three.min.js"></script>
+	<script src="./range.js"></script>
+	<script src="./simplex-noise.min.js"></script>
+	<script src="./intro.js"></script>
+</body>
+
 </html>

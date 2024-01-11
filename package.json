@@ -8,7 +8,7 @@
 	},
 	"build": {
 		"appId": "com.qashto.nostlan",
-		"copyright": "Copyright © 2018-2023 Quinton Ashley",
+		"copyright": "Copyright © 2018-2024 Quinton Ashley",
 		"electronVersion": "27.0.2",
 		"asarUnpack": "jsEmu",
 		"mac": {
@@ -95,8 +95,10 @@
 		"sharp": "0.27.2",
 		"tabletojson": "2.0.6",
 		"tether": "*",
-		"three": "^0.139.0",
 		"yauzl-promise": "^2.1.3"
+	},
+	"devDependencies": {
+		"puppeteer-core": "^13.7.0"
 	},
 	"description": "Nostlan is a nostlagia launcher for retro and current gen video game emulators!",
 	"entry point": "app.js",
@@ -150,5 +152,5 @@
 		"postversion": "git push",
 		"V": "npm version minor --force"
 	},
-	"version": "2.3.3"
+	"version": "2.4.0"
 }

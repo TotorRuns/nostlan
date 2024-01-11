@@ -17,16 +17,16 @@
 		},
 		"install": {
 			"linux-x64": {
-				"portable": "https://github.com/cemu-project/Cemu/releases/download/v2.0-18/Cemu-2.0-18-x86_64.AppImage"
+				"portable": "https://github.com/cemu-project/Cemu/releases/download/v2.0-61/Cemu-2.0-61-x86_64.AppImage"
 			},
 			"mac-arm64": {
-				"installer": "https://github.com/cemu-project/Cemu/releases/download/v2.0-18/cemu-2.0-18-macos-12-x64.dmg"
+				"installer": "https://github.com/cemu-project/Cemu/releases/download/v2.0-61/cemu-2.0-61-macos-12-x64.dmg"
 			},
 			"mac-x64": {
-				"installer": "https://github.com/cemu-project/Cemu/releases/download/v2.0-18/cemu-2.0-18-macos-12-x64.dmg"
+				"installer": "https://github.com/cemu-project/Cemu/releases/download/v2.0-61/cemu-2.0-61-macos-12-x64.dmg"
 			},
 			"win-x64": {
-				"portable": "https://github.com/cemu-project/Cemu/releases/download/v2.0-18/cemu-2.0-18-windows-x64.zip"
+				"portable": "https://github.com/cemu-project/Cemu/releases/download/v2.0-61/cemu-2.0-61-windows-x64.zip"
 			}
 		}
 	}

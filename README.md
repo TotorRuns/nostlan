@@ -185,7 +185,7 @@ BUT, please only download Nostlan from my official website!
 
 ## Development
 
-In 2018 I started developing Nostlan. I was still learning a lot about JavaScript and Electron was brand new. But Electron has been upgraded significantly over the years and the new paradigms for developing Electron apps are completely different than how things used to be done. Nostlan relies heavily on the `electron-remote` package, a backwards compatibility layer that allows Nostlan to run with the latest versions of Electron. There are definitely some things I would do differently if I were to start over. But I'm probably never going to rewrite the whole app to use module imports or context bridging. I'm just going to keep adding new features and fixing bugs.
+In 2018 I started developing Nostlan. I was still learning a lot about JavaScript and Electron was brand new. But Electron has been upgraded significantly over the years and the new paradigms for developing Electron apps are completely different than how things used to be done. Nostlan relies heavily on the `electron-remote` package, a backwards compatibility layer that allows Nostlan to run with the latest versions of Electron. There are definitely some things I would do differently if I were to start over. But I'm never going to rewrite the whole app to use module imports or context bridging. I will be doing maintenance work, adding new features and fixing bugs.
 
 Information on how to build the app, update a database, and change the Electron version can be found in the <DEV_INFO.md> file.
 
@@ -197,8 +197,8 @@ Although [emulation is legal](https://en.wikipedia.org/wiki/Bleem!), pirating ga
 
 Nostlan is not affiliated with Nintendo, Sony, SEGA, or Microsoft. All trademarks and servicemarks referenced in this app are the property of their respective owners.
 
-MAME and the MAME Logo are Copyright © 1997-2023 MAMEDev and contributors. MAME® is a registered trademark of Gregory Ember. Use of the MAME name and logo is done so with the expressed written permission from the trademark owner. For more information, please visit <https://www.mamedev.org>.
+MAME and the MAME Logo are Copyright © 1997-2024 MAMEDev and contributors. MAME® is a registered trademark of Gregory Ember. Use of the MAME name and logo is done so with the expressed written permission from the trademark owner. For more information, please visit <https://www.mamedev.org>.
 
-Nostlan was created by Quinton Ashley Copyright © 2019-2023. The Nostlan logo images are licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/). The template images found in the [nostlan-img repository](https://github.com/quinton-ashley/nostlan-img) are public domain images under the Public Domain License CC0. The Nostlan software itself is open sourced and licensed under the copyleft [GNU GPLv3 license](https://en.wikipedia.org/wiki/GNU_General_Public_License).
+Nostlan was created by Quinton Ashley Copyright © 2019-2024. The Nostlan logo images are licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/). The template images found in the [nostlan-img repository](https://github.com/quinton-ashley/nostlan-img) are public domain images under the Public Domain License CC0. The Nostlan software itself is open sourced and licensed under the copyleft [GNU GPLv3 license](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 
 ![GNU GPLv3 logo](https://www.gnu.org/graphics/gpl-v3-logo.svg)

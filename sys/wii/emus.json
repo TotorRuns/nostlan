@@ -24,13 +24,13 @@
 				]
 			},
 			"mac-x64": {
-				"installer": "https://dl.dolphin-emu.org/builds/79/15/dolphin-master-5.0-17269-universal.dmg"
+				"installer": "https://dl.dolphin-emu.org/builds/ba/46/dolphin-master-5.0-20347-universal.dmg"
 			},
 			"mac-arm64": {
-				"installer": "https://dl.dolphin-emu.org/builds/79/15/dolphin-master-5.0-17269-universal.dmg"
+				"installer": "https://dl.dolphin-emu.org/builds/79/15/dolphin-master-5.0-20347-universal.dmg"
 			},
 			"win-x64": {
-				"portable": "https://dl.dolphin-emu.org/builds/25/5f/dolphin-master-5.0-17269-x64.7z"
+				"portable": "https://dl.dolphin-emu.org/builds/25/5f/dolphin-master-5.0-20347-x64.7z"
 			}
 		}
 	}

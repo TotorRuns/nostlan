@@ -17,7 +17,7 @@ class Updater {
 				}),
 				delay.reject(1000)
 			]);
-			return (/^(?!4)\d\d/.test(res.status));
+			return /^(?!4)\d\d/.test(res.status);
 		} catch (ror) {}
 		return false;
 	}
@@ -65,7 +65,7 @@ class Updater {
 			$('#loadDialog1').text(`Opening the link to the update log in ${i} seconds`);
 			await delay(1000);
 		}
-		opn(`https://github.com/quinton-ashley/nostlan/wiki/Update-Log-v${updateVer}`);
+		opn(`https://github.com/quinton-ashley/nostlan/releases/tag/${updateVer}`);
 		await delay(500);
 		return updateVer;
 	}

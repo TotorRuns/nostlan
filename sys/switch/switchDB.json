@@ -316,6 +316,9 @@
 			"id": "A2JAA",
 			"title": "Classic Racers Elite"
 		}, {
+			"id": "A2JCB",
+			"title": "The Hong Kong Massacre"
+		}, {
 			"id": "A2JMA",
 			"title": "Tiny Metal Ultimate"
 		}, {
@@ -351,6 +354,9 @@
 		}, {
 			"id": "A2MXA",
 			"title": "Curse of the Sea Rats"
+		}, {
+			"id": "A2N5A",
+			"title": "Werewolf: The Apocalypse "
 		}, {
 			"id": "A2N7A",
 			"title": "Tormented Souls"
@@ -574,6 +580,9 @@
 			"id": "A389A",
 			"title": "JUST DANCE 2022"
 		}, {
+			"id": "A38GA",
+			"title": "Bomb Rush Cyberfunk"
+		}, {
 			"id": "A39NA",
 			"title": "Metal Unit"
 		}, {
@@ -582,6 +591,12 @@
 		}, {
 			"id": "A39SB",
 			"title": "Shuen no Virche: ErroR-salvation"
+		}, {
+			"id": "A39SC",
+			"title": "Virche Evermore -ErroR: Salvation-"
+		}, {
+			"id": "A39SD",
+			"title": "Virche Evermore -ErroR: Salvation-"
 		}, {
 			"id": "A39TA",
 			"title": "Cotton Guardian Force Saturn Tribute"
@@ -814,6 +829,9 @@
 			"id": "A3NXA",
 			"title": "Koh-Lanta: The Adventurers"
 		}, {
+			"id": "A3P5B",
+			"title": "Beautiful Desolation"
+		}, {
 			"id": "A3PDA",
 			"title": "Wonder Boy: Asha in Monster World"
 		}, {
@@ -861,6 +879,9 @@
 		}, {
 			"id": "A3REA",
 			"title": "AMNESIA World for Nintendo Switch"
+		}, {
+			"id": "A3REB",
+			"title": "Amnesia: World"
 		}, {
 			"id": "A3RHA",
 			"title": "Equestrian Training"
@@ -955,6 +976,9 @@
 			"id": "A3UVC",
 			"title": "Teenage Mutant Ninja Turtles: Shredder's Revenge"
 		}, {
+			"id": "A3UVE",
+			"title": "Teenage Mutant Ninja Turtles: Shredder's Revenge: Anniversary Edition"
+		}, {
 			"id": "A3UXB",
 			"title": "TypingQuest"
 		}, {
@@ -972,6 +996,9 @@
 		}, {
 			"id": "A3VKA",
 			"title": "SINce Memories: Off the Starry Sky"
+		}, {
+			"id": "A3X7C",
+			"title": "Espgaluda II"
 		}, {
 			"id": "A3XEA",
 			"title": "BanG Dream! Girls Band Party! for Nintendo Switch"
@@ -1078,6 +1105,12 @@
 			"id": "A45WA",
 			"title": "My Next Life as a Villainess All Routes Lead to Doom!"
 		}, {
+			"id": "A45WB",
+			"title": "My Next Life as a Villainess: All Routes Lead to Doom! -Pirates of the Disturbance-"
+		}, {
+			"id": "A45WC",
+			"title": "My Next Life as a Villainess: All Routes Lead to Doom! -Pirates of the Disturbance-"
+		}, {
 			"id": "A45YA",
 			"title": "PUI PUI Molcar Let’s! Molcar Party!"
 		}, {
@@ -1101,6 +1134,9 @@
 		}, {
 			"id": "A478A",
 			"title": "The Legend of Heroes: Trails from Zero"
+		}, {
+			"id": "A478B",
+			"title": "The Legend of Heroes: Zero no Kiseki: Kai"
 		}, {
 			"id": "A48DA",
 			"title": "Cotton Rock ‘n’ Roll -SUPERLATIVE NIGHT DREAMS-"
@@ -1447,6 +1483,9 @@
 			"id": "A55QA",
 			"title": "Bugsnax"
 		}, {
+			"id": "A56FA",
+			"title": "EVE ghost enemies"
+		}, {
 			"id": "A585A",
 			"title": "Adventure Academia: The Fractured Continent"
 		}, {
@@ -1543,6 +1582,9 @@
 			"id": "A5CAA",
 			"title": "60-in-1 Game Collection"
 		}, {
+			"id": "A5CCA",
+			"title": "Unpacking"
+		}, {
 			"id": "A5CQA",
 			"title": "STAR WARS: Knights of the Old Republic"
 		}, {
@@ -1552,8 +1594,14 @@
 			"id": "A5DZA",
 			"title": "Ikai"
 		}, {
+			"id": "A5ECA",
+			"title": "The Fox Awaits Me HANA"
+		}, {
 			"id": "A5ELA",
 			"title": "The Legend of Heroes: Trails to Azure"
+		}, {
+			"id": "A5ELB",
+			"title": "The Legend of Heroes: Ao no Kiseki: Kai"
 		}, {
 			"id": "A5EUA",
 			"title": "Autobahn Police Simulator 2: Nintendo Switch Edition"
@@ -1918,6 +1966,15 @@
 			"id": "A6R9A",
 			"title": "Japanese Rail Sim 3D: Sangi Railway Edition"
 		}, {
+			"id": "A6RLA",
+			"title": "My Time at Sandrock"
+		}, {
+			"id": "A6RLB",
+			"title": "My Time at Sandrock"
+		}, {
+			"id": "A6RLC",
+			"title": "My Time at Sandrock"
+		}, {
 			"id": "A6RVA",
 			"title": "Panorama Cotton"
 		}, {
@@ -1926,6 +1983,9 @@
 		}, {
 			"id": "A6RXA",
 			"title": "Let's Sing 2023"
+		}, {
+			"id": "A6RZA",
+			"title": "Ghostbusters: Spirits Unleashed Ecto Edition"
 		}, {
 			"id": "A6SDA",
 			"title": "Little Witch Nobeta"
@@ -2008,17 +2068,29 @@
 			"id": "A6YYA",
 			"title": "Cult of the Lamb"
 		}, {
+			"id": "A6ZUB",
+			"title": "UchiTore Saitan 4-pun KinTore & Yusanso Undo "
+		}, {
 			"id": "A727A",
 			"title": "HARVESTELLA"
 		}, {
 			"id": "A727B",
 			"title": "HARVESTELLA"
 		}, {
+			"id": "A72GA",
+			"title": "DoDonPachi Blissful Death Re:Incarnation"
+		}, {
 			"id": "A72YA",
 			"title": "OMORI"
 		}, {
+			"id": "A734B",
+			"title": "Zero Fire: Toaplan Arcade Garage"
+		}, {
 			"id": "A738A",
 			"title": "Your First Horse: The Riding School"
+		}, {
+			"id": "A73RA",
+			"title": "Cupid Parasite: Sweet and Spicy Darling"
 		}, {
 			"id": "A73VA",
 			"title": "Sen no Hatou, Tsukisome no Kouki"
@@ -2043,6 +2115,9 @@
 		}, {
 			"id": "A74KC",
 			"title": "Disgaea 7: Vows of the Virtueless"
+		}, {
+			"id": "A74NA",
+			"title": "BUSTAFELLOWS season 2"
 		}, {
 			"id": "A74QA",
 			"title": "Rune Factory 3 Special"
@@ -2076,6 +2151,9 @@
 		}, {
 			"id": "A77CA",
 			"title": "Agatha Christie: Murder on the Orient Express"
+		}, {
+			"id": "A77MA",
+			"title": "Fate-Samurai Remnant"
 		}, {
 			"id": "A77MB",
 			"title": "Fate/Samurai Remnant"
@@ -2125,6 +2203,9 @@
 			"id": "A7B8C",
 			"title": "Zorro The Chronicles"
 		}, {
+			"id": "A7BGA",
+			"title": "Aokana Four Rhythms Across the Blue: EXTRA1S"
+		}, {
 			"id": "A7C4A",
 			"title": "Arcade Spirits: The New Challengers"
 		}, {
@@ -2142,6 +2223,9 @@
 		}, {
 			"id": "A7DDA",
 			"title": "THE Bass Fishing"
+		}, {
+			"id": "A7EYA",
+			"title": "Train Valley 2: Community Edition"
 		}, {
 			"id": "A7FUA",
 			"title": "THE CARD Perfect Collection"
@@ -2182,6 +2266,9 @@
 			"id": "A7JYA",
 			"title": "Mato Anomalies"
 		}, {
+			"id": "A7K5A",
+			"title": "Jumanji: Wild Adventures"
+		}, {
 			"id": "A7K6A",
 			"title": "OshiRabu: Waifus Over Husbandos + Love?or?die"
 		}, {
@@ -2196,6 +2283,12 @@
 		}, {
 			"id": "A7LXB",
 			"title": "Hidden Objects Collection: Volume 2"
+		}, {
+			"id": "A7M2A",
+			"title": "Super Crazy Rhythm Castle"
+		}, {
+			"id": "A7M2B",
+			"title": "SUPER CRAZY RHYTHM CASTLE"
 		}, {
 			"id": "A7MUA",
 			"title": "Asonde Mahjong ga Tsuyokunaru! Ginsei Mahjong DX"
@@ -2371,6 +2464,9 @@
 			"id": "A878A",
 			"title": "Asterix & Obelix XXXL: The Ram From Hibernia"
 		}, {
+			"id": "A87NA",
+			"title": "Space Marshals Collection"
+		}, {
 			"id": "A87TA",
 			"title": "AKIBA'S TRIP 2: Director's Cut"
 		}, {
@@ -2443,6 +2539,9 @@
 			"id": "A8DXB",
 			"title": "Witch on the Holy Night"
 		}, {
+			"id": "A8E4A",
+			"title": "Jinsei Game for Nintendo Switch"
+		}, {
 			"id": "A8EEA",
 			"title": "F.I.S.T.: Forged In Shadow Torch"
 		}, {
@@ -2464,8 +2563,14 @@
 			"id": "A8GFA",
 			"title": "Jyuzaengi: Engetsu Sangokuden 1&2 for Nintendo Switch"
 		}, {
+			"id": "A8GFB",
+			"title": "Jyuzaengi: Engetsu Sangokuden 1&2 for Nintendo Switch"
+		}, {
 			"id": "A8H2A",
 			"title": "Mega Man Battle Network Legacy Collection"
+		}, {
+			"id": "A8H6A",
+			"title": "Let's Sing 2024"
 		}, {
 			"id": "A8HAA",
 			"title": "Shinigami: Shibito Magire"
@@ -2490,6 +2595,9 @@
 		}, {
 			"id": "A8KJA",
 			"title": "Bunny Park"
+		}, {
+			"id": "A8KSA",
+			"title": "Momotaro Dentetsu World: Chikyuu wa Kibou de Mawatteru!"
 		}, {
 			"id": "A8LUA",
 			"title": "Super Mario RPG"
@@ -2569,11 +2677,17 @@
 			"id": "A8UHA",
 			"title": "Lord Winklebottom Investigates"
 		}, {
+			"id": "A8UMA",
+			"title": "Lord Winklebottom Investigates"
+		}, {
 			"id": "A8UZA",
 			"title": "My Life: Pet Vet"
 		}, {
 			"id": "A8VEA",
 			"title": "Ghost Trick: Phantom Detective"
+		}, {
+			"id": "A8WFA",
+			"title": "Smile For Me"
 		}, {
 			"id": "A8WLA",
 			"title": "Samba de Amigo: Party Central"
@@ -2671,8 +2785,20 @@
 			"id": "A97RA",
 			"title": "BUCCANYAR"
 		}, {
+			"id": "A97SA",
+			"title": "Model Debut3 #Nicola"
+		}, {
+			"id": "A97TA",
+			"title": "Persona 5 Tactica"
+		}, {
+			"id": "A97TB",
+			"title": "Persona 5 Tactica"
+		}, {
 			"id": "A97UA",
 			"title": "ONI: Road to be the Mightiest Oni"
+		}, {
+			"id": "A983A",
+			"title": "Encouragement of Climb: Next Summit – Ano Yama ni, Mou Ichido"
 		}, {
 			"id": "A985C",
 			"title": "Beholder 3"
@@ -2698,6 +2824,9 @@
 			"id": "A99MA",
 			"title": "Akatsuki Yureru Koi Akari"
 		}, {
+			"id": "A99XA",
+			"title": "JINKI -Infinity-"
+		}, {
 			"id": "A9ADA",
 			"title": "Garfield Lasagna Party"
 		}, {
@@ -2712,6 +2841,9 @@
 		}, {
 			"id": "A9BKA",
 			"title": "NeverAwake"
+		}, {
+			"id": "A9C6A",
+			"title": "Harvest OverRay + Ano Ko wa Ore kara Hanarenai "
 		}, {
 			"id": "A9CHA",
 			"title": "Commandos 2 & 3: HD Remaster Double Pack"
@@ -2730,6 +2862,9 @@
 		}, {
 			"id": "A9FPA",
 			"title": "SAMURAI MAIDEN"
+		}, {
+			"id": "A9G4A",
+			"title": "Cyanotype Daydream: The Girl Who Dreamed the World"
 		}, {
 			"id": "A9GLA",
 			"title": "My Fantastic Ranch"
@@ -2778,6 +2913,12 @@
 		}, {
 			"id": "A9MNA",
 			"title": "Trouble Witches Final Episode 01: Daughters of Amalgam"
+		}, {
+			"id": "A9P3A",
+			"title": "DRAGON QUEST MONSTERS: The Dark Prince"
+		}, {
+			"id": "A9P3B",
+			"title": "Dragon Quest Monsters: The Dark Prince"
 		}, {
 			"id": "A9PVA",
 			"title": "Cosmic Fantasy Collection"
@@ -2836,10 +2977,37 @@
 			"id": "A9VPB",
 			"title": "HOT WHEELS UNLEASHED 2: Turbocharged"
 		}, {
+			"id": "A9VZA",
+			"title": "Naruto x Boruto: Ultimate Ninja Storm Connections"
+		}, {
+			"id": "A9VZB",
+			"title": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS"
+		}, {
+			"id": "A9VZC",
+			"title": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS"
+		}, {
+			"id": "A9VZD",
+			"title": "Naruto x Boruto: Ultimate Ninja Storm Connections"
+		}, {
+			"id": "A9W5A",
+			"title": "Gravity Circuit"
+		}, {
+			"id": "A9WDA",
+			"title": "Spells & Secrets"
+		}, {
+			"id": "A9WNA",
+			"title": "PUI PUI MOLCAR: Let's! MOLCAR PARTY!"
+		}, {
+			"id": "A9WQA",
+			"title": "Pretty Princess Magical Garden Island"
+		}, {
 			"id": "A9WQB",
 			"title": "Pretty Princess Magical Garden Island"
 		}, {
 			"id": "A9WQD",
+			"title": "Pretty Princess Magical Garden Island"
+		}, {
+			"id": "A9WQE",
 			"title": "Pretty Princess Magical Garden Island"
 		}, {
 			"id": "A9WRA",
@@ -2868,6 +3036,9 @@
 		}, {
 			"id": "A9YWA",
 			"title": "Money Parasite: Usotsuki na Onna -"
+		}, {
+			"id": "A9YZA",
+			"title": "Double Dragon Collection"
 		}, {
 			"id": "A9Z2A",
 			"title": "A Space for the Unbound"
@@ -6130,6 +6301,9 @@
 			"id": "AR3WA",
 			"title": "ITTA"
 		}, {
+			"id": "AR3XA",
+			"title": "Hogwarts Legacy"
+		}, {
 			"id": "AR48A",
 			"title": "Monster Crown"
 		}, {
@@ -7470,6 +7644,9 @@
 			"id": "ATQ8B",
 			"title": "My Hero Ones Justice 2"
 		}, {
+			"id": "ATQ9A",
+			"title": "GENSOU Skydrift"
+		}, {
 			"id": "ATQDA",
 			"title": "Ninja JaJamaru Collection"
 		}, {
@@ -8254,6 +8431,9 @@
 			"id": "AVB4A",
 			"title": "Synaptic Drive"
 		}, {
+			"id": "AVB8A",
+			"title": "Skater XL"
+		}, {
 			"id": "AVBDA",
 			"title": "Freedom Finger"
 		}, {
@@ -8955,6 +9135,9 @@
 			"id": "AWXZA",
 			"title": "Variable Barricade NS"
 		}, {
+			"id": "AWXZB",
+			"title": "VARIABLE BARRICADE NS"
+		}, {
 			"id": "AWY2A",
 			"title": "Nanpure 10000! + Puzzle no Mado"
 		}, {
@@ -9032,6 +9215,9 @@
 		}, {
 			"id": "AX4QC",
 			"title": "Warui Osama to Rippa na Yusha"
+		}, {
+			"id": "AX4TA",
+			"title": "Postal REDUX"
 		}, {
 			"id": "AX4UA",
 			"title": "Creaks"
@@ -10101,6 +10287,9 @@
 			"id": "AZCJM",
 			"title": "Life Is Strange: True Colors"
 		}, {
+			"id": "AZDGC",
+			"title": "Tales of Djungarian Hamster Deluxe"
+		}, {
 			"id": "AZDMA",
 			"title": "Koisuru Otome to Shugo no Tate: Re-boot the SHIELD-9"
 		}, {
@@ -10369,11 +10558,32 @@
 			"id": "AZY8B",
 			"title": "Deiland: Pocket Planet"
 		}, {
+			"id": "BA3LA",
+			"title": "Taito LD Game Collection"
+		}, {
+			"id": "BA4UA",
+			"title": "The Quintessential Quintuplets: Gotopazu Story"
+		}, {
+			"id": "BA53A",
+			"title": "Hyperdimension Neptunia: Sisters vs. Sisters"
+		}, {
 			"id": "BA5RA",
 			"title": "Sakura, Moyu.: as the Night's, Reincarnation: "
 		}, {
+			"id": "BA5XA",
+			"title": "Kamisama to Koi Gokoro"
+		}, {
+			"id": "BA6ZA",
+			"title": "Fuyukara, Kururu."
+		}, {
+			"id": "BA7HA",
+			"title": "Floral Flowlove"
+		}, {
 			"id": "BA7ZA",
 			"title": "PSYCHIC 5: ETERNAL"
+		}, {
+			"id": "BA8LA",
+			"title": "Hyperdimension Neptunia GameMaker R:Evolution"
 		}, {
 			"id": "BA8RA",
 			"title": "Forgive Me Father"
@@ -10386,6 +10596,9 @@
 		}, {
 			"id": "BA9CD",
 			"title": "Silent Hope"
+		}, {
+			"id": "BA9RA",
+			"title": "Hakuouki Shinkai: Manyou no Shou"
 		}, {
 			"id": "BA9TA",
 			"title": "Natsu-Mon: 20th Century Summer Vacation"
@@ -10435,6 +10648,9 @@
 			"id": "BAB8A",
 			"title": "Sumikko Gurashi: Minna de Rhythm Party"
 		}, {
+			"id": "BAB8C",
+			"title": "Sumikko Gurashi Minna de Rhythm Party"
+		}, {
 			"id": "BABBA",
 			"title": "Ultra Street Fighter II: The Final Challengers",
 			"tid": "01007330027EE000"
@@ -10456,6 +10672,12 @@
 			"id": "BABKA",
 			"title": "Dragon Quest Heroes I•II for Nintendo Switch"
 		}, {
+			"id": "BACSA",
+			"title": "Bluey: The Videogame"
+		}, {
+			"id": "BACSB",
+			"title": "Bluey: The Videogame"
+		}, {
 			"id": "BACTA",
 			"title": "The Many Pieces of Mr. Coo"
 		}, {
@@ -10467,6 +10689,9 @@
 		}, {
 			"id": "BAFGA",
 			"title": "Sven: Completely Screwed"
+		}, {
+			"id": "BAFJA",
+			"title": "Hatsuyuki Sakura: White Graduation"
 		}, {
 			"id": "BAFUA",
 			"title": "Session: Skate Sim"
@@ -10492,11 +10717,20 @@
 			"id": "BAN3A",
 			"title": "Enter the Gungeon / Exit the Gungeon"
 		}, {
+			"id": "BAN9A",
+			"title": "Karumaruka Circle"
+		}, {
 			"id": "BANAB",
 			"title": "Atelier Marie Remake: The Alchemist of Salburg"
 		}, {
 			"id": "BANFA",
 			"title": "Football Manager 2023 Touch"
+		}, {
+			"id": "BANGA",
+			"title": "3in1 Game Collection"
+		}, {
+			"id": "BANSA",
+			"title": "Aokana : Four Rhythms Across the Blue: EXTRA2S"
 		}, {
 			"id": "BAP3A",
 			"title": "Super Puzzle Pack 2 + 1"
@@ -10509,6 +10743,9 @@
 		}, {
 			"id": "BAPGB",
 			"title": "Norn9: Last Era"
+		}, {
+			"id": "BAQ5A",
+			"title": "Have A Nice Death"
 		}, {
 			"id": "BAQ7A",
 			"title": "Final Fantasy I-VI: Pixel Remaster Collection"
@@ -10524,6 +10761,15 @@
 		}, {
 			"id": "BATPA",
 			"title": "Rhapsody: Marl Kingdom Chronicles"
+		}, {
+			"id": "BAU6A",
+			"title": "Fashion Dreamer"
+		}, {
+			"id": "BAU6B",
+			"title": "Fashion Dreamer"
+		}, {
+			"id": "BAU6C",
+			"title": "Fashion Dreamer"
 		}, {
 			"id": "BAUTA",
 			"title": "WORLD OF HORROR"
@@ -10585,6 +10831,9 @@
 			"id": "BB5BA",
 			"title": "Rubberduck Wave Racer"
 		}, {
+			"id": "BB6UA",
+			"title": "Spy x Anya: Operation Memories"
+		}, {
 			"id": "BB86A",
 			"title": "Inspector Gadget: Mad Time Party "
 		}, {
@@ -10599,6 +10848,9 @@
 		}, {
 			"id": "BBC3A",
 			"title": "Sushi Bar Express"
+		}, {
+			"id": "BBCEA",
+			"title": "Ys X: Nordics"
 		}, {
 			"id": "BBCFA",
 			"title": "Arcana of Paradise -The Tower-"
@@ -10627,11 +10879,26 @@
 			"id": "BBFGA",
 			"title": "Noob: The Factionless"
 		}, {
+			"id": "BBFWA",
+			"title": "STAR OCEAN THE SECOND STORY R"
+		}, {
+			"id": "BBFWB",
+			"title": "STAR OCEAN THE SECOND STORY R"
+		}, {
 			"id": "BBGZA",
 			"title": "Hakuoki SSL: sweet school life for Nintendo Switch"
 		}, {
+			"id": "BBH3A",
+			"title": "DreamWorks All-Star Kart Racing"
+		}, {
 			"id": "BBH9A",
 			"title": "Animal Hospital"
+		}, {
+			"id": "BBKNA",
+			"title": "Hanasaki Work Spring!"
+		}, {
+			"id": "BBLHA",
+			"title": "Hyper→Highspeed→Genius"
 		}, {
 			"id": "BBLYA",
 			"title": "Blasphemous 2"
@@ -10642,6 +10909,12 @@
 			"id": "BBPNA",
 			"title": "Rear Sekai"
 		}, {
+			"id": "BBPRA",
+			"title": "AKAIITO & AOISHIRO HD REMASTER"
+		}, {
+			"id": "BBU9A",
+			"title": "Wand of Fortune R2 FD: Kimi ni Sasageru Epilogue for Nintendo Switch"
+		}, {
 			"id": "BBX6A",
 			"title": "NBA 2K24 Kobe Bryant Edition"
 		}, {
@@ -10651,23 +10924,59 @@
 			"id": "BBXXA",
 			"title": "TRANSFORMERS: EARTHSPARK: Expedition"
 		}, {
+			"id": "BBYGA",
+			"title": "Radiant Tale: Fanfare!"
+		}, {
+			"id": "BBYRA",
+			"title": "Xicatrice"
+		}, {
+			"id": "BBZ6A",
+			"title": "NINJA KIDZ: TIME MASTERS"
+		}, {
+			"id": "BBZAA",
+			"title": "Gothic II Complete Classic"
+		}, {
+			"id": "BBZTA",
+			"title": "Fushigi Dagashiya Zenitendou: Fushigi Dagashi Banashi 50-Sen"
+		}, {
+			"id": "BBZXA",
+			"title": "Houkago Cinderella 2"
+		}, {
 			"id": "BC3YA",
 			"title": "Animal Kart Racer 2"
+		}, {
+			"id": "BC6SA",
+			"title": "Guns and Spurs 2"
 		}, {
 			"id": "BC6XA",
 			"title": "Barbie DreamHouse Adventures"
 		}, {
+			"id": "BC72A",
+			"title": "The Smurfs 2: The Prisoner of the Green Stone"
+		}, {
+			"id": "BC7SA",
+			"title": "Irem Collection Volume 1"
+		}, {
 			"id": "BC8KA",
 			"title": "Cry Babies Magic Tears: The Big Game"
 		}, {
+			"id": "BC99M",
+			"title": "CATAN: Console Edition SUPER DELUXE"
+		}, {
 			"id": "BCA4A",
 			"title": "The Sisters 2: Road to Fame"
+		}, {
+			"id": "BCA5B",
+			"title": "Sentimental Death Loop"
 		}, {
 			"id": "BCA7A",
 			"title": "Labyrinth"
 		}, {
 			"id": "BCA8A",
 			"title": "Days of Doom"
+		}, {
+			"id": "BCARA",
+			"title": "GRISAIA PHANTOM TRIGGER 5.5 to 08"
 		}, {
 			"id": "BCBRA",
 			"title": "DESOLATIUM"
@@ -10690,8 +10999,14 @@
 			"id": "BCGLA",
 			"title": "Skull Island: Rise of Kong"
 		}, {
+			"id": "BCGVA",
+			"title": "Slime Girl Smoothies"
+		}, {
 			"id": "BCHDA",
 			"title": "Toho Sojin Engi V & Toho Genso Maroku W W-Pack"
+		}, {
+			"id": "BCHNA",
+			"title": "Pretty Girls Game Collection III"
 		}, {
 			"id": "BCHYA",
 			"title": "Handy Games Deluxe Pack "
@@ -10699,17 +11014,44 @@
 			"id": "BCJ2A",
 			"title": "Pickleball Smash"
 		}, {
+			"id": "BCJ3A",
+			"title": "The Walking Dead: Destinies"
+		}, {
+			"id": "BCJ4A",
+			"title": "Nickelodeon All-Star Brawl 2"
+		}, {
+			"id": "BCJ5A",
+			"title": "Air Twister"
+		}, {
 			"id": "BCJNA",
 			"title": " Hayarigami 1-2-3 Pack"
+		}, {
+			"id": "BCK6A",
+			"title": "Metal Gear Solid: Master Collection Vol. 1"
 		}, {
 			"id": "BCLNA",
 			"title": "GetsuFumaDen: Undying Moon"
 		}, {
+			"id": "BCMHA",
+			"title": "Wildshade: Unicorn Champions"
+		}, {
+			"id": "BCMWA",
+			"title": "Shuuen no Virche -EpiC:lycoris-"
+		}, {
+			"id": "BCNUB",
+			"title": "Boo Party"
+		}, {
 			"id": "BCNZA",
 			"title": "No Place Like Home"
 		}, {
+			"id": "BCQCA",
+			"title": "Asterix & Obelix Slap Them All! 2"
+		}, {
 			"id": "BCQEA",
 			"title": "Bud Spencer & Terence Hill: Slaps and Beans 2"
+		}, {
+			"id": "BCQXA",
+			"title": "DYSCHRONIA: Chronos Alternate Definitive Edition"
 		}, {
 			"id": "BCSLA",
 			"title": "Nickelodeon Kart Racers Collection"
@@ -10726,26 +11068,83 @@
 			"id": "BCV3A",
 			"title": "Inescapable: No Rules, No Rescue"
 		}, {
+			"id": "BCXEA",
+			"title": "D.C.III ~Da Capo III~ Plus Story"
+		}, {
+			"id": "BCXGA",
+			"title": "Shirogane x Spirits!"
+		}, {
+			"id": "BCXNA",
+			"title": "Tetsudo Nippon! Rosen Tabi EX Seiryu Unten Nagaragawa Tetsudo Hen"
+		}, {
 			"id": "BCYBA",
 			"title": "Paleo Pines"
+		}, {
+			"id": "BCZGA",
+			"title": "Soaring Sky! Pretty Cure Soaring! Puzzle Collection"
+		}, {
+			"id": "BCZUA",
+			"title": "Hammerwatch 2: The Chronicles Edition"
+		}, {
+			"id": "BD8QH",
+			"title": "Party Party Time"
 		}, {
 			"id": "BD9DA",
 			"title": "schleich Puzzles FARM WORLD"
 		}, {
+			"id": "BDALA",
+			"title": "Amakano ~Second Season~"
+		}, {
 			"id": "BDGLA",
 			"title": "Fresh Start"
+		}, {
+			"id": "BDKEA",
+			"title": "Eiga Sumikko Gurashi Tsugihagi Koujou no Fushigi-na Ko Game de Asobou! Eiga no Sekai"
 		}, {
 			"id": "BDMDA",
 			"title": "DINOSAURS: Mission Dino Camp"
 		}, {
+			"id": "BDPLA",
+			"title": "Yohane the Parhelion: BLAZE in the DEEPBLUE"
+		}, {
+			"id": "BDQKA",
+			"title": "STAR WARS Heritage Pack"
+		}, {
+			"id": "BDT2A",
+			"title": "GENSEISUIKODEN PLUS"
+		}, {
 			"id": "BDU3A",
 			"title": "Kraken Odyssey"
+		}, {
+			"id": "BDU6A",
+			"title": "Jurassic Park Classic Games Collection"
 		}, {
 			"id": "BDVQA",
 			"title": "30 Sport Games in 1"
 		}, {
+			"id": "BDXXA",
+			"title": "RollerCoaster Tycoon Adventures Deluxe"
+		}, {
+			"id": "BE2DA",
+			"title": "Tetsudo Nippon! RealPro Tokkyu Romancecar! Odakyu Dentetsu Hen"
+		}, {
+			"id": "BE6ZA",
+			"title": "SUNSOFT Mahjong Solitaire -Shanghai LEGEND-"
+		}, {
+			"id": "BEE4A",
+			"title": "Coffee Talk 2-in-1 Double Pack"
+		}, {
 			"id": "BEHEA",
 			"title": "Train Valley Collection"
+		}, {
+			"id": "BEKXA",
+			"title": "L.O.L. Surprise! Roller Dreams Racing"
+		}, {
+			"id": "BENKA",
+			"title": "Arcade Game Zone"
+		}, {
+			"id": "BEPGA",
+			"title": "TriggerHeart EXELICA"
 		}, {
 			"id": "BERGA",
 			"title": "Cube Merge 2048"
@@ -10761,6 +11160,9 @@
 		}, {
 			"id": "ZAAEA",
 			"title": "Pokémon Scarlet & Pokémon Violet: Double Pack"
+		}, {
+			"id": "MP3BR",
+			"title": "Just Dance MP3"
 		}, {
 			"id": "A223A",
 			"title": "ASOBU Tights"
@@ -11485,9 +11887,6 @@
 			"id": "A2JCA",
 			"title": "The Hong Kong Massacre"
 		}, {
-			"id": "A2JCB",
-			"title": "The Hong Kong Massacre"
-		}, {
 			"id": "A2JDA",
 			"title": "Arcade Archives ZERO TEAM"
 		}, {
@@ -11628,9 +12027,6 @@
 		}, {
 			"id": "A2N4A",
 			"title": "Super Sports Blast"
-		}, {
-			"id": "A2N5A",
-			"title": "Werewolf: The Apocalypse "
 		}, {
 			"id": "A2N6A",
 			"title": "Roundout by POWGI"
@@ -11784,6 +12180,9 @@
 		}, {
 			"id": "A2RAA",
 			"title": "Air Bounce: The Jump 'n' Run Challenge"
+		}, {
+			"id": "A2RCA",
+			"title": "Salt and Sacrifice"
 		}, {
 			"id": "A2RDA",
 			"title": "All in Casino Girls"
@@ -12379,11 +12778,11 @@
 			"id": "A38CB",
 			"title": "Pixel Game Maker Series ISEKAI QUARTET Adventure:Action Game"
 		}, {
+			"id": "A38EA",
+			"title": "There Is No Light"
+		}, {
 			"id": "A38FA",
 			"title": "Tower Princess"
-		}, {
-			"id": "A38GA",
-			"title": "Bomb Rush Cyberfunk"
 		}, {
 			"id": "A38HA",
 			"title": "Dying Light 2 Stay Human: Cloud Version"
@@ -12902,6 +13301,9 @@
 			"id": "A3M9A",
 			"title": "Hell Pages"
 		}, {
+			"id": "A3MAA",
+			"title": "Outer Wilds"
+		}, {
 			"id": "A3MDA",
 			"title": "Reknum Cheri Dreamland"
 		}, {
@@ -12973,6 +13375,9 @@
 		}, {
 			"id": "A3NKA",
 			"title": "Horned Knight"
+		}, {
+			"id": "A3NLA",
+			"title": "DREAMERS: A Nostalgic Adventure"
 		}, {
 			"id": "A3NMA",
 			"title": "Stitchy in Tooki Trouble"
@@ -13223,6 +13628,9 @@
 			"id": "A3UAA",
 			"title": "Baldur's Gate: Dark Alliance"
 		}, {
+			"id": "A3UDA",
+			"title": "Knights of the Rogue Dungeon"
+		}, {
 			"id": "A3UEA",
 			"title": "The Artful Escape"
 		}, {
@@ -13258,6 +13666,9 @@
 		}, {
 			"id": "A3V9A",
 			"title": "BloodRayne 2: ReVamped"
+		}, {
+			"id": "A3VAA",
+			"title": "Arcadian Atlas"
 		}, {
 			"id": "A3VEA",
 			"title": "Candy Match Kiddies"
@@ -13696,6 +14107,9 @@
 		}, {
 			"id": "A48YA",
 			"title": "HIX: Puzzle Islands"
+		}, {
+			"id": "A48ZA",
+			"title": "Make Way"
 		}, {
 			"id": "A492B",
 			"title": "Nickelodeon Kart Racers 3: Slime Speedway Turbo Edition"
@@ -15032,9 +15446,6 @@
 			"id": "A5C8A",
 			"title": "King Leo"
 		}, {
-			"id": "A5CCA",
-			"title": "Unpacking"
-		}, {
 			"id": "A5CJA",
 			"title": "DEATHRUN TV"
 		}, {
@@ -15599,6 +16010,9 @@
 			"id": "A5STA",
 			"title": "Blind Postman"
 		}, {
+			"id": "A5SVA",
+			"title": "9 Years of Shadows"
+		}, {
 			"id": "A5SZA",
 			"title": "Pixel Jumper"
 		}, {
@@ -15868,6 +16282,9 @@
 		}, {
 			"id": "A63YA",
 			"title": "Arcade Archives QIX"
+		}, {
+			"id": "A647A",
+			"title": "Hammerwatch II"
 		}, {
 			"id": "A64BA",
 			"title": "REDO!"
@@ -16265,6 +16682,9 @@
 			"id": "A6DAA",
 			"title": "Dragon Hills 2"
 		}, {
+			"id": "A6DBA",
+			"title": "Bulanci"
+		}, {
 			"id": "A6DCA",
 			"title": "Before We Leave"
 		}, {
@@ -16285,6 +16705,9 @@
 		}, {
 			"id": "A6DMA",
 			"title": "The Song Out of Space"
+		}, {
+			"id": "A6DQA",
+			"title": "Batman: Arkham Trilogy"
 		}, {
 			"id": "A6DVA",
 			"title": "Lynn, The Girl Drawn On Puzzles"
@@ -16381,6 +16804,9 @@
 		}, {
 			"id": "A6FGA",
 			"title": "Night Lights"
+		}, {
+			"id": "A6FHA",
+			"title": "A Long Journey to an Uncertain End"
 		}, {
 			"id": "A6FLA",
 			"title": "Top Down Racer"
@@ -16823,9 +17249,6 @@
 			"id": "A6RYA",
 			"title": "Big Farm Story"
 		}, {
-			"id": "A6RZA",
-			"title": "Ghostbusters: Spirits Unleashed Ecto Edition"
-		}, {
 			"id": "A6S2B",
 			"title": "Menseki: Area Maze puzzles"
 		}, {
@@ -16981,6 +17404,12 @@
 		}, {
 			"id": "A6UUA",
 			"title": "Red Wings: Coloring Planes"
+		}, {
+			"id": "A6UYA",
+			"title": "Pesterquest"
+		}, {
+			"id": "A6UZA",
+			"title": "Hiveswap Friendsim"
 		}, {
 			"id": "A6V2A",
 			"title": "Sorcerer Knights"
@@ -17252,6 +17681,9 @@
 			"id": "A72LA",
 			"title": "My Coloring Book 2"
 		}, {
+			"id": "A72MA",
+			"title": "Headbangers: Rhythm Royale"
+		}, {
 			"id": "A72PA",
 			"title": "FPV Simulator"
 		}, {
@@ -17413,6 +17845,9 @@
 		}, {
 			"id": "A762A",
 			"title": "Taqoban"
+		}, {
+			"id": "A763A",
+			"title": "Hammerwatch Anniversary Edition"
 		}, {
 			"id": "A767A",
 			"title": "Dead Rain: New Zombie Virus"
@@ -18446,6 +18881,9 @@
 			"id": "A7WVA",
 			"title": "Aeternum Quest"
 		}, {
+			"id": "A7WYB",
+			"title": "Witch's Potion: Water Sort Puzzle"
+		}, {
 			"id": "A7WZA",
 			"title": "West Water"
 		}, {
@@ -18524,6 +18962,9 @@
 			"id": "A7YYA",
 			"title": "Hello Engineer"
 		}, {
+			"id": "A7YZA",
+			"title": "KarmaZoo"
+		}, {
 			"id": "A7Z4A",
 			"title": "Portal Companion Collection"
 		}, {
@@ -18553,6 +18994,9 @@
 		}, {
 			"id": "A7ZNA",
 			"title": "sCATch: The Painter Cat"
+		}, {
+			"id": "A7ZPA",
+			"title": "Ultimate Solitaire Collection"
 		}, {
 			"id": "A7ZQA",
 			"title": "Mech Mechanic Simulator"
@@ -18613,6 +19057,9 @@
 		}, {
 			"id": "A833A",
 			"title": "The Legacy: Forgotten Gates"
+		}, {
+			"id": "A835A",
+			"title": "Reef Escape"
 		}, {
 			"id": "A837A",
 			"title": "Dream of Tiny Snow"
@@ -18733,6 +19180,9 @@
 		}, {
 			"id": "A85QA",
 			"title": "amazin' Lumo"
+		}, {
+			"id": "A85RA",
+			"title": "Terraformers"
 		}, {
 			"id": "A85WA",
 			"title": "SuperDuck!"
@@ -18860,6 +19310,9 @@
 			"id": "A88SA",
 			"title": "Hover Racer"
 		}, {
+			"id": "A88UA",
+			"title": "Dino Get Out!"
+		}, {
 			"id": "A88VA",
 			"title": "SUPER FUNKY BOWLING"
 		}, {
@@ -18889,6 +19342,9 @@
 		}, {
 			"id": "A89FA",
 			"title": "Puzzle Galaxy"
+		}, {
+			"id": "A89NA",
+			"title": "In Stars and Time"
 		}, {
 			"id": "A89WA",
 			"title": "Captain Velvet Meteor: The Jump+ Dimensions"
@@ -19159,6 +19615,9 @@
 		}, {
 			"id": "A8FAA",
 			"title": "They Always Run"
+		}, {
+			"id": "A8FBA",
+			"title": "Spirittea"
 		}, {
 			"id": "A8FEA",
 			"title": "Plunder Dungeons"
@@ -19484,6 +19943,9 @@
 			"id": "A8NZA",
 			"title": "Beholgar"
 		}, {
+			"id": "A8NZC",
+			"title": "Low Story"
+		}, {
 			"id": "A8P3A",
 			"title": "TEN"
 		}, {
@@ -19519,6 +19981,9 @@
 		}, {
 			"id": "A8PHA",
 			"title": "Deponia Collection"
+		}, {
+			"id": "A8PJA",
+			"title": "Dungeons & Doomknights"
 		}, {
 			"id": "A8PKA",
 			"title": "Underland: The Climb"
@@ -19573,6 +20038,9 @@
 		}, {
 			"id": "A8QHA",
 			"title": "Pet Rock"
+		}, {
+			"id": "A8QKA",
+			"title": "Monster Loves You Too!"
 		}, {
 			"id": "A8QPA",
 			"title": "Gale of Windoria"
@@ -19760,6 +20228,9 @@
 			"id": "A8VPA",
 			"title": "Boxerpunk Stories"
 		}, {
+			"id": "A8VRA",
+			"title": "Chicken Journey"
+		}, {
 			"id": "A8VUA",
 			"title": "fig."
 		}, {
@@ -19801,9 +20272,6 @@
 		}, {
 			"id": "A8WDA",
 			"title": "90'' Soccer"
-		}, {
-			"id": "A8WFA",
-			"title": "Smile For Me"
 		}, {
 			"id": "A8WHA",
 			"title": "Arcade Archives ROMPERS"
@@ -19907,6 +20375,9 @@
 			"id": "A8ZFA",
 			"title": "Egg Runner"
 		}, {
+			"id": "A8ZGA",
+			"title": "Nessy The Robot"
+		}, {
 			"id": "A8ZNA",
 			"title": "Paradise Island Driver"
 		}, {
@@ -19915,6 +20386,9 @@
 		}, {
 			"id": "A8ZQA",
 			"title": "Timber Story"
+		}, {
+			"id": "A8ZTA",
+			"title": "Eyra: The Crow Maiden"
 		}, {
 			"id": "A8ZVA",
 			"title": "I Love Finding Critters!: Collector's Edition"
@@ -20077,6 +20551,9 @@
 		}, {
 			"id": "A952A",
 			"title": "Mechapunk"
+		}, {
+			"id": "A953A",
+			"title": "Thirsty Suitors"
 		}, {
 			"id": "A955A",
 			"title": "NecroBoy: Path to Evilship"
@@ -20321,6 +20798,9 @@
 			"id": "A9AWA",
 			"title": "Real Car Driving Simulator & Parking 2022 Games"
 		}, {
+			"id": "A9AYA",
+			"title": "Potion Craft: Alchemist Simulator"
+		}, {
 			"id": "A9AZA",
 			"title": "Please, Touch The Artwork"
 		}, {
@@ -20543,6 +21023,9 @@
 			"id": "A9G6A",
 			"title": "Midnight Drifter-Drift Racing Car Driving Simulator 2023 Speed Games"
 		}, {
+			"id": "A9GBA",
+			"title": "Alpha Particle"
+		}, {
 			"id": "A9GCA",
 			"title": "Arcade Archives TOY POP"
 		}, {
@@ -20629,6 +21112,9 @@
 		}, {
 			"id": "A9J2A",
 			"title": "Alien Engine"
+		}, {
+			"id": "A9J3A",
+			"title": "TERAVIT"
 		}, {
 			"id": "A9J4A",
 			"title": "Last Threshold"
@@ -20786,6 +21272,9 @@
 			"id": "A9MUA",
 			"title": "2weistein: The Curse of the Red Dragon 3: Ronger Pirates"
 		}, {
+			"id": "A9MUB",
+			"title": "2weistein: The Curse of the Red Dragon 3: Ronger Pirates: V2"
+		}, {
 			"id": "A9MVA",
 			"title": "Pixel Art Coloring Book"
 		}, {
@@ -20816,8 +21305,14 @@
 			"id": "A9NUA",
 			"title": "Vengeful Guardian: Moonrider"
 		}, {
+			"id": "A9NZA",
+			"title": "The Last Faith"
+		}, {
 			"id": "A9P5A",
 			"title": "Undungeon"
+		}, {
+			"id": "A9P6A",
+			"title": "Speed or Death"
 		}, {
 			"id": "A9P8A",
 			"title": "God Damn The Garden"
@@ -20866,6 +21361,9 @@
 		}, {
 			"id": "A9Q2A",
 			"title": "Space Roguelike Adventure"
+		}, {
+			"id": "A9Q9A",
+			"title": "SANABI"
 		}, {
 			"id": "A9QHA",
 			"title": "Remorse: The List"
@@ -20987,6 +21485,9 @@
 			"id": "A9SGA",
 			"title": "The Samurai Collection (QUByte Classics)"
 		}, {
+			"id": "A9SHA",
+			"title": "Bem Feito"
+		}, {
 			"id": "A9SLA",
 			"title": "Hatchwell"
 		}, {
@@ -21010,6 +21511,9 @@
 		}, {
 			"id": "A9T9A",
 			"title": "Viki Spotter: Space Mission"
+		}, {
+			"id": "A9TEA",
+			"title": "Palia"
 		}, {
 			"id": "A9TGA",
 			"title": "Supaplex THINK!"
@@ -21134,9 +21638,6 @@
 			"id": "A9W3A",
 			"title": "Spin Path"
 		}, {
-			"id": "A9W5A",
-			"title": "Gravity Circuit"
-		}, {
 			"id": "A9W9A",
 			"title": "LONGHEAD"
 		}, {
@@ -21259,6 +21760,12 @@
 		}, {
 			"id": "A9YVA",
 			"title": "Robby's Adventure"
+		}, {
+			"id": "A9YXA",
+			"title": "Super Double Dragon"
+		}, {
+			"id": "A9YYA",
+			"title": "Double Dragon Advance"
 		}, {
 			"id": "A9Z3A",
 			"title": "Zombies Killer Machine: Car Games,Driving,Dead Mechanic Simulator"
@@ -28042,6 +28549,9 @@
 			"id": "ATKPA",
 			"title": "NOBLE ARMADA LOST WORLDS"
 		}, {
+			"id": "ATKRA",
+			"title": "BROADSWORD: WARLORD EDITION"
+		}, {
 			"id": "ATL3A",
 			"title": "Artifact Adventure Gaiden DX"
 		}, {
@@ -28174,6 +28684,9 @@
 			"id": "ATPXA",
 			"title": "the Knight & the Dragon"
 		}, {
+			"id": "ATPYA",
+			"title": "Alien Hominid Invasion"
+		}, {
 			"id": "ATQ2A",
 			"title": "Ding Dong XL"
 		}, {
@@ -28182,9 +28695,6 @@
 		}, {
 			"id": "ATQ4A",
 			"title": "From Orbit"
-		}, {
-			"id": "ATQ9A",
-			"title": "GENSOU Skydrift"
 		}, {
 			"id": "ATQFA",
 			"title": "Undead Horde"
@@ -28749,6 +29259,9 @@
 		}, {
 			"id": "AU9GA",
 			"title": "Jack Axe"
+		}, {
+			"id": "AU9HA",
+			"title": "Rising Dusk"
 		}, {
 			"id": "AU9QA",
 			"title": "Pacific Wings"
@@ -29956,9 +30469,6 @@
 			"id": "AVB6A",
 			"title": "Doodle Derby"
 		}, {
-			"id": "AVB8A",
-			"title": "Skater XL"
-		}, {
 			"id": "AVB9A",
 			"title": "Electronic Super Joy"
 		}, {
@@ -30735,6 +31245,9 @@
 		}, {
 			"id": "AW4ZA",
 			"title": "Breeder Homegrown: Director's Cut"
+		}, {
+			"id": "AW52A",
+			"title": "Ominous Tales: The Forsaken Isle"
 		}, {
 			"id": "AW56A",
 			"title": "Total Arcade Racing"
@@ -31687,9 +32200,6 @@
 			"id": "AX4RA",
 			"title": "Ailment"
 		}, {
-			"id": "AX4TA",
-			"title": "Postal REDUX"
-		}, {
 			"id": "AX57A",
 			"title": "Arcade Archives SUPER PUNCH-OUT!!"
 		}, {
@@ -32229,6 +32739,9 @@
 		}, {
 			"id": "AXL2A",
 			"title": "Path of Giants"
+		}, {
+			"id": "AXL3A",
+			"title": "Tanuki Sunset"
 		}, {
 			"id": "AXL4A",
 			"title": "They Bleed Pixels"
@@ -33489,6 +34002,9 @@
 		}, {
 			"id": "AYN2A",
 			"title": "Paint"
+		}, {
+			"id": "AYN2B",
+			"title": "Makeup Artist"
 		}, {
 			"id": "AYN6C",
 			"title": "Super Monkey Ball Banana Mania Digital Deluxe Edition"
@@ -35137,6 +35653,9 @@
 			"id": "BA3BC",
 			"title": "Dr Smart Space Encyclopedia"
 		}, {
+			"id": "BA3CA",
+			"title": "Howl"
+		}, {
 			"id": "BA3DA",
 			"title": "Salamander County Public Television"
 		}, {
@@ -35196,6 +35715,9 @@
 		}, {
 			"id": "BA4WA",
 			"title": "Boat Simulator"
+		}, {
+			"id": "BA4XA",
+			"title": "Little Goody Two Shoes"
 		}, {
 			"id": "BA4YA",
 			"title": "Roller Katz: BF: Episode 1"
@@ -35284,6 +35806,9 @@
 			"id": "BA7AA",
 			"title": "Dungeons of Aether"
 		}, {
+			"id": "BA7EA",
+			"title": "20 Minutes Till Dawn"
+		}, {
 			"id": "BA7FA",
 			"title": "Arcade Archives BUBBLE BOBBLE"
 		}, {
@@ -35316,6 +35841,9 @@
 		}, {
 			"id": "BA86A",
 			"title": "Rakuen: Deluxe Edition"
+		}, {
+			"id": "BA89A",
+			"title": "ASTLIBRA Revision"
 		}, {
 			"id": "BA8BA",
 			"title": "Spirit of the Island"
@@ -35368,6 +35896,9 @@
 			"id": "BA97A",
 			"title": "Balls of Fame Holiday Bundle"
 		}, {
+			"id": "BA98A",
+			"title": "Petit Petit Petit"
+		}, {
 			"id": "BA9AA",
 			"title": "Bone's Cafe"
 		}, {
@@ -35391,6 +35922,9 @@
 		}, {
 			"id": "BA9NA",
 			"title": "Convenience Stories"
+		}, {
+			"id": "BA9SB",
+			"title": "Piyokoro"
 		}, {
 			"id": "BA9WA",
 			"title": "World War Battle Heroes Field Armies Call of Prison Duty Simulator"
@@ -35431,6 +35965,9 @@
 		}, {
 			"id": "BABQA",
 			"title": "Nocturnal"
+		}, {
+			"id": "BABRA",
+			"title": "Born Of Bread"
 		}, {
 			"id": "BABSA",
 			"title": "Afterthought"
@@ -35566,6 +36103,9 @@
 		}, {
 			"id": "BAEBA",
 			"title": "The Punchuin"
+		}, {
+			"id": "BAEDA",
+			"title": "Arcade Archives WARP & WARP"
 		}, {
 			"id": "BAEFA",
 			"title": "Alter World"
@@ -35744,6 +36284,9 @@
 			"id": "BAJAA",
 			"title": "Arcade Archives Metal Hawk"
 		}, {
+			"id": "BAJBA",
+			"title": "Arcade Archives MYSTIC WARRIORS"
+		}, {
 			"id": "BAJFA",
 			"title": "Arcade Archives ITAZURA TENSHI"
 		}, {
@@ -35836,6 +36379,9 @@
 		}, {
 			"id": "BALJA",
 			"title": "Orcen Axe"
+		}, {
+			"id": "BALMA",
+			"title": "Alien Hominid HD"
 		}, {
 			"id": "BALNA",
 			"title": "Pretty Girls Escape"
@@ -35999,11 +36545,11 @@
 			"id": "BAQ3A",
 			"title": "CubicBan"
 		}, {
-			"id": "BAQ5A",
-			"title": "Have A Nice Death"
-		}, {
 			"id": "BAQ8A",
 			"title": "Becoming a She"
+		}, {
+			"id": "BAQ9C",
+			"title": "Sketch Personality Test"
 		}, {
 			"id": "BAQCA",
 			"title": "GyroBlade"
@@ -36158,6 +36704,9 @@
 			"id": "BAT9A",
 			"title": "Legion of Doom"
 		}, {
+			"id": "BATBA",
+			"title": "A Highland Song"
+		}, {
 			"id": "BATCA",
 			"title": "Buggy Racer"
 		}, {
@@ -36191,6 +36740,9 @@
 			"id": "BAUBA",
 			"title": "YONESAWARA HOSPITAL"
 		}, {
+			"id": "BAUCA",
+			"title": "Witchtastic"
+		}, {
 			"id": "BAUEA",
 			"title": "Tempoknight"
 		}, {
@@ -36220,6 +36772,9 @@
 		}, {
 			"id": "BAV4A",
 			"title": "Crime Secrets: Crimson Lily"
+		}, {
+			"id": "BAV8A",
+			"title": "This Means Warp"
 		}, {
 			"id": "BAV9A",
 			"title": "Hellboy Web of Wyrd"
@@ -36311,6 +36866,9 @@
 			"id": "BAX3A",
 			"title": "PARANORMASIGHT: The Seven Mysteries of Honjo"
 		}, {
+			"id": "BAX5A",
+			"title": "Arcade Archives Dinorex"
+		}, {
 			"id": "BAX8A",
 			"title": "Formula Retro Racing: World Tour"
 		}, {
@@ -36398,8 +36956,14 @@
 			"id": "BAYVA",
 			"title": "Looking for Aliens"
 		}, {
+			"id": "BAYWA",
+			"title": "Arcade Archives SOLITARY FIGHTER"
+		}, {
 			"id": "BAYYA",
 			"title": "Car Parking Club"
+		}, {
+			"id": "BAZ2A",
+			"title": "Breakout Birdie Puzzle 2"
 		}, {
 			"id": "BAZ3A",
 			"title": "Velocity Noodle"
@@ -36428,6 +36992,9 @@
 			"id": "BAZNA",
 			"title": "Swordbreaker: Origins"
 		}, {
+			"id": "BAZPA",
+			"title": "Turok 3: Shadow of Oblivion Remastered"
+		}, {
 			"id": "BAZQA",
 			"title": "Reasoning of Courage123"
 		}, {
@@ -36448,6 +37015,15 @@
 		}, {
 			"id": "BAZWA",
 			"title": "Tappy Word Infinite"
+		}, {
+			"id": "BAZXA",
+			"title": "Breakout Birdie Escape"
+		}, {
+			"id": "BAZYA",
+			"title": "Breakout Birdie Escape 2"
+		}, {
+			"id": "BAZZA",
+			"title": "Breakout Birdie Puzzle"
 		}, {
 			"id": "BB24A",
 			"title": "Monster Prom 3: Monster Roadtrip XXL"
@@ -36505,6 +37081,9 @@
 		}, {
 			"id": "BB3DA",
 			"title": "Varney Lake"
+		}, {
+			"id": "BB3EA",
+			"title": "Passpartout 2: The Lost Artist"
 		}, {
 			"id": "BB3GA",
 			"title": "Big Adventure: Trip To Europe"
@@ -36575,6 +37154,9 @@
 			"id": "BB55A",
 			"title": "Crafting Block World: Magic Dungeons Adventure"
 		}, {
+			"id": "BB56D",
+			"title": "Mystery Solving! BrainQuiz"
+		}, {
 			"id": "BB57A",
 			"title": "Arcade Archives TECMO KNIGHT"
 		}, {
@@ -36611,6 +37193,9 @@
 			"id": "BB65A",
 			"title": "BookyPets Legends"
 		}, {
+			"id": "BB66A",
+			"title": "Yukar From The Abyss"
+		}, {
 			"id": "BB68A",
 			"title": "Boreal Tenebrae Deluxe"
 		}, {
@@ -36638,6 +37223,9 @@
 			"id": "BB6PA",
 			"title": "Super Ninja Miner"
 		}, {
+			"id": "BB6QA",
+			"title": "Cattails: Wildwood Story"
+		}, {
 			"id": "BB6RA",
 			"title": "Solar Ash"
 		}, {
@@ -36652,6 +37240,9 @@
 		}, {
 			"id": "BB75A",
 			"title": "Rider Among Dead: Mad Zombie Killer Machine Survival"
+		}, {
+			"id": "BB76A",
+			"title": "All of Us Are Dead"
 		}, {
 			"id": "BB78A",
 			"title": "Bounce Journey"
@@ -36683,11 +37274,17 @@
 			"id": "BB7YA",
 			"title": "Astro Flame: Starfighter"
 		}, {
+			"id": "BB82A",
+			"title": "The Ramsey"
+		}, {
 			"id": "BB83A",
 			"title": "Air Hockey Arcade: Casual Board Game"
 		}, {
 			"id": "BB85A",
 			"title": "Ski Resort Driver"
+		}, {
+			"id": "BB88A",
+			"title": "Corbid! A Colorful Adventure"
 		}, {
 			"id": "BB89A",
 			"title": "Zodiakalik"
@@ -36725,11 +37322,17 @@
 			"id": "BB8PA",
 			"title": "Air Battle"
 		}, {
+			"id": "BB8QA",
+			"title": "Backpack Hero"
+		}, {
 			"id": "BB8TA",
 			"title": "The Cosmic Wheel Sisterhood"
 		}, {
 			"id": "BB8WA",
 			"title": "Ultimate Anime Jigsaw Puzzle"
+		}, {
+			"id": "BB8ZB",
+			"title": "I SEEK! WHERE IS \"PICTO\"-SAN?"
 		}, {
 			"id": "BB98A",
 			"title": "Hike Trip"
@@ -36751,6 +37354,9 @@
 		}, {
 			"id": "BB9JA",
 			"title": "Medieval Royal Chess: Classic Board Game"
+		}, {
+			"id": "BB9KA",
+			"title": "Hodgepodge Hunch"
 		}, {
 			"id": "BB9LA",
 			"title": "Math Fight: Multiplayer Game"
@@ -36796,6 +37402,9 @@
 		}, {
 			"id": "BBAEA",
 			"title": "Castle Renovator"
+		}, {
+			"id": "BBANA",
+			"title": "Risk of Rain Returns"
 		}, {
 			"id": "BBASA",
 			"title": "12 Labours Of Hercules VII: Fleecing The Fleece"
@@ -37079,6 +37688,9 @@
 			"id": "BBJ5A",
 			"title": "Adventures of Ben: Rabbit Run"
 		}, {
+			"id": "BBJ6A",
+			"title": "Tallowmere 2: Curse of the Kittens"
+		}, {
 			"id": "BBJ8A",
 			"title": "Santa Claus Goblins Attack"
 		}, {
@@ -37087,6 +37699,9 @@
 		}, {
 			"id": "BBJAA",
 			"title": "The Creepy Syndrome"
+		}, {
+			"id": "BBJCA",
+			"title": "THE KING OF FIGHTERS XIII GLOBAL MATCH"
 		}, {
 			"id": "BBJJA",
 			"title": "Mystic Gate"
@@ -37105,6 +37720,15 @@
 		}, {
 			"id": "BBJVA",
 			"title": "Best Forklift Operator"
+		}, {
+			"id": "BBK2B",
+			"title": "AVENGER"
+		}, {
+			"id": "BBK3B",
+			"title": "GAIARES"
+		}, {
+			"id": "BBK4B",
+			"title": "PSYCHIC STORM"
 		}, {
 			"id": "BBK5A",
 			"title": "Pretty Girls Breakers! PLUS"
@@ -37138,6 +37762,9 @@
 		}, {
 			"id": "BBKWA",
 			"title": "Chess Maiden"
+		}, {
+			"id": "BBKZB",
+			"title": "GRANADA"
 		}, {
 			"id": "BBL6A",
 			"title": "Ring Racer"
@@ -37211,6 +37838,9 @@
 			"id": "BBMVA",
 			"title": "Loot Box Simulator: Heroes of the Dark Age"
 		}, {
+			"id": "BBMZA",
+			"title": "Isolated"
+		}, {
 			"id": "BBN3A",
 			"title": "TRON: Identity"
 		}, {
@@ -37238,11 +37868,17 @@
 			"id": "BBNRA",
 			"title": "Color Pals"
 		}, {
+			"id": "BBNSA",
+			"title": "Stickman's Arena"
+		}, {
 			"id": "BBNYA",
 			"title": "Vaccine Rebirth"
 		}, {
 			"id": "BBP2A",
 			"title": "Decarnation"
+		}, {
+			"id": "BBP4A",
+			"title": "GeoJelly"
 		}, {
 			"id": "BBPAA",
 			"title": "Path of Colors"
@@ -37252,6 +37888,9 @@
 		}, {
 			"id": "BBPEA",
 			"title": "My Little Prince: A jigsaw puzzle tale"
+		}, {
+			"id": "BBPFA",
+			"title": "Masarada Town Story"
 		}, {
 			"id": "BBPHA",
 			"title": "Yello Adventures"
@@ -37288,6 +37927,9 @@
 		}, {
 			"id": "BBQ8A",
 			"title": "Red Bird Adventure: Classic Physics Puzzle"
+		}, {
+			"id": "BBQFA",
+			"title": "Toasterball"
 		}, {
 			"id": "BBQHA",
 			"title": "Offroad Moto Bike"
@@ -37346,6 +37988,9 @@
 			"id": "BBRMA",
 			"title": "Sugar Tanks"
 		}, {
+			"id": "BBRNA",
+			"title": "Adventure Tanks"
+		}, {
 			"id": "BBRRA",
 			"title": "Arcade Archives COSMO GANG THE VIDEO"
 		}, {
@@ -37363,6 +38008,9 @@
 		}, {
 			"id": "BBRYA",
 			"title": "Full Quiet"
+		}, {
+			"id": "BBRZA",
+			"title": "Last Escape: Dead Complex"
 		}, {
 			"id": "BBS4A",
 			"title": "Witch Explorer"
@@ -37556,6 +38204,9 @@
 			"id": "BBWKA",
 			"title": "RINA:RhythmERROR"
 		}, {
+			"id": "BBWNA",
+			"title": "Worldless"
+		}, {
 			"id": "BBWRA",
 			"title": "Magic Exposure: Yuri Visual Novel"
 		}, {
@@ -37592,6 +38243,9 @@
 			"id": "BBY4A",
 			"title": "Gunvein"
 		}, {
+			"id": "BBY7A",
+			"title": "FX Unit Yuki: The Henshin Engine"
+		}, {
 			"id": "BBY9A",
 			"title": "Gothic Classic"
 		}, {
@@ -37606,9 +38260,6 @@
 		}, {
 			"id": "BBYZA",
 			"title": "7 Horizons"
-		}, {
-			"id": "BBZ6A",
-			"title": "NINJA KIDZ: TIME MASTERS"
 		}, {
 			"id": "BBZ7A",
 			"title": "King Jister 3"
@@ -37648,6 +38299,9 @@
 		}, {
 			"id": "BC25A",
 			"title": "Arcade Archives MEGABLAST"
+		}, {
+			"id": "BC27A",
+			"title": "Motesolo: No Girlfriend Since Birth"
 		}, {
 			"id": "BC2EA",
 			"title": "Bubble Bird"
@@ -37802,8 +38456,14 @@
 			"id": "BC98A",
 			"title": "100 Doors Games: School Escape"
 		}, {
+			"id": "BC99A",
+			"title": "CATAN: Console Edition"
+		}, {
 			"id": "BC9GA",
 			"title": "Johnny Trigger"
+		}, {
+			"id": "BC9KA",
+			"title": "Football Manager 2024 Touch"
 		}, {
 			"id": "BC9LA",
 			"title": "Bubble Monsters"
@@ -37823,11 +38483,11 @@
 			"id": "BCA9A",
 			"title": "Light of Life"
 		}, {
+			"id": "BCADA",
+			"title": "Ninja or Die: Shadow of the Sun"
+		}, {
 			"id": "BCAEA",
 			"title": "Ninja JaJaMaru: The Great Yokai Battle +Hell: Deluxe Edition"
-		}, {
-			"id": "BCARA",
-			"title": "GRISAIA PHANTOM TRIGGER 5.5 to 08"
 		}, {
 			"id": "BCASA",
 			"title": "Beach Cafe III: The Escape Room"
@@ -37907,6 +38567,9 @@
 			"id": "BCCNA",
 			"title": "Mountain Climb Driver: Real Physics Arcade Racing"
 		}, {
+			"id": "BCCPA",
+			"title": "Mystery Lover"
+		}, {
 			"id": "BCCRA",
 			"title": "Bloo Kid"
 		}, {
@@ -37951,6 +38614,9 @@
 		}, {
 			"id": "BCE2A",
 			"title": "Mia and the Dragon Princess"
+		}, {
+			"id": "BCE3A",
+			"title": "Growth"
 		}, {
 			"id": "BCE5A",
 			"title": "Punch Club 2: Fast Forward"
@@ -38008,6 +38674,9 @@
 		}, {
 			"id": "BCF6A",
 			"title": "Crime Busters: Strike Area"
+		}, {
+			"id": "BCFGA",
+			"title": "Trip World DX"
 		}, {
 			"id": "BCFMA",
 			"title": "Piano for kids"
@@ -38072,9 +38741,6 @@
 			"id": "BCGTA",
 			"title": "Jump Challenge!"
 		}, {
-			"id": "BCGVA",
-			"title": "Slime Girl Smoothies"
-		}, {
 			"id": "BCGXA",
 			"title": "Hola! Reversi"
 		}, {
@@ -38107,6 +38773,9 @@
 		}, {
 			"id": "BCJBA",
 			"title": "Masquerade Kiss"
+		}, {
+			"id": "BCJCA",
+			"title": "Metro PD: Close to You"
 		}, {
 			"id": "BCJGA",
 			"title": "Fishing Vacation"
@@ -38149,6 +38818,9 @@
 		}, {
 			"id": "BCKVA",
 			"title": "Forever Lost: Episode 2"
+		}, {
+			"id": "BCKXA",
+			"title": "The Spy Who Shot Me"
 		}, {
 			"id": "BCKYA",
 			"title": "Drone Master Racing"
@@ -38243,6 +38915,9 @@
 			"id": "BCN9A",
 			"title": "Lucy Got Problems"
 		}, {
+			"id": "BCNAA",
+			"title": "Three Minutes To Eight"
+		}, {
 			"id": "BCNBA",
 			"title": "The Lost and The Wicked"
 		}, {
@@ -38296,6 +38971,9 @@
 		}, {
 			"id": "BCP8A",
 			"title": "Tarot Cards: Discover the meaning"
+		}, {
+			"id": "BCP9A",
+			"title": "Fusion Paradox"
 		}, {
 			"id": "BCPJA",
 			"title": "Illusion"
@@ -38438,6 +39116,9 @@
 			"id": "BCTNA",
 			"title": "Secret Dimension"
 		}, {
+			"id": "BCTPA",
+			"title": "SteamWorld Build"
+		}, {
 			"id": "BCTRA",
 			"title": "Action SuperCross"
 		}, {
@@ -38480,6 +39161,9 @@
 			"id": "BCV6A",
 			"title": "Farming Tractor Simulator 2023: Drive Combine & Trucks"
 		}, {
+			"id": "BCV7A",
+			"title": "Truck Simulator 2024: USA Driver Zone"
+		}, {
 			"id": "BCV8A",
 			"title": "Sweets Pusher Friends"
 		}, {
@@ -38501,11 +39185,17 @@
 			"id": "BCVMA",
 			"title": "Wash Simulator: Clean Garage, House, Cars Business Tycoons"
 		}, {
+			"id": "BCVWA",
+			"title": "Moorhuhn Invasion: Crazy Chicken Invasion"
+		}, {
 			"id": "BCW4A",
 			"title": "The Jackbox Party Pack 10"
 		}, {
 			"id": "BCW6A",
 			"title": "Sunshine Shuffle"
+		}, {
+			"id": "BCW7A",
+			"title": "Pixel Game Maker Series Project Nosferatu"
 		}, {
 			"id": "BCW8A",
 			"title": "Pixel Game Maker Series Angel's Gear"
@@ -38528,6 +39218,9 @@
 			"id": "BCWFB",
 			"title": "Truck Simulator 2023: Driver Europe"
 		}, {
+			"id": "BCWGA",
+			"title": "Attack Strategy: Battle Simulator Accurate"
+		}, {
 			"id": "BCWHA",
 			"title": "Unalive 010"
 		}, {
@@ -38536,6 +39229,12 @@
 		}, {
 			"id": "BCWMA",
 			"title": "Yatzi"
+		}, {
+			"id": "BCWNA",
+			"title": "Sherlock Holmes: The Hunt for Moriarty"
+		}, {
+			"id": "BCWPA",
+			"title": "My Life: Farm Vet"
 		}, {
 			"id": "BCWQA",
 			"title": "DOG"
@@ -38560,6 +39259,9 @@
 		}, {
 			"id": "BCX8A",
 			"title": "Aery: Heaven & Hell"
+		}, {
+			"id": "BCXBA",
+			"title": "Battle Stations Blockade"
 		}, {
 			"id": "BCXDA",
 			"title": "Feeble Light"
@@ -38603,6 +39305,9 @@
 			"id": "BCZAA",
 			"title": "My Name is Mayo 2"
 		}, {
+			"id": "BCZCA",
+			"title": "ONE."
+		}, {
 			"id": "BCZJA",
 			"title": "Onigo Hunter"
 		}, {
@@ -38614,6 +39319,9 @@
 		}, {
 			"id": "BD26A",
 			"title": "Cinderella: Interactive Book"
+		}, {
+			"id": "BD29A",
+			"title": "Eigengrau"
 		}, {
 			"id": "BD2GA",
 			"title": "Paint Ball"
@@ -38627,8 +39335,14 @@
 			"id": "BD2TA",
 			"title": "Moto Racer Simulator GT Games"
 		}, {
+			"id": "BD32A",
+			"title": "While the Iron's Hot"
+		}, {
 			"id": "BD35A",
 			"title": "Anime Poly Puzzle: Sci-Fi Maidens"
+		}, {
+			"id": "BD3NA",
+			"title": "Rogue Glitch Ultra"
 		}, {
 			"id": "BD3PA",
 			"title": "LiartaniumOS: Operating System"
@@ -38642,8 +39356,14 @@
 			"id": "BD4BA",
 			"title": "Skeljump"
 		}, {
+			"id": "BD4JA",
+			"title": "Alina of the Arena"
+		}, {
 			"id": "BD4SA",
 			"title": "Aquarium Land"
+		}, {
+			"id": "BD4UA",
+			"title": "Space Papers: Planet's Border"
 		}, {
 			"id": "BD4VA",
 			"title": "Humvee Assault: War 3D FPS"
@@ -38705,11 +39425,29 @@
 			"id": "BD7XA",
 			"title": "Ace Antigravity Combat Racing"
 		}, {
+			"id": "BD82A",
+			"title": "METRO QUESTER"
+		}, {
+			"id": "BD8BA",
+			"title": "Train Traffic Manager"
+		}, {
+			"id": "BD8CA",
+			"title": "Pixel Cafe"
+		}, {
 			"id": "BD8DA",
 			"title": "Catlord"
 		}, {
+			"id": "BD8KA",
+			"title": "City Driver: Car Parking Simulator"
+		}, {
+			"id": "BD8LA",
+			"title": "Hot Love Dreams: Classic Hentai Logic Puzzle"
+		}, {
 			"id": "BD8MA",
 			"title": "Break the Glass Cup: Breaking Physics Puzzle"
+		}, {
+			"id": "BD8NA",
+			"title": "City Parking Driver: Draw The Path Simulator"
 		}, {
 			"id": "BD8PA",
 			"title": "Puzzle Boys"
@@ -38719,6 +39457,9 @@
 		}, {
 			"id": "BD8XA",
 			"title": "Alphadia I & II"
+		}, {
+			"id": "BD8YA",
+			"title": "Grace of Letoile"
 		}, {
 			"id": "BD92A",
 			"title": "Amanda the Adventurer"
@@ -38747,6 +39488,9 @@
 			"id": "BD9ZA",
 			"title": "Brain On: Dot Physics"
 		}, {
+			"id": "BDA9A",
+			"title": "Dani and Evan: Dinosaur books"
+		}, {
 			"id": "BDABA",
 			"title": "Annalynn"
 		}, {
@@ -38774,8 +39518,17 @@
 			"id": "BDBAA",
 			"title": "Truck Simulator: Heavy Cargo Driver 2023"
 		}, {
+			"id": "BDBBA",
+			"title": "Until The Last Bullet"
+		}, {
+			"id": "BDBEA",
+			"title": "Prison City"
+		}, {
 			"id": "BDBRA",
 			"title": "Takoyaki Party Survival"
+		}, {
+			"id": "BDBUA",
+			"title": "Pinball M"
 		}, {
 			"id": "BDC3A",
 			"title": "Mad Road: Apocalyptic Shooter Survival Killer"
@@ -38786,6 +39539,12 @@
 			"id": "BDC8A",
 			"title": "Sokoball Dreams"
 		}, {
+			"id": "BDCJA",
+			"title": "Seven Spirits"
+		}, {
+			"id": "BDCPA",
+			"title": "Xuan Yuan Sword: Mists Beyond the Mountains"
+		}, {
 			"id": "BDCQA",
 			"title": "Family Jigsaw Puzzle: Classic Mosaic Puzzles"
 		}, {
@@ -38794,6 +39553,9 @@
 		}, {
 			"id": "BDCTA",
 			"title": "Healthy Recipes"
+		}, {
+			"id": "BDCVA",
+			"title": "PeopleWillMoney"
 		}, {
 			"id": "BDCXA",
 			"title": "Aquapark io"
@@ -38810,11 +39572,17 @@
 			"id": "BDD5A",
 			"title": "Hole io"
 		}, {
+			"id": "BDD8A",
+			"title": "Nothing to Declare"
+		}, {
 			"id": "BDDAA",
 			"title": "Cubic Figures 2"
 		}, {
 			"id": "BDDFA",
 			"title": "Santa's Monster Shootout"
+		}, {
+			"id": "BDDPA",
+			"title": "Deleted"
 		}, {
 			"id": "BDDRA",
 			"title": "The Isle Tide Hotel"
@@ -38861,6 +39629,9 @@
 			"id": "BDH3A",
 			"title": "Bus Tycoon Night and Day"
 		}, {
+			"id": "BDH5A",
+			"title": "Rough Justice '84"
+		}, {
 			"id": "BDH7A",
 			"title": "Retro Mystery Club Vol.1: The Ise-Shima Case"
 		}, {
@@ -38878,6 +39649,9 @@
 		}, {
 			"id": "BDHYA",
 			"title": "Faerie Afterlight"
+		}, {
+			"id": "BDHZA",
+			"title": "Crashy Laps"
 		}, {
 			"id": "BDJAA",
 			"title": "Strike Force 3"
@@ -38903,8 +39677,23 @@
 			"id": "BDKHA",
 			"title": "Arcade Archives DARK ADVENTURE"
 		}, {
+			"id": "BDKLA",
+			"title": "The Trotties Adventure"
+		}, {
 			"id": "BDKNA",
 			"title": "Stuck With Naughty Housewives"
+		}, {
+			"id": "BDKUA",
+			"title": "The Forest Quartet"
+		}, {
+			"id": "BDLBB",
+			"title": "Tiny Treasure Hunt"
+		}, {
+			"id": "BDLCA",
+			"title": "Street Basketball Club: Sport Throw Simulator"
+		}, {
+			"id": "BDLGA",
+			"title": "Link Twin"
 		}, {
 			"id": "BDLMA",
 			"title": "Risky Woods (QUByte Classics)"
@@ -38942,6 +39731,9 @@
 			"id": "BDMJA",
 			"title": "Zenful Journey"
 		}, {
+			"id": "BDMKA",
+			"title": "Arcade Archives POLE POSITION II"
+		}, {
 			"id": "BDMMA",
 			"title": "SHARK! SHARK!"
 		}, {
@@ -38957,6 +39749,9 @@
 			"id": "BDMSA",
 			"title": "Astebros"
 		}, {
+			"id": "BDN7A",
+			"title": "Keep The Fire: Survival Simulator"
+		}, {
 			"id": "BDNGA",
 			"title": "Arcade Archives GROWL"
 		}, {
@@ -38965,6 +39760,12 @@
 		}, {
 			"id": "BDNKA",
 			"title": "Arcade Archives BOSCONIAN"
+		}, {
+			"id": "BDNPA",
+			"title": "Airport"
+		}, {
+			"id": "BDNTA",
+			"title": "UNPOGABLE"
 		}, {
 			"id": "BDNUA",
 			"title": "Kind Heart Defenders"
@@ -38990,6 +39791,12 @@
 			"id": "BDQ6A",
 			"title": "Finger Football: Goal in Two"
 		}, {
+			"id": "BDQ8A",
+			"title": "Foosball League Cup: Arcade Table Football Simulator"
+		}, {
+			"id": "BDQJA",
+			"title": "On Rusty Trails"
+		}, {
 			"id": "BDQMA",
 			"title": "Long Gone Days"
 		}, {
@@ -38998,6 +39805,9 @@
 		}, {
 			"id": "BDR4A",
 			"title": "Jelly Fruits Adventure: Magic Match 3 Puzzle"
+		}, {
+			"id": "BDRUA",
+			"title": "Astral Ascent"
 		}, {
 			"id": "BDS4A",
 			"title": "Hypertension"
@@ -39020,6 +39830,9 @@
 			"id": "BDSSA",
 			"title": "Tick Tack Puppet"
 		}, {
+			"id": "BDSTA",
+			"title": "My Child Lebensborn Remastered"
+		}, {
 			"id": "BDSWA",
 			"title": "Yummy Jewels"
 		}, {
@@ -39029,14 +39842,29 @@
 			"id": "BDSZA",
 			"title": "Wroom Wroom Puzzles"
 		}, {
+			"id": "BDT5A",
+			"title": "Defend The Base: Tower Turret Shooting Range"
+		}, {
+			"id": "BDT6A",
+			"title": "Prison Break: Jail Escape Simulator"
+		}, {
 			"id": "BDTCA",
 			"title": "Silent Paws"
+		}, {
+			"id": "BDTGA",
+			"title": "Highway Moto Racing Rush 2023 Simulator"
 		}, {
 			"id": "BDTHA",
 			"title": "Truck Drag Racing Legends Simulator"
 		}, {
 			"id": "BDTKA",
 			"title": "The Scientists' Secret: Hidden Object Game"
+		}, {
+			"id": "BDTNA",
+			"title": "Turbo Shell"
+		}, {
+			"id": "BDTTA",
+			"title": "Song of Nunu: A League of Legends Story"
 		}, {
 			"id": "BDU2A",
 			"title": "Ralph and the Blue Ball"
@@ -39049,6 +39877,9 @@
 		}, {
 			"id": "BDUFA",
 			"title": "Quantum: Recharged"
+		}, {
+			"id": "BDUHA",
+			"title": "Virtual Families 3: Our Country Home"
 		}, {
 			"id": "BDUZA",
 			"title": "Redeemer's Run"
@@ -39077,6 +39908,12 @@
 			"id": "BDVNA",
 			"title": "Hentai Uni 2"
 		}, {
+			"id": "BDVUA",
+			"title": "Roots of Pacha"
+		}, {
+			"id": "BDW3A",
+			"title": "ForRace GT2D"
+		}, {
 			"id": "BDW4A",
 			"title": "Boomshine Plus"
 		}, {
@@ -39086,8 +39923,17 @@
 			"id": "BDWEA",
 			"title": "Mermaid Castle 2"
 		}, {
+			"id": "BDWLA",
+			"title": "Loot Box Quest: Mystic Maidens"
+		}, {
 			"id": "BDWNA",
 			"title": "Enraged Red Ogre"
+		}, {
+			"id": "BDWPA",
+			"title": "Enjoy the Diner"
+		}, {
+			"id": "BDWQA",
+			"title": "The Traveler's Path"
 		}, {
 			"id": "BDWVA",
 			"title": "Tower Up"
@@ -39095,8 +39941,14 @@
 			"id": "BDX6A",
 			"title": "Arcade Archives GUTTANG GOTTONG"
 		}, {
+			"id": "BDXBA",
+			"title": "Cobalt Core"
+		}, {
 			"id": "BDXGA",
 			"title": "3 minutes Mystery"
+		}, {
+			"id": "BDXHA",
+			"title": "Dream Town Island"
 		}, {
 			"id": "BDXKA",
 			"title": "Crypto Miner Tycoon Simulator"
@@ -39152,11 +40004,23 @@
 			"id": "BDZKA",
 			"title": "Fastest on the Buzzer"
 		}, {
+			"id": "BDZSA",
+			"title": "Ebenezer and the Invisible World"
+		}, {
 			"id": "BDZXA",
 			"title": "New York Mysteries: Power of Art"
 		}, {
 			"id": "BDZYA",
 			"title": "Arcade Archives STRIKE GUNNER"
+		}, {
+			"id": "BE28A",
+			"title": "Fireball Wizard"
+		}, {
+			"id": "BE2AA",
+			"title": "Train Driver Simulator"
+		}, {
+			"id": "BE2EA",
+			"title": "Clue"
 		}, {
 			"id": "BE2HA",
 			"title": "Champion of Fighters"
@@ -39172,6 +40036,12 @@
 		}, {
 			"id": "BE33A",
 			"title": "Tetropunk"
+		}, {
+			"id": "BE34A",
+			"title": "Erogods: Olympus"
+		}, {
+			"id": "BE38A",
+			"title": "Arcade Archives SCRAMBLE FORMATION"
 		}, {
 			"id": "BE39A",
 			"title": "River Pirates"
@@ -39194,11 +40064,17 @@
 			"id": "BE55A",
 			"title": "The Love: Date Simulator with Girls"
 		}, {
+			"id": "BE5FA",
+			"title": "Wood Guy"
+		}, {
 			"id": "BE5JA",
 			"title": "Elder Story"
 		}, {
 			"id": "BE5LA",
 			"title": "Turbo Dash Kart Racing"
+		}, {
+			"id": "BE5MA",
+			"title": "Burnout"
 		}, {
 			"id": "BE5PA",
 			"title": "Puzzle Balls"
@@ -39206,11 +40082,32 @@
 			"id": "BE5QA",
 			"title": "Speediest: Car Racing Formula & Auto Sport"
 		}, {
+			"id": "BE5RA",
+			"title": "Berzerk: Recharged"
+		}, {
 			"id": "BE5XA",
 			"title": "Jigsaw Ice Princess"
 		}, {
+			"id": "BE64A",
+			"title": "Shivering Stone"
+		}, {
+			"id": "BE66A",
+			"title": "One Night: Burlesque"
+		}, {
 			"id": "BE67A",
 			"title": "The Meaning of Dreams"
+		}, {
+			"id": "BE69A",
+			"title": "Meaning of Symbols"
+		}, {
+			"id": "BE6PA",
+			"title": "Criss Cross"
+		}, {
+			"id": "BE6QA",
+			"title": "White Wings"
+		}, {
+			"id": "BE72A",
+			"title": "Breakout Birdie Panic 2"
 		}, {
 			"id": "BE78A",
 			"title": "Lost Dream: Overgrown"
@@ -39221,23 +40118,41 @@
 			"id": "BE7BA",
 			"title": "Animals: Habitats and Curiosities"
 		}, {
+			"id": "BE7KA",
+			"title": "Final Shot"
+		}, {
 			"id": "BE7UA",
 			"title": "Wings"
 		}, {
 			"id": "BE7WA",
 			"title": "Crazy Bus"
 		}, {
+			"id": "BE7ZA",
+			"title": "Breakout Birdie Panic"
+		}, {
 			"id": "BE82A",
 			"title": "Halloween Bubble Shooter"
 		}, {
+			"id": "BE83A",
+			"title": "Cleaning Queens"
+		}, {
 			"id": "BE85A",
 			"title": "Wet Steps"
+		}, {
+			"id": "BE86A",
+			"title": "Gates of The Mind"
 		}, {
 			"id": "BE8DA",
 			"title": "Supreme Car Parking Simulator 2024"
 		}, {
 			"id": "BE8HA",
 			"title": "even if TEMPEST Dawning Connections"
+		}, {
+			"id": "BE8JA",
+			"title": "AAA PRO CLOCK 2023"
+		}, {
+			"id": "BE95A",
+			"title": "Claire: Extended Cut"
 		}, {
 			"id": "BE98A",
 			"title": "Yoga Studio: Poses for experts and beginners"
@@ -39248,11 +40163,17 @@
 			"id": "BE9PA",
 			"title": "Art Heist: Escape Room Adventure"
 		}, {
+			"id": "BE9TA",
+			"title": "3in1 Game Collection: Backgammon + Checkers + Mills"
+		}, {
 			"id": "BE9WA",
 			"title": "LumiereMagna"
 		}, {
 			"id": "BE9XA",
 			"title": "Tales of Mathasia"
+		}, {
+			"id": "BE9YA",
+			"title": "Terra Nil"
 		}, {
 			"id": "BEA6A",
 			"title": "Luck Breaker"
@@ -39263,17 +40184,38 @@
 			"id": "BEABA",
 			"title": "Animal Farm Parking"
 		}, {
+			"id": "BEACA",
+			"title": "Capitals Quizzer"
+		}, {
 			"id": "BEAGA",
 			"title": "Games Advent Calendar: 25 Days: 25 Surprises"
+		}, {
+			"id": "BEAKA",
+			"title": "Time Master"
+		}, {
+			"id": "BEAYA",
+			"title": "The great battle of Shark Monkey Squirrel Dinossaur Bird Bee"
 		}, {
 			"id": "BEB3A",
 			"title": "Moto Racer 2044 Game Simulator"
 		}, {
+			"id": "BEB4A",
+			"title": "Call of Sniper Combat: WW2"
+		}, {
 			"id": "BEB6B",
 			"title": "Warm Snow"
 		}, {
+			"id": "BEB8A",
+			"title": "Super Solitaire: Card Game"
+		}, {
+			"id": "BEB9A",
+			"title": "Nora: The Wannabe Alchemist"
+		}, {
 			"id": "BEBBA",
 			"title": "Golf: Hole in One"
+		}, {
+			"id": "BEBEA",
+			"title": "The Rumble Fish +"
 		}, {
 			"id": "BEBMA",
 			"title": "Ball Master Up!"
@@ -39305,11 +40247,17 @@
 			"id": "BECFA",
 			"title": "Frog Detective: The Entire Mystery"
 		}, {
+			"id": "BECGA",
+			"title": "Hell Well"
+		}, {
 			"id": "BECLA",
 			"title": "Teocida + Estigma"
 		}, {
 			"id": "BED6A",
 			"title": "Arcade Snake Go!"
+		}, {
+			"id": "BEDCA",
+			"title": "Excessive Trim"
 		}, {
 			"id": "BEDHA",
 			"title": "Farm Land"
@@ -39325,6 +40273,9 @@
 		}, {
 			"id": "BEDVA",
 			"title": "Hentai Stars"
+		}, {
+			"id": "BEE5A",
+			"title": "Pixel Game Maker Series Storm Swordsman"
 		}, {
 			"id": "BEE7A",
 			"title": "Paintball 3: Candy Match Factory"
@@ -39365,6 +40316,15 @@
 			"id": "BEF9A",
 			"title": "Sphereout"
 		}, {
+			"id": "BEFBA",
+			"title": "War Zone Soldier: Battle Royale Shooter"
+		}, {
+			"id": "BEFDA",
+			"title": "Astro Miner"
+		}, {
+			"id": "BEFEA",
+			"title": "DIY Paper Doll"
+		}, {
 			"id": "BEFFA",
 			"title": "Foot Clinic"
 		}, {
@@ -39383,17 +40343,41 @@
 			"id": "BEG2A",
 			"title": "Retro Kart Rush"
 		}, {
+			"id": "BEGGB",
+			"title": "Koumajou Remilia II: Stranger's Requiem"
+		}, {
+			"id": "BEGHA",
+			"title": "Arcade Archives DAIOH"
+		}, {
 			"id": "BEGLA",
 			"title": "Cat's Cosmic Atlas"
+		}, {
+			"id": "BEGRA",
+			"title": "Arcade Archives Mighty Guy"
 		}, {
 			"id": "BEGSA",
 			"title": "Shadows of Truth"
 		}, {
+			"id": "BEH8A",
+			"title": "Poppy Playtime: Chapter 1"
+		}, {
+			"id": "BEH9A",
+			"title": "Super Bear Adventure"
+		}, {
 			"id": "BEHCA",
 			"title": "Garden Buddies"
 		}, {
+			"id": "BEHDA",
+			"title": "The Myth Seekers 2: The Sunken City"
+		}, {
 			"id": "BEHFA",
 			"title": "RPG Alchemy"
+		}, {
+			"id": "BEHGA",
+			"title": "Smoots Pinball"
+		}, {
+			"id": "BEHLA",
+			"title": "Snakebird Complete"
 		}, {
 			"id": "BEHQA",
 			"title": "Bingo"
@@ -39404,8 +40388,14 @@
 			"id": "BEHSA",
 			"title": "Stack Ball Run!"
 		}, {
+			"id": "BEHTA",
+			"title": "Kumi-Daiko Beatoff"
+		}, {
 			"id": "BEHUA",
 			"title": "Revenge of Banana"
+		}, {
+			"id": "BEHYA",
+			"title": "Enchanted Portals"
 		}, {
 			"id": "BEJ4A",
 			"title": "Super Brawl Rush"
@@ -39419,8 +40409,14 @@
 			"id": "BEJMB",
 			"title": "Hentai Project"
 		}, {
+			"id": "BEJRA",
+			"title": "Stone Age"
+		}, {
 			"id": "BEK5A",
 			"title": "Railed Up"
+		}, {
+			"id": "BEK7A",
+			"title": "Draw & Color Maze: Paint Labyrinth Puzzle"
 		}, {
 			"id": "BEKJA",
 			"title": "SubOcto"
@@ -39434,11 +40430,17 @@
 			"id": "BEKWA",
 			"title": "Princess Bubble Story"
 		}, {
+			"id": "BELBA",
+			"title": "Drawing Carnival"
+		}, {
 			"id": "BEMBA",
 			"title": "Bounce House"
 		}, {
 			"id": "BEN7A",
 			"title": "League of Champions Soccer 2024"
+		}, {
+			"id": "BENMA",
+			"title": "The Curse of Kudan"
 		}, {
 			"id": "BENPA",
 			"title": "Battle Sea"
@@ -39448,6 +40450,12 @@
 		}, {
 			"id": "BEP5A",
 			"title": "Earthshine"
+		}, {
+			"id": "BEP7A",
+			"title": "Heads Up! Phones Down Edition"
+		}, {
+			"id": "BEPAA",
+			"title": "Pajama Sam 3: You Are What You Eat From Your Head To Your Feet"
 		}, {
 			"id": "BEPLA",
 			"title": "Sakura Fox Adventure"
@@ -39461,11 +40469,23 @@
 			"id": "BEPQA",
 			"title": "Kittengumi: The Sakabato's Thief"
 		}, {
+			"id": "BEPZA",
+			"title": "Freddi Fish 4: The Case of The Hogfish Rustlers of Briny Gulch"
+		}, {
+			"id": "BEQ2A",
+			"title": "Ravva and the Phantom Library"
+		}, {
+			"id": "BEQ3A",
+			"title": "Lily in Puzzle World"
+		}, {
 			"id": "BEQ4A",
 			"title": "Freaky Trip"
 		}, {
 			"id": "BEQBA",
 			"title": "Hidden Gems: Volume One"
+		}, {
+			"id": "BEQDA",
+			"title": "XIIZEAL"
 		}, {
 			"id": "BEQEA",
 			"title": "ASTROSMASH"
@@ -39481,6 +40501,21 @@
 		}, {
 			"id": "BEQNA",
 			"title": "Nathan Jones and The Eternal Myth"
+		}, {
+			"id": "BEQPA",
+			"title": "Colored Effects"
+		}, {
+			"id": "BEQVA",
+			"title": "Arcade Archives SHAO-LIN'S ROAD"
+		}, {
+			"id": "BEQWA",
+			"title": "Uzzuzzu My Pet: Golf Dash"
+		}, {
+			"id": "BEQXA",
+			"title": "Synthetic Lover"
+		}, {
+			"id": "BEQYA",
+			"title": "Burning Secrets: A Bara Visual Novel"
 		}, {
 			"id": "BERMA",
 			"title": "Bus Simulator: City Driving Ultimate"
@@ -39500,6 +40535,15 @@
 			"id": "BERYA",
 			"title": "1997"
 		}, {
+			"id": "BES4A",
+			"title": "Golf Guys"
+		}, {
+			"id": "BES5A",
+			"title": "Mob Control"
+		}, {
+			"id": "BES6A",
+			"title": "Helix Jump"
+		}, {
 			"id": "BESAA",
 			"title": "Park Racer"
 		}, {
@@ -39518,6 +40562,9 @@
 			"id": "BESNA",
 			"title": "Cyber Citizen Shockman 2: A New Menace"
 		}, {
+			"id": "BESPA",
+			"title": "Frogvival"
+		}, {
 			"id": "BESRA",
 			"title": "The GhostX: Sniper Simulator (Tactical Shooting & Eliminator)"
 		}, {
@@ -39533,11 +40580,32 @@
 			"id": "BET7A",
 			"title": "Bright Side: Riddles and Puzzles"
 		}, {
+			"id": "BET8A",
+			"title": "Ace Robot Combat"
+		}, {
+			"id": "BET9A",
+			"title": "Word Space"
+		}, {
+			"id": "BETCA",
+			"title": "Cat Simulator"
+		}, {
 			"id": "BETKA",
 			"title": "MAKOTO WAKAIDO's Case Files TRILOGY DELUXE"
 		}, {
+			"id": "BETNA",
+			"title": "Adventure Word: Around the World"
+		}, {
+			"id": "BETRA",
+			"title": "Wizard Hunter: The End of the Magic World"
+		}, {
 			"id": "BETSA",
 			"title": "Shy Cats Hidden Orchestra"
+		}, {
+			"id": "BETXA",
+			"title": "Alien Death Mob"
+		}, {
+			"id": "BEU4B",
+			"title": "Forbidden Ghost Photo"
 		}, {
 			"id": "BEUGB",
 			"title": "EGGCONSOLE RELICS PC-8801"
@@ -39547,6 +40615,18 @@
 		}, {
 			"id": "BEUNA",
 			"title": "Cube Airport"
+		}, {
+			"id": "BEV2A",
+			"title": "Draw and Go!"
+		}, {
+			"id": "BEV3A",
+			"title": "Tools Up! Ultimate Edition"
+		}, {
+			"id": "BEV5A",
+			"title": "What The Duck"
+		}, {
+			"id": "BEV7A",
+			"title": "Backroom: Constructions"
 		}, {
 			"id": "BEVCA",
 			"title": "Eventide 3: Legacy of Legends"
@@ -39563,8 +40643,17 @@
 			"id": "BEVLA",
 			"title": "Golf: Hole in Two"
 		}, {
+			"id": "BEVUA",
+			"title": "Pan'orama"
+		}, {
 			"id": "BEVYA",
 			"title": "AirJet Fighter Sky Dominators: Aerial Assault"
+		}, {
+			"id": "BEW2A",
+			"title": "Geometric Brothers"
+		}, {
+			"id": "BEW3A",
+			"title": "Electrician Simulator"
 		}, {
 			"id": "BEW7A",
 			"title": "PAINT PRO for KIDS 0+"
@@ -39575,14 +40664,32 @@
 			"id": "BEWFA",
 			"title": "Kumakichi's Birth ☆ Destruction God"
 		}, {
+			"id": "BEWUA",
+			"title": "Raccoo Venture"
+		}, {
 			"id": "BEX3A",
 			"title": "Block Buster Billy"
 		}, {
 			"id": "BEX4A",
 			"title": "Choice Clash: What Would You Rather?"
 		}, {
+			"id": "BEX9A",
+			"title": "Winter Games Challenge"
+		}, {
+			"id": "BEXCA",
+			"title": "Fearmonium"
+		}, {
+			"id": "BEXHA",
+			"title": "FALL CARS: Ultimate Car Battle"
+		}, {
 			"id": "BEXJA",
 			"title": "Submersible Simulator: Discover the Titanic into Ocean"
+		}, {
+			"id": "BEXMA",
+			"title": "Hilm"
+		}, {
+			"id": "BEXNA",
+			"title": "Firebird"
 		}, {
 			"id": "BEXPA",
 			"title": "The Legend of Shadow: Mask of the Force"
@@ -39593,14 +40700,35 @@
 			"id": "BEY5A",
 			"title": "Item Tower"
 		}, {
+			"id": "BEY6A",
+			"title": "Rally Racing: Cars & Drift Mania"
+		}, {
 			"id": "BEY9A",
 			"title": "Favela Zombie Shooter"
+		}, {
+			"id": "BEYAA",
+			"title": "SETTRIS"
+		}, {
+			"id": "BEYBA",
+			"title": "ATV Monster Racing Simulator Rally Cross"
+		}, {
+			"id": "BEYDA",
+			"title": "Orten Was The Case"
+		}, {
+			"id": "BEYEA",
+			"title": "Thy Creature"
 		}, {
 			"id": "BEYLA",
 			"title": "Sakura Alien"
 		}, {
+			"id": "BEYMA",
+			"title": "Sakura Alien 2"
+		}, {
 			"id": "BEYRA",
 			"title": "My Heart Grows Fonder"
+		}, {
+			"id": "BEYSA",
+			"title": "Euro Truck Driver Simulator"
 		}, {
 			"id": "BEZ3A",
 			"title": "Bullet Rodeo"
@@ -39611,6 +40739,9 @@
 			"id": "BEZAA",
 			"title": "Haunted Zombie Slaughter 2"
 		}, {
+			"id": "BEZEA",
+			"title": "Wall World"
+		}, {
 			"id": "BEZHA",
 			"title": "Brutalism22"
 		}, {
@@ -39620,14 +40751,104 @@
 			"id": "BEZMA",
 			"title": "Hansel and Gretel: Interactive Book"
 		}, {
+			"id": "BEZPA",
+			"title": "Orbital Cargo Division"
+		}, {
+			"id": "BEZSA",
+			"title": "Inertia 2"
+		}, {
+			"id": "BEZUA",
+			"title": "Da Da Daungo"
+		}, {
 			"id": "BEZYA",
 			"title": "Pinocchio: Interactive Book"
+		}, {
+			"id": "BEZZB",
+			"title": "TEVI"
+		}, {
+			"id": "BF29A",
+			"title": "World War: D-Day PART TWO"
+		}, {
+			"id": "BF2BA",
+			"title": "Starship Showdown: Galactic Grand Prix"
+		}, {
+			"id": "BF2GA",
+			"title": "Moon Lander"
+		}, {
+			"id": "BF2HA",
+			"title": "NeverBeAfraid SlamDunk"
+		}, {
+			"id": "BF2WA",
+			"title": "Nathan Jones and The Empty Century"
+		}, {
+			"id": "BF3GA",
+			"title": "Molecano"
+		}, {
+			"id": "BF3JA",
+			"title": "Japan Train Models: JR West Edition"
+		}, {
+			"id": "BF3SA",
+			"title": "City Bus Driver Simulator"
+		}, {
+			"id": "BF48A",
+			"title": "Gang Blast"
+		}, {
+			"id": "BF4JA",
+			"title": "Skin care"
+		}, {
+			"id": "BF4QA",
+			"title": "Cute Critters Pet Kitty"
+		}, {
+			"id": "BF4RA",
+			"title": "Human Bowling"
+		}, {
+			"id": "BF52A",
+			"title": "Bulldozer Tycoon: Construction Simulator"
+		}, {
+			"id": "BF5VA",
+			"title": "Ski Simulator: Winter Sports"
+		}, {
+			"id": "BF64A",
+			"title": "Trash Punk"
+		}, {
+			"id": "BF6WA",
+			"title": "EGGCONSOLE SILPHEED PC-8801mkIISR"
+		}, {
+			"id": "BF7PA",
+			"title": "Bike Courier: Bistro Express Delivery"
+		}, {
+			"id": "BF83A",
+			"title": "All I Want for Christmas are Subgames CE"
+		}, {
+			"id": "BF87A",
+			"title": "Bloopy & Droopy"
+		}, {
+			"id": "BF8EA",
+			"title": "Kebab Bar Tycoon"
+		}, {
+			"id": "BF8FA",
+			"title": "Anime Girls: Highschool of Dead"
+		}, {
+			"id": "BF8MA",
+			"title": "EGGCONSOLE HYDLIDE PC-8801"
+		}, {
+			"id": "BF9HA",
+			"title": "Fantasy Blacksmith Shop Simulator"
 		}, {
 			"id": "BFA2A",
 			"title": "Flap Legends"
 		}, {
 			"id": "BFA3A",
 			"title": "High Cars"
+		}, {
+			"id": "BFA4A",
+			"title": "Castle Invasion: Throne Out"
+		}, {
+			"id": "BFAQA",
+			"title": "Slaughter: The Lost Outpost"
+		}, {
+			"id": "BFASA",
+			"title": "Jigsaw Advent Calendar"
 		}, {
 			"id": "BFAWA",
 			"title": "Umbrella Drop"
@@ -39641,14 +40862,44 @@
 			"id": "BFB8A",
 			"title": "Halloween Games for Toddlers and Babies"
 		}, {
+			"id": "BFBTA",
+			"title": "Dragon Wings"
+		}, {
+			"id": "BFBUA",
+			"title": "My Lovely Dog Adventure"
+		}, {
+			"id": "BFBVA",
+			"title": "Aery: Calm Mind 4"
+		}, {
+			"id": "BFBZA",
+			"title": "Tobari Dream Ocean"
+		}, {
+			"id": "BFC5A",
+			"title": "Internet Cafe Mini Games 10 in 1"
+		}, {
 			"id": "BFC7A",
 			"title": "Only Way Up! Parkour Jump Simulator"
 		}, {
 			"id": "BFCCA",
 			"title": "Silent Paws: Winter Quest"
 		}, {
+			"id": "BFCFA",
+			"title": "Runnyk"
+		}, {
+			"id": "BFCJA",
+			"title": "Amabilly"
+		}, {
+			"id": "BFCSA",
+			"title": "Bob the Elementalist"
+		}, {
+			"id": "BFCTA",
+			"title": "Evil Diary"
+		}, {
 			"id": "BFCVA",
 			"title": "EGGCONSOLE THEXDER PC-8801mkIISR"
+		}, {
+			"id": "BFDMA",
+			"title": "Flooded"
 		}, {
 			"id": "BFE3A",
 			"title": "Giant Chase"
@@ -39662,6 +40913,9 @@
 			"id": "BFE6A",
 			"title": "Buddy Canine Ballcaster"
 		}, {
+			"id": "BFEBA",
+			"title": "Ortheo"
+		}, {
 			"id": "BFELA",
 			"title": "Springtime Hike"
 		}, {
@@ -39671,35 +40925,410 @@
 			"id": "BFERA",
 			"title": "Dementium: The Ward"
 		}, {
+			"id": "BFF5A",
+			"title": "Tricky Taps"
+		}, {
+			"id": "BFF6A",
+			"title": "Light-It Up"
+		}, {
+			"id": "BFF9A",
+			"title": "Snap Together"
+		}, {
 			"id": "BFFAA",
 			"title": "Taxi Driver Simulator 2024"
+		}, {
+			"id": "BFFBA",
+			"title": "Cats on Streets"
 		}, {
 			"id": "BFFDA",
 			"title": "Bubble Shoot Farm"
 		}, {
+			"id": "BFFEA",
+			"title": "Christmas Bubble Puzzle"
+		}, {
 			"id": "BFFGA",
 			"title": "Paint It"
+		}, {
+			"id": "BFFJA",
+			"title": "Find the Pairs Memo Game for Kids"
+		}, {
+			"id": "BFFLA",
+			"title": "They Know"
 		}, {
 			"id": "BFFNA",
 			"title": "Soviet Project"
 		}, {
+			"id": "BFFSA",
+			"title": "Arcade Archives AERO FIGHTERS"
+		}, {
 			"id": "BFFVA",
 			"title": "Hentai Tales Vol. 1"
+		}, {
+			"id": "BFG2A",
+			"title": "Zombies Rising Dawn"
+		}, {
+			"id": "BFG5A",
+			"title": "Twin Mind: Ghost Hunter Collector's Edition"
+		}, {
+			"id": "BFG6A",
+			"title": "Twin Mind: Power Of Love Collector's Edition"
+		}, {
+			"id": "BFG7A",
+			"title": "Twin Mind: Murderous Jealousy Collector's Edition"
+		}, {
+			"id": "BFGPA",
+			"title": "Swim Sacabambaspis!"
+		}, {
+			"id": "BFGQA",
+			"title": "Jet Ski Mania Aqua Rush"
+		}, {
+			"id": "BFGSA",
+			"title": "Rally Race: Offroad Simulator"
+		}, {
+			"id": "BFGUA",
+			"title": "Heavy Car Battle: Demolition Derby"
+		}, {
+			"id": "BFGVA",
+			"title": "Ultimate Moto Bike Simulator"
+		}, {
+			"id": "BFH2A",
+			"title": "MisBloody"
+		}, {
+			"id": "BFH3A",
+			"title": "Escape From The Island"
 		}, {
 			"id": "BFH5A",
 			"title": "Shalnor Legends 2: Trials of Thunder"
 		}, {
+			"id": "BFH9A",
+			"title": "Nekomin"
+		}, {
+			"id": "BFJ2A",
+			"title": "Silent Paws: Hidden Valley"
+		}, {
+			"id": "BFJ5A",
+			"title": "ToyBox Christmas"
+		}, {
+			"id": "BFJ6A",
+			"title": "amazin' Mage"
+		}, {
+			"id": "BFJ9A",
+			"title": "Zombies Rising xXx"
+		}, {
+			"id": "BFJAA",
+			"title": "Razor Wire"
+		}, {
+			"id": "BFJJA",
+			"title": "Bio Block"
+		}, {
+			"id": "BFJKA",
+			"title": "Smash Balls"
+		}, {
+			"id": "BFJLA",
+			"title": "Radio Cars"
+		}, {
 			"id": "BFJMA",
 			"title": "Clan's Revenge"
+		}, {
+			"id": "BFJTA",
+			"title": "MECHBLAZE"
+		}, {
+			"id": "BFKGA",
+			"title": "PAWfectly Designed"
+		}, {
+			"id": "BFKPA",
+			"title": "My Little Car Wash: Cars & Trucks Roleplaying Game for Kids"
+		}, {
+			"id": "BFKTA",
+			"title": "Breakout Birdie"
+		}, {
+			"id": "BFKUA",
+			"title": "Breakout Birdie 2"
+		}, {
+			"id": "BFKVA",
+			"title": "Breakout Birdie Adventure"
+		}, {
+			"id": "BFKWA",
+			"title": "Starlight Drifter"
 		}, {
 			"id": "BFL2A",
 			"title": "Save The World"
 		}, {
+			"id": "BFL6A",
+			"title": "Hirilun"
+		}, {
+			"id": "BFL7A",
+			"title": "Zomborg"
+		}, {
+			"id": "BFL9A",
+			"title": "Space Junk Seekers"
+		}, {
+			"id": "BFLAA",
+			"title": "Jinshin"
+		}, {
+			"id": "BFLHA",
+			"title": "Yuletide Legends: Who Framed Santa Claus"
+		}, {
+			"id": "BFLKA",
+			"title": "Erogods: Asgard"
+		}, {
 			"id": "BFLLA",
 			"title": "The Little Mermaid: Visual Harmony"
 		}, {
+			"id": "BFLNA",
+			"title": "Sniper: Elite Shooter Squad"
+		}, {
+			"id": "BFLVA",
+			"title": "Party Friends"
+		}, {
+			"id": "BFLXA",
+			"title": "Math, BFF, and Notes"
+		}, {
+			"id": "BFM5A",
+			"title": "The Gardener Simulator: Plant, Grow, Decorate, Build Sim"
+		}, {
+			"id": "BFM6A",
+			"title": "The Smurfs: Colorful Stories"
+		}, {
+			"id": "BFM7A",
+			"title": "The Smurfs: Learn and Play"
+		}, {
+			"id": "BFMCA",
+			"title": "Coloring book series Zoo"
+		}, {
 			"id": "BFMHA",
 			"title": "Lamphead"
+		}, {
+			"id": "BFMKA",
+			"title": "The Monty Mole Collection"
+		}, {
+			"id": "BFMRA",
+			"title": "SokoWinter"
+		}, {
+			"id": "BFN2A",
+			"title": "Aztec Tiki Talisman"
+		}, {
+			"id": "BFN3A",
+			"title": "My Bakery Empire"
+		}, {
+			"id": "BFNGA",
+			"title": "Real Car Parking 2024: Driving Simulator"
+		}, {
+			"id": "BFNJA",
+			"title": "Your Future 2 Future Prediction"
+		}, {
+			"id": "BFNTA",
+			"title": "Furniture Flipper Simulator 2023: Revive, Restoration & Creative Crafting"
+		}, {
+			"id": "BFNUA",
+			"title": "EGGCONSOLE XANADU PC-8801 PC-8801mkIISR"
+		}, {
+			"id": "BFNVA",
+			"title": "Mom Simulator 2023"
+		}, {
+			"id": "BFPEA",
+			"title": "Make it! Takoyaki"
+		}, {
+			"id": "BFPHA",
+			"title": "B.O.O.L: Master labyrinth puzzles"
+		}, {
+			"id": "BFPKA",
+			"title": "World War: D-Day PART ONE"
+		}, {
+			"id": "BFPTA",
+			"title": "Roman Empire Simulator"
+		}, {
+			"id": "BFPVA",
+			"title": "Princess Puzzle Adventure"
+		}, {
+			"id": "BFQ6A",
+			"title": "Polyturbo Drift Racing Simulator"
+		}, {
+			"id": "BFQJA",
+			"title": "Chico and the Magic Orchards DX"
+		}, {
+			"id": "BFQSA",
+			"title": "OnlyUP!"
+		}, {
+			"id": "BFR7A",
+			"title": "Draw and Color"
+		}, {
+			"id": "BFRCA",
+			"title": "Pop and Chicks"
+		}, {
+			"id": "BFRDA",
+			"title": "CHARRUA SOCCER: Pro Edition"
+		}, {
+			"id": "BFRUA",
+			"title": "Air Aces"
+		}, {
+			"id": "BFRVA",
+			"title": "Cape's Escape Game 6th Room"
+		}, {
+			"id": "BFRYA",
+			"title": "Pocket Foosball"
+		}, {
+			"id": "BFSAA",
+			"title": "Military Combat Shooter Desert War"
+		}, {
+			"id": "BFSQA",
+			"title": "BIG BALL SPORTS"
+		}, {
+			"id": "BFSTA",
+			"title": "The Artist Colors"
+		}, {
+			"id": "BFTCA",
+			"title": "Found it!"
+		}, {
+			"id": "BFTDA",
+			"title": "Warzone Chronicles: Virtual Warfare Shooter"
+		}, {
+			"id": "BFTEA",
+			"title": "MechanixMind: IQ Puzzle Adventure"
+		}, {
+			"id": "BFTFA",
+			"title": "ASMR Slicing"
+		}, {
+			"id": "BFTGA",
+			"title": "Drag Racing Car Simulator"
+		}, {
+			"id": "BFTJA",
+			"title": "Brawl.io 2"
+		}, {
+			"id": "BFU5A",
+			"title": "Girl Dress Up Classic"
+		}, {
+			"id": "BFU6A",
+			"title": "Official Spacefarer Card Game"
+		}, {
+			"id": "BFUEA",
+			"title": "Master Ninja: Shuriken Killer"
+		}, {
+			"id": "BFUGA",
+			"title": "Truckzilla: Monster Truck Mega Ramp"
+		}, {
+			"id": "BFUVA",
+			"title": "Spacefarer Solitaire"
+		}, {
+			"id": "BFUXA",
+			"title": "Spacefarer Mahjong"
+		}, {
+			"id": "BFUZA",
+			"title": "Tennis Tournament Hyper-Casual"
+		}, {
+			"id": "BFV8A",
+			"title": "Extreme Skyway Racer Simulator"
+		}, {
+			"id": "BFVCA",
+			"title": "Anime Tank Blitz: Warbound Legends"
+		}, {
+			"id": "BFVEA",
+			"title": "Hentai Golf"
+		}, {
+			"id": "BFVPA",
+			"title": "Basketball Arcade"
+		}, {
+			"id": "BFVYA",
+			"title": "Village Tycoon: Farm City Simulator"
+		}, {
+			"id": "BFVZA",
+			"title": "Drive Hard"
+		}, {
+			"id": "BFW2A",
+			"title": "Milk Seller"
+		}, {
+			"id": "BFW4A",
+			"title": "Hoop Shoot"
+		}, {
+			"id": "BFWAA",
+			"title": "Fashion World"
+		}, {
+			"id": "BFWBA",
+			"title": "Vege Bubble Shoot"
+		}, {
+			"id": "BFWDA",
+			"title": "Mix AI Animal Ultimate"
+		}, {
+			"id": "BFWEA",
+			"title": "Crystal Chip Collector e"
+		}, {
+			"id": "BFWYA",
+			"title": "Bowling Fever"
+		}, {
+			"id": "BFX7A",
+			"title": "Battlefront Trench Warriors: Ops of Warfare"
+		}, {
+			"id": "BFXGA",
+			"title": "Pony World: Color by Numbers"
+		}, {
+			"id": "BFXHA",
+			"title": "Pocket Quest"
+		}, {
+			"id": "BFXKA",
+			"title": "Sakura Agent"
+		}, {
+			"id": "BFXQA",
+			"title": "100 Demon Fantasia"
+		}, {
+			"id": "BFYCA",
+			"title": "Western Slot Machine"
+		}, {
+			"id": "BFYMA",
+			"title": "Kumamon Run"
+		}, {
+			"id": "BFYRA",
+			"title": "Hard Racing: Stunt Car Driving"
+		}, {
+			"id": "BFYVA",
+			"title": "Hentai Tales Vol. 2"
+		}, {
+			"id": "BFYWA",
+			"title": "Jigsaw Pets"
+		}, {
+			"id": "BFZCA",
+			"title": "Zumaji Delux"
+		}, {
+			"id": "BFZFA",
+			"title": "Super Prehistoric World Adventure"
+		}, {
+			"id": "BFZJA",
+			"title": "Poly Shooting Simulator"
+		}, {
+			"id": "BGA9A",
+			"title": "Super Kart Mini Car Race"
+		}, {
+			"id": "BGASA",
+			"title": "Santa's World"
+		}, {
+			"id": "BGBCA",
+			"title": "SNQZ"
+		}, {
+			"id": "BGBWA",
+			"title": "Dungeon Defence Simulator 2024"
+		}, {
+			"id": "BGCGA",
+			"title": "The World of War II: Frontlines of History"
+		}, {
+			"id": "BGDJA",
+			"title": "Buddy & Friends: Santa's Workshop Animal Party"
+		}, {
+			"id": "BGEKA",
+			"title": "Courageous Reasoning Nori 4 Crossing Sea Street 4"
+		}, {
+			"id": "BGEUA",
+			"title": "XMas Toy Merge"
+		}, {
+			"id": "BGFUA",
+			"title": "Mystery Box: Escape The Room"
+		}, {
+			"id": "BGGAA",
+			"title": "Mystery Box: The Journey"
+		}, {
+			"id": "BGGXA",
+			"title": "Tennis 2024 Simulator"
+		}, {
+			"id": "BGJFA",
+			"title": "Santa's Workshop Challenge: The North Pole Gift Adventure"
 		}, {
 			"id": "AWK68",
 			"title": "Knockout Home Fitness"

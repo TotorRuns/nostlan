@@ -17,7 +17,7 @@
 		},
 		"install": {
 			"linux-x64": {
-				"portable": "https://github.com/Ryujinx/release-channel-master/releases/download/1.1.394/ryujinx-1.1.394-linux_x64.tar.gz"
+				"portable": "https://github.com/Ryujinx/release-channel-master/releases/download/1.1.1104/ryujinx-1.1.1104-linux_x64.tar.gz"
 			},
 			"mac-arm64": {
 				"standalone": "https://github.com/Ryujinx/release-channel-macos/releases/download/1.1.0-macos1/Ryujinx-1.1.0-macos1-macos_universal.app.tar.gz"
@@ -26,7 +26,7 @@
 				"standalone": "https://github.com/Ryujinx/release-channel-macos/releases/download/1.1.0-macos1/Ryujinx-1.1.0-macos1-macos_universal.app.tar.gz"
 			},
 			"win-x64": {
-				"portable": "https://github.com/Ryujinx/release-channel-master/releases/download/1.1.394/ryujinx-1.1.394-win_x64.zip"
+				"portable": "https://github.com/Ryujinx/release-channel-master/releases/download/1.1.1104/ryujinx-1.1.1104-win_x64.zip"
 			}
 		}
 	},
@@ -45,14 +45,6 @@
 			"linux": ["${app}", "${game}"],
 			"mac": ["${app}", "${game}"],
 			"win": ["${app}", "${game}"]
-		},
-		"install": {
-			"linux-x64": {
-				"portable": "https://www.patreon.com/file?h=45268370&i=7206532 .zip"
-			},
-			"win-x64": {
-				"portable": "https://www.patreon.com/file?h=45268370&i=7206533 .zip"
-			}
 		}
 	},
 	"yuzu": {
@@ -87,7 +79,7 @@
 						"installer": "https://aka.ms/vs/16/release/vc_redist.x64.exe"
 					}
 				],
-				"installer": "https://github.com/yuzu-emu/liftinstall/releases/download/1.8/yuzu_install.exe"
+				"installer": "https://github.com/yuzu-emu/liftinstall/releases/download/1.9/yuzu_install.exe"
 			}
 		},
 		"update": {

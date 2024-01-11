@@ -10,7 +10,7 @@ class Themes {
 			jquery_js: node_modules + '/jquery/dist/jquery.min.js',
 			jquery_slim_js: node_modules + '/jquery/dist/jquery.slim.min.js',
 			material_design_icons_css: node_modules + '/material-design-icons-iconfont/dist/material-design-icons.css',
-			three_js: node_modules + '/three/build/three.min.js'
+			three_js: __root + '/libs/three.min.js'
 		};
 
 		let imgTypes = [
