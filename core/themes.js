@@ -10,7 +10,7 @@ class Themes {
 			jquery_js: node_modules + '/jquery/dist/jquery.min.js',
 			jquery_slim_js: node_modules + '/jquery/dist/jquery.slim.min.js',
 			material_design_icons_css: node_modules + '/material-design-icons-iconfont/dist/material-design-icons.css',
-			three_js: node_modules + '/three/build/three.min.js'
+			three_js: __root + '/libs/three.min.js'
 		};
 
 		let imgTypes = [
@@ -51,11 +51,14 @@ class Themes {
 			return `https://wiki.dolphin-emu.org/index.php?title=${title}`;
 		};
 		this.gcn.getWiki = this.wii.getWiki;
-		this.switch.getWiki = (game) => {
-			let title = game.title.toLowerCase().replace(/ /g, '-');
-			title = title.replace(/:/g, '');
-			return `https://yuzu-emu.org/game/${title}/`;
-		};
+
+		// Error 403 website is down
+		// this.switch.getWiki = (game) => {
+		// 	let title = game.title.toLowerCase().replace(/ /g, '-');
+		// 	title = title.replace(/:/g, '');
+		// 	return `https://yuzu-emu.org/game/${title}/`;
+		// };
+
 		this.n3ds.getWiki = (game) => {
 			let title = game.title.toLowerCase().replace(/ /g, '-');
 			title = title.replace(/:/g, '');
@@ -66,13 +69,12 @@ class Themes {
 			title = encodeURI(tile);
 			return `https://wiki.rpcs3.net/index.php?title=${title}`;
 		};
-
 	}
 
 	async loadFrame(name) {
-		let themeDir = `${prefs.nlaDir}/themes/${sysStyle}`;
+		let themeDir = `${systemsDir}/sys/${sys}/theme`;
 		if (!(await fs.exists(`${themeDir}/${name}.html`))) {
-			themeDir = `${__root}/themes/${sysStyle}`;
+			themeDir = `${__root}/sys/${sys}/theme`;
 		}
 		let fileHtml = `${themeDir}/${name}.html`;
 		let filePug = `${themeDir}/${name}.pug`;
@@ -84,7 +86,7 @@ class Themes {
 		$('body').prepend(`<webview id="${name}" enableremotemodule="false" src="${fileHtml}"></webview>`);
 		let intro = $('#intro').eq(0)[0];
 		intro.addEventListener('dom-ready', () => {
-			if (prefs.args.testIntro) intro.openDevTools();
+			if (cf.args.testIntro) intro.openDevTools();
 		});
 	}
 
@@ -92,11 +94,11 @@ class Themes {
 		let styles = [];
 		let _systems = [sys];
 		if (sys == 'wii') _systems.push('gcn');
-		let dirs = [__root];
-		if (prefs.nlaDir) dirs.push(prefs.nlaDir);
+		let dirs = [__root + '/sys'];
+		if (cf.nlaDir) dirs.push(systemsDir);
 		for (let dir of dirs) {
 			for (let _sys of _systems) {
-				let file = `${dir}/themes/${_sys}/${name}.css`;
+				let file = `${dir}/${_sys}/theme/${name}.css`;
 				if (dir != __root && !(await fs.exists(file))) {
 					try {
 						await fs.ensureFile(file);
@@ -149,7 +151,7 @@ class Themes {
 			let rules = await fs.readFile(file, 'utf8');
 
 			let palette;
-			while (palette = regex.exec(rules)) {
+			while ((palette = regex.exec(rules))) {
 				palettes.push({
 					sys: palette[1],
 					name: palette[2]
@@ -159,7 +161,6 @@ class Themes {
 
 		return palettes;
 	}
-
 }
 
 module.exports = new Themes();

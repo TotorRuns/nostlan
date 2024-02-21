@@ -37,7 +37,7 @@ class AndyDecarli {
 		this.unwrapUrl([_sys, title]);
 		log(url);
 		let res = await dl(url + `%20Front%20Cover.jpg`, dir + '/box.jpg');
-		if (res && prefs.ui.getBackCoverHQ) {
+		if (res && cf.ui.getBackCoverHQ) {
 			await dl(url + `%20Back%20Cover.jpg`, dir + '/boxBack.jpg');
 		}
 		return res;

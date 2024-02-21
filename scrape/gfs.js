@@ -14,11 +14,12 @@ let regions = {
 };
 regions.ps3 = regions.ps2;
 regions.ps4 = regions.ps2;
+regions.psp = regions.ps2;
 let gfs = {};
 
 class GameFaqsScraper {
 	constructor() {
-		this.name = "GameFAQs";
+		this.name = 'GameFAQs';
 	}
 
 	wrapUrl(url) {
@@ -89,6 +90,7 @@ class GameFaqsScraper {
 			er('browser not loaded');
 			return;
 		}
+		if (!game.title) return;
 		let idx = game.title[0].toLowerCase();
 		if (idx == idx.toUpperCase()) idx = '00';
 
@@ -102,9 +104,7 @@ class GameFaqsScraper {
 			distance: 5,
 			maxPatternLength: 64,
 			minMatchCharLength: 1,
-			keys: [
-				"title"
-			]
+			keys: ['title']
 		};
 		let fuse = new Fuse(gfs[sys][idx], fusePrms);
 		let results = fuse.search(game.title.slice(0, 64));
@@ -145,9 +145,9 @@ class GameFaqsScraper {
 		} else if (sys == 'gcn') {
 			_sys = 'gamecube';
 		}
-		let urlBase = `https://sitemap.gamefaqs.com/game/${_sys}/`;
+		let urlBase = `https://gamefaqs.gamespot.com/sitemap/game/${_sys}/`;
 		let url;
-		for (let idx of "0abcdefghijklmnopqrstuvwxyz") {
+		for (let idx of '0ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
 			if (idx == '0') {
 				idx = '00';
 			}
@@ -189,7 +189,7 @@ class GameFaqsScraper {
 			}
 			await dl(url.replace('front', 'side'), imgPath);
 		}
-		if (res && prefs.ui.getBackCoverHQ) {
+		if (res && cf.ui.getBackCoverHQ) {
 			log(url.replace('front', 'back'));
 			if (!name.includes('Side')) {
 				imgPath = dir + '/' + name + 'Back' + ext;

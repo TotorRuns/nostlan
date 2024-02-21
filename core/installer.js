@@ -22,43 +22,35 @@ class Installer {
 
 	async install() {
 		log('installing ' + emus[emu].name);
-		$('#loadDialog0').text(lang.emuAppMenu.msg0 +
-			' ' + emus[emu].name);
+		$('#loadDialog0').text(lang.emuAppMenu.msg0 + ' ' + emus[emu].name);
 		// 'preparing to install'
 		this.loadLog(lang.emuAppMenu.msg1);
 		let ins = emus[emu].install;
 		if (!ins && !emus[emu].jsEmu) {
 			// This emulator is not available for your
 			// computer's operating system
-			cui.err(lang.emuAppMenu.err0 + ": " + osType);
+			cui.err(lang.emuAppMenu.err0 + ': ' + osType);
 			return;
 		}
-		if (emus[emu].jsEmu) {
-			let dir = `${systemsDir}/${sys}/${emu}`;
-			let jsEmuDir = `${__root}/jsEmu/${sys}/${emu}`;
-			await fs.copy(jsEmuDir, dir, {
-				overwrite: true
-			});
-			if (!ins) return true;
+		this.dir = `${systemsDir}/${sys}/${emu}`;
+		if (emus[emu].jsEmu && emus[emu].multiSys) {
+			this.dir = `${systemsDir}/nostlan/jsEmu/${emu}`;
+			await fs.ensureDir(this.dir);
 		}
 
 		if (!ins.jsEmu && linux) {
 			let distro = (await getDistro()).os;
-			if (ins.pkgManager_flatpak ||
-				(/Arch/i.test(distro) && ins.pkgManager_arch)) {
-				let cmds = ins.pkgManager_flatpak ||
-					ins.pkgManager_arch;
+			if (ins.pkgManager_flatpak || (/Arch/i.test(distro) && ins.pkgManager_arch)) {
+				let cmds = ins.pkgManager_flatpak || ins.pkgManager_arch;
 				// 'running install script, please wait...'
 				this.loadLog(lang.emuAppMenu.msg2);
-				return await runInstallCmds(cmds);
+				return await this.runInstallCmds(cmds);
 			}
 		}
 
-		let dir = `${systemsDir}/${sys}/${emu}`;
-		await opn(dir);
+		await opn(this.dir);
 
-		let urls = ins.jsEmu || ins.installer ||
-			ins.portable || ins.standalone;
+		let urls = ins.jsEmu || ins.installer || ins.portable || ins.standalone;
 		if (!urls) {
 			// Automated install of this emulator with Nostlan
 			// is not possible. You must install manually.
@@ -74,14 +66,22 @@ class Installer {
 			res = await this._install(ins, url);
 			if (!res) return;
 		}
+		if (emus[emu].jsEmu) {
+			let jsEmuDir = __root;
+			if (__root.slice(-4) == 'asar') jsEmuDir += '.unpacked';
+			jsEmuDir += `/jsEmu/${emu}`;
+			await fs.copy(jsEmuDir, this.dir, {
+				overwrite: true
+			});
+			if (!ins) return true;
+		}
 		res = false;
 		// 'verifying installation'
 		this.loadLog(lang.emuAppMenu.msg5);
 		res = await nostlan.launcher.getEmuApp();
 		if (!res && ins.installer && win) {
 			// 'Almost done, please finish install manually'
-			cui.alert(lang.emuAppMenu.msg15 + ': ' + emus[emu].name,
-				lang.alertMenu.title5);
+			cui.alert(lang.emuAppMenu.msg15 + ': ' + emus[emu].name, lang.alertMenu.title5);
 		} else if (!res) {
 			// 'Install failed, you must manually install'
 			cui.err(lang.emuAppMenu.err5 + ': ' + emus[emu].name);
@@ -94,7 +94,7 @@ class Installer {
 	}
 
 	async _install(ins, url) {
-		let dir = `${systemsDir}/${sys}/${emu}`;
+		let dir = this.dir;
 		let ext, file;
 		url = url.split(' ');
 		if (url.length == 2) ext = url[1];
@@ -102,7 +102,7 @@ class Installer {
 		let prmIdx = url.indexOf('?');
 		let _url;
 		if (!ext) {
-			_url = (prmIdx != -1) ? url.slice(prmIdx)[0] : url;
+			_url = prmIdx != -1 ? url.slice(prmIdx)[0] : url;
 			ext = path.parse(_url).ext.toLowerCase();
 		}
 		if (/.(bz2|gz|xz)/.test(ext)) ext = '.tar' + ext;
@@ -129,20 +129,18 @@ class Installer {
 			// "download complete"
 			this.loadLog(lang.emuAppMenu.msg12);
 		}
-		if (ins.jsEmu) return true;
 		let files = await klaw(dir, {
 			depthLimit: 0
 		});
 		// check if there's a top level folder
 		// put contents in dir
-		if (files.length == 1 &&
-			(await fs.stat(files[0])).isDirectory() &&
-			(!mac || path.parse(files[0]).ext != '.app')) {
+		if (files.length == 1 && (await fs.stat(files[0])).isDirectory() && (!mac || path.parse(files[0]).ext != '.app')) {
 			await fs.copy(files[0], dir, {
 				overwrite: true
 			});
 			await fs.remove(files[0]);
 		}
+		if (ins.jsEmu) return true;
 		let macDMG = false;
 		if (ins.installer) {
 			files = await klaw(dir);
@@ -203,8 +201,7 @@ class Installer {
 					if (file.includes('Applications')) continue;
 					if (path.parse(file).ext == '.app') {
 						if (/setup/i.test(file)) {
-							file += '/Contents/MacOS/' +
-								path.parse(file).name;
+							file += '/Contents/MacOS/' + path.parse(file).name;
 							// 'running setup app'
 							this.loadLog(lang.emuAppMenu.msg7);
 							try {
@@ -213,8 +210,7 @@ class Installer {
 						} else {
 							// move the app and any helper apps,
 							// such as updaters, to Applications
-							this.loadLog(lang.emuAppMenu.msg8 +
-								' /Applications');
+							this.loadLog(lang.emuAppMenu.msg8 + ' /Applications');
 							let dest = '/Applications';
 							dest += '/' + path.parse(file).base;
 							log(file, dest);
@@ -231,22 +227,19 @@ class Installer {
 				}
 				// 'finishing, ejecting all install disks'
 				this.loadLog(lang.emuAppMenu.msg9);
-				await spawn('osascript', ['-e',
-					'tell application "Finder" to eject (every disk whose ejectable is true)'
-				]);
+				await spawn('osascript', ['-e', 'tell application "Finder" to eject (every disk whose ejectable is true)']);
 				// 'finishing, deleting package file'
 				this.loadLog(lang.emuAppMenu.msg10);
 				await fs.remove(res);
+				await delay(3000);
 			}
 		} else if (mac && ins.standalone) {
 			files = await klaw(dir);
 			for (let file of files) {
 				if (path.parse(file).ext == '.app') {
 					// 'moving stand alone app to /Applications'
-					this.loadLog(lang.emuAppMenu.msg6 +
-						' /Applications');
-					let newLocation = '/Applications/' +
-						path.parse(file).base;
+					this.loadLog(lang.emuAppMenu.msg6 + ' /Applications');
+					let newLocation = '/Applications/' + path.parse(file).base;
 					await fs.move(file, newLocation, {
 						overwrite: true
 					});
@@ -264,7 +257,7 @@ class Installer {
 	async runInstallCmds(cmds) {
 		try {
 			for (let cmd of cmds) {
-				await spawn(cmd[0], this.cmdArgs.slice(1) || []);
+				await spawn(cmd[0], cmd.slice(1) || []);
 			}
 		} catch (ror) {
 			er(ror);

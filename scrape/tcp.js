@@ -13,11 +13,22 @@ let regions = {
 		Germany: 'de',
 		Japan: 'jp',
 		USA: 'us'
+	},
+	wii: {
+		E: 'us',
+		P: 'eu',
+		J: 'jp'
 	}
 };
+regions.gcn = regions.wii;
+regions.ds = regions.wii;
+regions.n3ds = regions.wii;
 regions.ps3 = regions.ps2;
 regions.ps4 = regions.ps2;
+regions.psp = regions.ps2;
 regions.n64 = regions.nes;
+regions.xbox = regions.nes;
+regions.smd = regions.nes;
 let tcp = {};
 
 class TheCoverProjectScraper {
@@ -51,6 +62,7 @@ class TheCoverProjectScraper {
 		if (!$page) return;
 		let region;
 		if (sys == 'ps2') region = game.id[2];
+		if (sys == 'gcn') region = game.id[3];
 		if (sys == 'nes') region = game.id.split('-')[1];
 		if (regions[sys]) {
 			region = regions[sys][region] || 'us';
@@ -93,8 +105,7 @@ class TheCoverProjectScraper {
 		url = 'http://www.thecoverproject.net' + url + '.jpg';
 		log(url);
 		if (arg.dl) {
-			await dl(url,
-				`${__root}/dev/img/${game.id}/${name}.jpg`);
+			await dl(url, `${__root}/dev/img/${game.id}/${name}.jpg`);
 		}
 		img[name] = this.wrapUrl(url);
 		return img;
@@ -115,16 +126,17 @@ class TheCoverProjectScraper {
 		}
 		let idx = title[0].toLowerCase();
 		if (idx == idx.toUpperCase()) idx = '9';
+		if (idx != '9' && !/[a-z]/.test(idx)) return;
 
 		let lcTitle = title.toLowerCase();
-		let res = tcp[sys][idx].find(x => x.title.toLowerCase() == lcTitle);
+		let res = tcp[sys][idx].find((x) => x.title.toLowerCase() == lcTitle);
 		if (!res && /, the/.test(lcTitle)) {
 			lcTitle = lcTitle.replace(/, the/g, '');
-			res = tcp[sys][idx].find(x => x.title.toLowerCase() == lcTitle);
+			res = tcp[sys][idx].find((x) => x.title.toLowerCase() == lcTitle);
 		}
 		if (!res && /&/.test(lcTitle)) {
 			lcTitle = lcTitle.replace(/&/g, 'and');
-			res = tcp[sys][idx].find(x => x.title.toLowerCase() == lcTitle);
+			res = tcp[sys][idx].find((x) => x.title.toLowerCase() == lcTitle);
 		}
 
 		let results;
@@ -141,9 +153,7 @@ class TheCoverProjectScraper {
 				distance: 5,
 				maxPatternLength: 64,
 				minMatchCharLength: 1,
-				keys: [
-					"title"
-				]
+				keys: ['title']
 			};
 			let fuse = new Fuse(tcp[sys][idx], fusePrms);
 			results = fuse.search(title.slice(0, 64));
@@ -165,20 +175,21 @@ class TheCoverProjectScraper {
 			url += res.url;
 		}
 		if (!url && sys == 'wii') {
-			if (game.id.length > 4) {
-				url = await this.getGameUrl('gcn', game);
-				if (url) game.sys = 'gcn';
-			} else {
-				url = await this.getGameUrl('n64', game);
+			if (game.id.length < 4) {
+				sys = 'n64';
+				url = await this.getGameUrl(game);
 				if (url) game.sys = 'n64';
 				if (!url) {
-					url = await this.getGameUrl('snes', game);
+					sys = 'snes';
+					url = await this.getGameUrl(game);
 					if (url) game.sys = 'snes';
 				}
 				if (!url) {
-					url = await this.getGameUrl('nes', game);
+					sys = 'nes';
+					url = await this.getGameUrl(game);
 					if (url) game.sys = 'nes';
 				}
+				sys = 'wii';
 			}
 		}
 		return url;
@@ -195,13 +206,69 @@ class TheCoverProjectScraper {
 		}
 		tcp[sys] = {};
 
-		let catID;
-
-		if (sys == 'gba') catID = 13;
-		if (sys == 'n64') catID = 4;
-		if (sys == 'nes') catID = 27;
-		if (sys == 'ps2') catID = 6;
-		if (sys == 'snes') catID = 8;
+		let catIDs = {
+			// home consoles
+			_3do: 40,
+			amigacd32: 48,
+			a2600: 36,
+			a5200: 34,
+			a7800: 39,
+			jaguar: 33,
+			'atari-xe': 35,
+			colecov: 38,
+			dreamcast: 1,
+			fds: 41,
+			gcn: 2,
+			smd: 3,
+			intelliv: 31,
+			jaguarcd: 37,
+			neogeocd: 32,
+			nes: 27,
+			n64: 4,
+			switch: 62,
+			wii: 18,
+			wiiu: 58,
+			ody2: 61,
+			'pc-fx': 43,
+			cdi: 51,
+			ps: 5,
+			ps2: 6,
+			ps3: 19,
+			ps4: 60,
+			ps5: 63,
+			s32x: 29,
+			scd: 17,
+			sms: 30,
+			saturn: 7,
+			snes: 8,
+			tg16: 42,
+			xbox: 9,
+			x360: 10,
+			xbone: 59,
+			xboxs: 64,
+			// handhelds
+			n3ds: 54,
+			lynx: 44,
+			gg: 15,
+			gb: 12,
+			gba: 13,
+			gbc: 14,
+			ngp: 45,
+			ngpc: 46,
+			ds: 11,
+			psp: 16,
+			psv: 55,
+			vb: 56,
+			ws: 47,
+			wsc: 50,
+			// pc
+			amiga: 57,
+			linux: 25,
+			dos: 28,
+			mac: 26,
+			win: 24
+		};
+		let catID = catIDs[sys];
 		if (!catID) {
 			er('no category id for system: ' + sys);
 			await delay(100000000);
@@ -209,7 +276,7 @@ class TheCoverProjectScraper {
 		}
 		let urlBase = `http://www.thecoverproject.net/view.php?cat_id=${catID}&view=`;
 		let url;
-		for (let idx of "9abcdefghijklmnopqrstuvwxyz") {
+		for (let idx of '9abcdefghijklmnopqrstuvwxyz') {
 			log('indexing ' + idx + ' for system ' + sys);
 			let links = [];
 			url = urlBase + idx;

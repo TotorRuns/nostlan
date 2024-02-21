@@ -1,0 +1,35 @@
+{
+	"em-fceux": {
+		"name": "em-fceux",
+		"sys": "nes",
+		"site": "https://bitbucket.org/tsone/em-fceux/src/master/",
+		"appRegex": "index\\.html",
+		"jsEmu": true,
+		"install": {
+			"jsEmu": ["https://unpkg.com/em-fceux@2.1.0/dist/fceux.js", "https://unpkg.com/em-fceux@2.1.0/dist/fceux.wasm"]
+		},
+		"saveStateSlots": 10,
+		"loadStateSlots": 10,
+		"latestVersion": "1.1.1",
+		"dev": false,
+		"mute": false,
+		"volume": 20,
+		"keyboard": [{}, {}]
+	},
+	"mesen": {
+		"name": "mesen",
+		"sys": "nes",
+		"site": "https://mesen.ca/",
+		"appRegex": {
+			"win": "Mesen\\.exe"
+		},
+		"cmd": {
+			"win": ["${app}", "${game}", "-fullscreen"]
+		},
+		"install": {
+			"win-x64": {
+				"standalone": "https://www.mesen.ca/download.php"
+			}
+		}
+	}
+}

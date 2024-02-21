@@ -88,89 +88,75 @@ class Scraper {
 		return res;
 	}
 
-	async loadImages(games, recheckImgs, noTemplate) {
-		let imgDir;
-		let isTemplate;
-
-		let gamesTotal = games.length + 1;
-		for (let i = 0; i < games.length + 1; i++) {
-			$('#loadDialog2').text(`${i+1}/${gamesTotal} games`);
-			let res;
-			let game;
-			if (!isTemplate && i == games.length) {
-				if (noTemplate) return games;
-				game = nostlan.themes[sysStyle].template;
-				isTemplate = true;
-				if (sys != sysStyle) i--;
-			} else if (isTemplate) {
-				game = nostlan.themes[sys].template;
-			} else {
-				game = games[i];
-			}
-			if (game.id.slice(1, 13) == 'UNIDENTIFIED') continue;
-			if (game.title) {
-				game.title = rmDiacritics(game.title);
-			}
-			imgDir = this.getImgDir(game);
-
-			if (recheckImgs || !(await fs.exists(imgDir))) {
-				try {
-					await fs.ensureDir(imgDir);
-				} catch (ror) {
-					er(ror);
-					games.splice(i, 1);
-					i--;
-					if (games.length == 0) return [];
-					continue;
-				}
-				if (!isTemplate ||
-					(!(await this.imgExists(game, 'coverFull')) &&
-						!(await this.imgExists(game, 'cover')) && sys != 'gba')
-				) {
-					await this.getImg(game, 'box', 'HQ');
-				}
-				res = await this.getImg(game, 'coverFull');
-				if (!res) {
-					await this.getImg(game, 'coverSide');
-					if (!(await this.imgExists(game, 'boxBack'))) {
-						await this.getImg(game, 'coverBack');
-					}
-				}
-				if (!res && !(await this.imgExists(game, 'box'))) {
-					res = await this.getImg(game, 'cover');
-					if (!res) res = await this.getImg(game, 'box');
-					if (!res) {
-						log('images not found for game: ' + game.title);
-						// games.splice(i, 1);
-						// i--;
-						// await fs.remove(imgDir);
-						continue;
-					}
-				}
-				await this.getImg(game, syst.mediaType);
-
-				if (sys == 'arcade') {
-					await this.getImg(game, 'cabinet');
-				} else if (prefs.ui.getExtraImgs || isTemplate) {
-					await this.getExtraImgs(game, recheckImgs);
-				}
-			}
-
-			if (isTemplate && !(await this.imgExists(game, 'box'))) {
-				log(game);
-				await this.getImg(game, 'box');
-				await this.getImg(game, 'boxBack');
-				await this.getImg(game, 'boxSide');
-				if (!(await this.imgExists(game, 'box'))) {
-					await cui.err('ERROR: No default box image found in the directory ' +
-						this.getImgDir(game), 404, 'sysMenu');
-					return [];
-				}
+	async loadImages(games, recheckImgs) {
+		for (let i = 0; i < games.length; i++) {
+			$('#loadDialog2').text(`${i + 1}/${games.length} games`);
+			let game = games[i];
+			try {
+				await this.loadGameImages(game, recheckImgs);
+			} catch (ror) {
+				er(ror);
+				games.splice(i, 1);
+				i--;
+				if (games.length == 0) return [];
 			}
 		}
 
 		games = games.sort((a, b) => a.title.localeCompare(b.title));
 		return games;
+	}
+
+	async loadGameImages(game, recheckImgs) {
+		if (game.id.slice(1, 13) == 'UNIDENTIFIED') return;
+		let isTemplate = false;
+		if (game.id.slice(1, 9) == 'TEMPLATE') isTemplate = true;
+		if (game.title) game.title = rmDiacritics(game.title);
+		let imgDir = this.getImgDir(game);
+		if (recheckImgs || !(await fs.exists(imgDir))) {
+			await fs.ensureDir(imgDir);
+			if (
+				!isTemplate ||
+				(!(await this.imgExists(game, 'coverFull')) && !(await this.imgExists(game, 'cover')) && sys != 'gba')
+			) {
+				await this.getImg(game, 'box', 'HQ');
+			}
+			let res = await this.getImg(game, 'coverFull');
+			if (!res) {
+				await this.getImg(game, 'coverSide');
+				if (!(await this.imgExists(game, 'boxBack'))) {
+					await this.getImg(game, 'coverBack');
+				}
+			}
+			if (!res && !(await this.imgExists(game, 'box'))) {
+				res = await this.getImg(game, 'cover');
+				if (!res) res = await this.getImg(game, 'box');
+				if (!res) {
+					log('images not found for game: ' + game.title);
+					return;
+				}
+			}
+			await this.getImg(game, syst.mediaType);
+
+			if (syst.addImgTypes) {
+				for (let imgType of syst.addImgTypes) {
+					await this.getImg(game, imgType);
+				}
+			}
+			if (cf.ui.getExtraImgs || isTemplate) {
+				await this.getExtraImgs(game, recheckImgs);
+			}
+		}
+
+		if (isTemplate && !(await this.imgExists(game, 'box'))) {
+			log(game);
+			await this.getImg(game, 'box');
+			await this.getImg(game, 'boxBack');
+			await this.getImg(game, 'boxSide');
+			if (!(await this.imgExists(game, 'box'))) {
+				await cui.err('ERROR: No default box image found in the directory ' + this.getImgDir(game), 404, 'sysMenu');
+				return;
+			}
+		}
 	}
 
 	async getExtraImgs(game, recheckImgs) {
@@ -218,11 +204,14 @@ class Scraper {
 		$('#loadDialog0').text('generating thumbnail images');
 
 		if (global.sharp) {
-			await sharp(og).resize({
-				height: 720
-			}).jpeg({
-				quality: 89
-			}).toFile(thumb);
+			await sharp(og)
+				.resize({
+					height: 720
+				})
+				.jpeg({
+					quality: 89
+				})
+				.toFile(thumb);
 		} else {
 			img = await jimp.read(og);
 			await img.resize(jimp.AUTO, 720);

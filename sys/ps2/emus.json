@@ -1,0 +1,38 @@
+{
+	"pcsx2": {
+		"name": "PCSX2",
+		"sys": "ps2",
+		"site": "https://pcsx2.net/",
+		"discord": "https://discord.com/invite/TCz3t9k",
+		"forums": "https://forums.pcsx2.net/",
+		"sponsor": "https://github.com/sponsors/PCSX2",
+		"app": {
+			"linux": "net.pcsx2.PCSX2"
+		},
+		"appRegex": {
+			"win": "PCSX2.*\\.exe",
+			"mac": "PCSX2.*\\.app"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "${game}", "--nogui", "--fullscreen"],
+			"win": ["${app}", "${game}", "--nogui", "--fullscreen"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "net.pcsx2.PCSX2"]
+				]
+			},
+			"win-x64": {
+				"portable": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.2939/pcsx2-v1.7.2939-windows-64bit-AVX2-Qt.7z"
+			},
+			"mac-arm64": {
+				"standalone": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.2939/pcsx2-v1.7.2939-macos-Qt.tar.gz"
+			},
+			"mac-x64": {
+				"standalone": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.2939/pcsx2-v1.7.2939-macos-Qt.tar.gz"
+			}
+		}
+	}
+}

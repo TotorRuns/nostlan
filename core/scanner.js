@@ -17,7 +17,7 @@ const idRegex = {
 	switch: /(?:^|[\[\(])([0-9A-F]{16})(?:[\]\)]|$)/,
 	wii: /(?:^|[\[\(])([A-Z0-9]{3}[A-Z](?:|[A-Z0-9]{2}))(?:[\]\)]|$)/,
 	wiiu: /(?:^|[\[\(])([A-Z0-9]{3}[A-Z](?:|[A-Z0-9]{2}))(?:[\]\)]|$)/,
-	xbox360: /(?:^|[\[\(])([0-9A-FGLZ]{8})(?:[\]\)]|$)/,
+	xbox360: /(?:^|[\[\(])([0-9A-FGLZ]{8})(?:[\]\)]|$)/
 };
 
 let searcharg = {
@@ -27,10 +27,7 @@ let searcharg = {
 	distance: 5,
 	maxPatternLength: 64,
 	minMatchCharLength: 1,
-	keys: [
-		'id',
-		'title'
-	]
+	keys: ['id', 'title']
 };
 
 class Scanner {
@@ -58,14 +55,14 @@ class Scanner {
 				resolve(fuse.search(term));
 			});
 		};
-		for (let h = 0; h < prefs[sys].libs.length; h++) {
-			let files = await klaw(prefs[sys].libs[h], {
+		for (let h = 0; h < cf[sys].libs.length; h++) {
+			let files = await klaw(cf[sys].libs[h], {
 				depthLimit: 0
 			});
 			if (!fullRescan) {
 				for (let game of games) {
 					let file = util.absPath(game.file);
-					files = files.filter(x => x != file);
+					files = files.filter((x) => x != file);
 				}
 			}
 
@@ -73,7 +70,7 @@ class Scanner {
 			// a lot of pruning is required to get good search results
 			for (let i = 0; i < files.length; i++) {
 				let id;
-				$('#loadDialog2').text(`${i+1}/${files.length + 1} files matched`);
+				$('#loadDialog2').text(`${i + 1}/${files.length + 1} files matched`);
 				file = files[i];
 				let term = path.parse(file);
 				// if it's a hidden file like '.DS_STORE' on macOS, skip it
@@ -82,7 +79,11 @@ class Scanner {
 				if (term.base == 'dir.txt') continue;
 				// if the file is not a game file, skip it
 				if (term.ext == '.sav') continue;
-				if (syst.gameExts) {
+				// fixes an issue where folder names were split by periods
+				// wiiu and ps3 store games in folders not single file .iso, .nso, etc.
+				let isDir = (await fs.stat(file)).isDirectory();
+
+				if (syst.gameExts && !isDir) {
 					let isGame = false;
 					for (let ext of syst.gameExts) {
 						if ('.' + ext == term.ext) {
@@ -91,10 +92,8 @@ class Scanner {
 					}
 					if (!isGame) continue;
 				}
-				// fixes an issue where folder names were split by periods
-				// wiiu and ps3 store games in folders not single file .iso, .nso, etc.
-				let isDir = (await fs.stat(file)).isDirectory();
-				if (sys != 'wiiu' && sys != 'ps3' && !isDir) {
+
+				if (!syst.gameFolders && !isDir) {
 					term = term.name;
 				} else {
 					term = term.base;
@@ -104,24 +103,23 @@ class Scanner {
 				$('#loadDialog1').text(term);
 				await delay(1);
 
-				if (/(snes|nes|n64)/.test(sys)) {
+				if (syst.hash) {
 					let data = await fs.readFile(file);
 					let game, hash;
-					if (sys == 'nes') {
+					if (syst.hash == 'crc32') {
 						hash = crc32(data).toString(16);
-						game = gameDB.find(x => x.id.split('-')[0] == hash);
-					} else if (sys == 'snes') {
+						game = gameDB.find((x) => x.id.split('-')[0] == hash);
+					} else if (syst.hash == 'sha256') {
 						hash = cryptog.createHash('sha256').update(data).digest('hex');
-						game = gameDB.find(x => x.sha256 == hash);
-					} else if (sys == 'n64') {
+						game = gameDB.find((x) => x.sha256 == hash);
+					} else if (syst.hash == 'sha1') {
 						hash = cryptog.createHash('sha1').update(data).digest('hex').toUpperCase();
-						game = gameDB.find(x => x.sha1 == hash);
+						game = gameDB.find((x) => x.sha1 == hash);
 					}
 					if (game) {
 						this.olog(`exact match:  ${game.title}\r\n`);
 						log(game);
-						game.file = '$' + h + '/' +
-							path.relative(prefs[sys].libs[h], file);
+						game.file = '$' + h + '/' + path.relative(cf[sys].libs[h], file);
 						games.push(game);
 						continue;
 					} else if (hash) {
@@ -130,13 +128,13 @@ class Scanner {
 				}
 
 				// rpcs3 ignore games with these ids
-				if (term == 'TEST12345' || term == 'RPSN00001') continue;
+				if (sys == 'ps3' && (term == 'TEST12345' || term == 'RPSN00001')) continue;
 				// eliminations part 1
 				term = term.replace(/[\[\(](USA|World)[\]\)]/gi, '');
 				term = term.replace(/[\[\(]*(NTSC)+(-U)*[\]\)]*/gi, '');
 				term = term.replace(/[\[\(]*(N64|GCN)[,]*[\]\)]*/gi, '');
 				term = term.replace(/[\[\(] *Torrent[^\]\)]*[\]\)]/gi, '');
-				if ((/Disc *[^1A ]/gi).test(term)) {
+				if (/Disc *[^1A ]/gi.test(term)) {
 					log('additional disc: ' + term);
 					continue;
 				}
@@ -145,67 +143,39 @@ class Scanner {
 				if (sys == 'wii') {
 					term = term.replace(/ssbm/gi, 'Super Smash Bros. Melee');
 				}
-				term = term.replace(/s*m *64n*/gi, 'Super Mario 64');
-				term = term.replace(/mk(\d+)/gi, 'Mario Kart $1');
+				if (sys == 'switch') {
+					term = term.replace(/botw/gi, 'The Legend of Zelda: Breath of the Wild');
+					term = term.replace(/totk/gi, 'The Legend of Zelda: Tears of the Kingdom');
+				}
+				if (/(n64|wii|wiiu|switch)/.test(sys)) {
+					term = term.replace(/s*m *64n*/gi, 'Super Mario 64');
+					term = term.replace(/mk(\d+)/gi, 'Mario Kart $1');
+				}
 				// exact match by checking if the id is in the file name
 				if (idRegex[sys]) id = term.match(idRegex[sys]);
 				if (id) id = id[1];
-				if (sys == 'wii') {
-					if (term == 'Super_Mario_Sunshine_Stardust-trimmed') {
-						id = 'AVP3A';
-					}
-				}
+
 				if (id) {
 					log('id: ' + id);
 					let game;
 					if (sys != 'switch') {
-						game = gameDB.find(x => x.id === id);
+						game = gameDB.find((x) => x.id === id);
 					} else {
-						game = gameDB.find(x => x.tid === id);
+						game = gameDB.find((x) => x.tid === id);
 					}
 					if (game) {
 						if (sys == 'ps3') {
-							let dup = games.find(x => x.title === game.title);
+							let dup = games.find((x) => x.title === game.title);
 							if (dup) continue;
 						}
 						this.olog(`exact match:  ${game.title}\r\n`);
 						log(game);
-						game.file = '$' + h + '/' + path.relative(prefs[sys].libs[h], file);
+						game.file = '$' + h + '/' + path.relative(cf[sys].libs[h], file);
 						games.push(game);
 						continue;
 					}
 				}
-				// exact match identification by retreiving the id
-				// from the game file
-				if (sys == 'switch') {
-					let game = {
-						title: term,
-						file: file
-					};
-					// gives the game an id or not if it fails
-					try {
-						game = await nostlan.launcher.identifyGame(game);
-					} catch (ror) {}
-					if (game.id || (sys == 'switch' && game.tid)) {
-						let res;
-						if (sys != 'switch') {
-							log('id: ' + game.id);
-							res = gameDB.find(x => x.id === game.id);
-						} else {
-							log('id: ' + game.tid);
-							res = gameDB.find(x => x.tid === game.tid);
-						}
-						if (res) {
-							game = res;
-							this.olog(`exact match:  ${game.title}\r\n`);
-							log(game);
-							game.file = '$' + h + '/' +
-								path.relative(prefs[sys].libs[h], file);
-							games.push(game);
-							continue;
-						}
-					}
-				}
+
 				// replacements
 				term = term.replace(/_/g, ' ');
 				term = term.replace(/ -/g, ':');
@@ -263,12 +233,13 @@ class Scanner {
 				} else {
 					this.olog('game could not be identified in the database\r\n');
 					game = {
-						id: '_UNIDENTIFIED_' + sys + '_' + unidentifiedAmt,
+						id: '_' + sys + '_' + unidentifiedAmt,
 						title: term
 					};
 					unidentifiedAmt++;
 				}
-				game.file = '$' + h + '/' + path.relative(prefs[sys].libs[h], file);
+
+				game.file = '$' + h + '/' + path.relative(cf[sys].libs[h], file);
 				games.push(game);
 				log(game);
 			}
@@ -290,13 +261,15 @@ class Scanner {
 		log('term:  ' + term);
 		let results = await searcher(term.slice(0, 64));
 		if (arg.v) log(results);
-		let region = prefs.region;
+		// default region from cf
+		let region = cf.region;
+		// file overwrites default region
 		if (/USA/i.test(fileName)) {
-			region = 'E';
+			region = 'USA';
 		} else if (/Japan/i.test(fileName)) {
-			region = 'J';
+			region = 'Japan';
 		} else if (/Europe/i.test(fileName)) {
-			region = 'P';
+			region = 'Europe';
 		}
 		for (let i = 0; i < results.length; i++) {
 			let game = results[i].item;
@@ -311,15 +284,24 @@ class Scanner {
 				let gRegion = game.id[3];
 				// TODO: this is a temporary region filter
 				if (/[KWXDZIFSHYVRAC]/.test(gRegion)) continue;
-				if (region != gRegion) continue;
+				if (gRegion == 'P' && (region == 'USA' || region == 'Japan')) continue;
+				if (gRegion == 'J' && (region == 'USA' || region == 'Europe')) continue;
 			} else if (sys == 'switch') {
 				let gRegion = game.id[4];
-				if (gRegion == 'B' && (region == 'E' || region == 'J')) continue;
-				if (gRegion == 'C' && (region == 'E' || region == 'P')) continue;
+				if (gRegion == 'B' && (region == 'USA' || region == 'Japan')) continue;
+				if (gRegion == 'C' && (region == 'USA' || region == 'Europe')) continue;
+			} else if (sys == 'xbox') {
+				let gRegion = game.region;
+				if (gRegion == 'Europe' && (region == 'USA' || region == 'Japan')) continue;
+				if (gRegion == 'Japan' && (region == 'USA' || region == 'Europe')) continue;
 			}
 			// skip if it's already in the games array
-			if (games.find(x => x.id == game.id)) continue;
+			if (games.find((x) => x.id == game.id)) continue;
 			return game;
+		}
+		// if all results were skipped just return the first result
+		if (results.length > 0) {
+			return results[0].item;
 		}
 		return;
 	}
@@ -335,9 +317,16 @@ class Scanner {
 		log('game library saved to: ');
 		log(gamesPath);
 		try {
-			await fs.outputFile(gamesPath, JSON.stringify({
-				games: games
-			}, null, '\t'));
+			await fs.outputFile(
+				gamesPath,
+				JSON.stringify(
+					{
+						games: games
+					},
+					null,
+					'\t'
+				)
+			);
 		} catch (ror) {
 			er(ror);
 		}
@@ -345,7 +334,6 @@ class Scanner {
 }
 
 module.exports = new Scanner();
-
 
 // // TODO exact match indexing for wii games with Dolphin using kb
 // // if (sys == 'wii' && kb) {

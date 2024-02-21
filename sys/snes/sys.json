@@ -1,0 +1,10 @@
+{
+	"name": "SNES",
+	"fullName": "Super Nintendo",
+	"emus": ["bsnes", "webretro", "snes9x"],
+	"mediaType": "cart",
+	"containerType": "box",
+	"columnAmount": 4,
+	"hash": "sha256",
+	"gameExts": ["snes", "smc", "sfc"]
+}

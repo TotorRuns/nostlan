@@ -1,0 +1,99 @@
+/*================Switch Cover====================*/
+@font-face {
+	font-family: theboldfont;
+	src: url('../../../fonts/theboldfont.ttf');
+}
+
+@font-face {
+	font-family: Nintender;
+	src: url('../../../fonts/Nintender.ttf');
+}
+
+.switch .navPanel .text {
+	font-family: theboldfont;
+	font-weight: 900;
+}
+
+.switch #nav1Btn {
+	font-family: Nintender;
+	font-size: 3vw;
+	line-height: 3vw;
+	font-weight: bold;
+	text-align-last: center;
+	appearance: none;
+	border-width: 0.5vw;
+	border-style: solid;
+	border-color: var(--nav1-text-color, var(--nav-text-color));
+	color: var(--nav1-text-color, var(--nav-text-color));
+	background-color: transparent;
+	border-radius: 3vw;
+	padding-left: 5%;
+	padding-right: 4%;
+	padding-top: 1%;
+	box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+	width: fit-content;
+}
+
+/*================Switch Game Lib Viewer====================*/
+game.switch .box {
+	border-radius: 4%;
+}
+
+game.switch .crop.coverFull {
+	width: 99.3%;
+	top: 2.6%;
+	left: 0.8%;
+}
+
+game.switch .crop.cover {
+	width: 99.3%;
+	top: 0;
+	left: -2%;
+}
+
+game.switch img.cover {
+	width: 100%;
+	height: 100%;
+	border-radius: 0;
+	transform: translate(0.35%) scale(0.95);
+}
+
+game.switch img.coverFull {
+	width: 201.4%;
+	transform: translate(-52.4%, 0%);
+}
+
+game.switch.flip img.coverFull {
+	transform: translate(1.7%, -0.2%);
+}
+
+game.switch .shade {
+	width: 1%;
+	left: -0.5%;
+	height: 95.3%;
+}
+
+game.switch.flip .shade {
+	width: 1.5%;
+	left: 98.5%;
+}
+
+.switch #gameMedia {
+	width: 13vh;
+	height: 18.5vh;
+	transform: translate(202%, 126%);
+	border-radius: 10%;
+}
+
+#gameWiki webview {
+	width: 53vh;
+	transform: translate(-107%, -50.5%);
+}
+
+.switch #boxOpenMenu_2.zoom-gameMedia {
+	transform: scale(3) translate(-32.6vh, -33vh);
+}
+
+.switch #boxOpenMenu_2.zoom-gameManual {
+	transform: translate(32.6vh);
+}

@@ -1,5 +1,4 @@
 class CuiState extends cui.State {
-
 	async onAction(act) {
 		if (act == 'editAppearance') {
 			cui.change('interfaceMenu');
@@ -12,9 +11,9 @@ class CuiState extends cui.State {
 			}
 			$('#controllerMenu #controName').html(nameMsg);
 			$('#controllerMenu #controType').html(typeMsg);
-			$('#prof0').text(prefs.ui.gamepad.xbox_ps.profile);
-			$('#prof1').text(prefs.ui.gamepad.nintendo.profile);
-			$('#prof2').text(prefs.ui.gamepad.other.profile);
+			$('#prof0').text(cf.ui.gamepad.xbox_ps.profile);
+			$('#prof1').text(cf.ui.gamepad.nintendo.profile);
+			$('#prof2').text(cf.ui.gamepad.other.profile);
 		} else if (act == 'languageMenu') {
 			if (cui.ui == 'settingsMenu') {
 				cui.removeView('libMain');
@@ -22,7 +21,7 @@ class CuiState extends cui.State {
 			}
 			await cui.change('languageMenu');
 		} else if (act == 'editPrefs') {
-			opn(prefsMng.configPath);
+			opn(cfMng.configPath);
 			await delay(2000);
 			cui.doAction('quit');
 		} else if (act == 'toggleConsole') {

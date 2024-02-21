@@ -1,0 +1,51 @@
+/*================Arcade MAME Cover========================*/
+@font-face {
+	font-family: Orbitron;
+	src: url('../../../fonts/Orbitron-Black.ttf');
+	size-adjust: 90%;
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+		U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.arcade .navPanel .text,
+.arcade #nav1Btn {
+	font-family: Orbitron, sans-serif;
+	text-transform: uppercase;
+}
+
+.arcade #nav1Btn {
+	font-size: 3vw;
+	border: none;
+	box-shadow: none;
+}
+
+.arcade .navPanel .nav-link {
+	filter: none;
+	border-width: 0;
+}
+
+.arcade .navPanel:active .nav-link,
+.arcade .navPanel.active .nav-link {
+	filter: none;
+	background-image: var(--navBtns-hover-image) !important;
+}
+
+/*================MAME Game Lib Viewer====================*/
+game.arcade .box {
+	border-radius: 0;
+}
+
+.arcade #gameBoxOpen {
+	width: 100vw;
+}
+
+.arcade #gameMedia {
+	border-radius: 0;
+	height: 100vh;
+	width: auto;
+	transform: translate(-50%, -50%);
+}
+
+.arcade .zoom-gameMedia {
+	transform: scale(2);
+}

@@ -1,0 +1,89 @@
+{
+	"desmume": {
+		"name": "DeSmuME",
+		"sys": "ds",
+		"site": "http://desmume.org/",
+		"forum": "http://forums.desmume.org/",
+		"app": {
+			"linux": "org.desmume.DeSmuME"
+		},
+		"appRegex": {
+			"mac": "DeSmuME.*\\.app",
+			"win": "DeSmuME.*\\.exe"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "${game}"],
+			"mac": ["${app}", "${game}"],
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "org.desmume.DeSmuME"]
+				]
+			},
+			"mac-x64": {
+				"standalone": "https://drive.google.com/uc?export=download&id=1XGf24WNHTkewXGD9_U7kH49nsjdYDrcK .zip"
+			},
+			"win-x64": {
+				"standalone": "https://ci.appveyor.com/api/buildjobs/yk4i2mh53wukiy4d/artifacts/desmume%2Fsrc%2Ffrontend%2Fwindows%2F__bins%2FDeSmuME-VS2019-x64-Release.exe"
+			}
+		}
+	},
+	"ds_player": {
+		"name": "DS Player",
+		"sys": "ds",
+		"site": "https://ds.44670.org/",
+		"patreon": "https://www.patreon.com/ds44670",
+		"appRegex": "index\\.html",
+		"jsEmu": true,
+		"install": {
+			"jsEmu": "https://github.com/quinton-ashley/ds_player/archive/refs/heads/main.zip"
+		},
+		"saveStateSlots": 1,
+		"loadStateSlots": 1,
+		"latestVersion": "1.0.1",
+		"dev": true,
+		"mute": false,
+		"volume": 20,
+		"keyboard": [{}, {}]
+	},
+	"melonds": {
+		"name": "melonDS",
+		"sys": "ds",
+		"site": "http://melonds.kuribo64.net/",
+		"patreon": "https://www.patreon.com/staplebutter",
+		"paypal": "https://paypal.me/Arisotura",
+		"forum": "https://melonds.kuribo64.net/board/",
+		"app": {
+			"linux": "net.kuribo64.melonDS"
+		},
+		"appRegex": {
+			"mac": "melonDS\\.app",
+			"win": "melonDS\\.exe"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "${game}"],
+			"mac": ["${app}", "${game}"],
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "net.kuribo64.melonDS"]
+				]
+			},
+			"mac-x64": {
+				"installer": "https://melonds.kuribo64.net/downloads/melonDS_0.9.5_mac_UB2.dmg"
+			},
+			"mac-arm64": {
+				"installer": "https://melonds.kuribo64.net/downloads/melonDS_0.9.5_mac_UB2.dmg"
+			},
+			"win-x64": {
+				"portable": "https://melonds.kuribo64.net/downloads/melonDS_0.9.5_win_x64.zip"
+			}
+		}
+	}
+}

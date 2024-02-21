@@ -1,0 +1,7 @@
+{
+	"name": "Xbox 360",
+	"fullName": "Microsoft Xbox 360",
+	"emus": ["xenia"],
+	"mediaType": "disc",
+	"gameExts": ["iso", "xex"]
+}

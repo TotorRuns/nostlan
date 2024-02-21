@@ -1,0 +1,7 @@
+{
+	"name": "PS2",
+	"fullName": "Sony PlayStation 2",
+	"emus": ["pcsx2"],
+	"mediaType": "disc",
+	"gameExts": ["iso"]
+}

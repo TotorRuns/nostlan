@@ -1,0 +1,9 @@
+{
+	"name": "GBA",
+	"fullName": "Nintendo Game Boy Advance",
+	"emus": ["webretro", "mgba", "vba"],
+	"mediaType": "cart",
+	"containerType": "box",
+	"hash": "crc32",
+	"gameExts": ["gba"]
+}

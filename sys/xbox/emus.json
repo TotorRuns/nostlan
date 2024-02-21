@@ -1,0 +1,56 @@
+{
+	"cxbx-reloaded": {
+		"name": "Cxbx-Reloaded",
+		"sys": "xbox",
+		"site": "https://cxbx-reloaded.co.uk/",
+		"patreon": "https://www.patreon.com/LukeUsher",
+		"discord": "https://discord.gg/26Xjx23",
+		"appRegex": {
+			"win": "cxbx\\.exe"
+		},
+		"cmd": {
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"win-x64": {
+				"prereqs": [
+					{
+						"installer": "https://aka.ms/vs/16/release/vc_redist.x86.exe"
+					}
+				],
+				"portable": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/download/CI-0b69563/CxbxReloaded-Release-VS2022.zip"
+			}
+		}
+	},
+	"xemu": {
+		"name": "xemu",
+		"sys": "xbox",
+		"site": "https://xemu.app/",
+		"patreon": "https://www.patreon.com/mborgerson",
+		"app": {
+			"linux": "app.xemu.xemu"
+		},
+		"appRegex": {
+			"mac": "xemu\\.app"
+		},
+		"cmd": {
+			"mac": ["${app}", "${game}"],
+			"linux": ["flatpak", "run", "${app}", "${game}"],
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"mac-x64": {
+				"portable": "https://github.com/mborgerson/xemu/releases/latest/download/xemu-macos-universal-release.zip"
+			},
+			"mac-arm64": {
+				"portable": "https://github.com/mborgerson/xemu/releases/latest/download/xemu-macos-universal-release.zip"
+			},
+			"linux-x64": {
+				"pkgManager_flatpak": ["flatpak", "install", "-y", "app.xemu.xemu"]
+			},
+			"win-x64": {
+				"portable": "https://github.com/mborgerson/xemu/releases/latest/download/xemu-win-release.zip"
+			}
+		}
+	}
+}

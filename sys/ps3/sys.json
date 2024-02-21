@@ -1,0 +1,8 @@
+{
+	"name": "PS3",
+	"fullName": "Sony PlayStation 3",
+	"emus": ["rpcs3"],
+	"mediaType": "disc",
+	"gameFolders": true,
+	"gameRoot": "/USRDIR/EBOOT.BIN"
+}

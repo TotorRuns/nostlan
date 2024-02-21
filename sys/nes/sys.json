@@ -1,0 +1,9 @@
+{
+	"name": "NES",
+	"fullName": "Nintendo Entertainment System",
+	"emus": ["em-fceux", "mesen", "webretro"],
+	"mediaType": "cart",
+	"containerType": "box",
+	"hash": "crc32",
+	"gameExts": ["nes", "fds"]
+}

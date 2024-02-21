@@ -1,0 +1,8 @@
+{
+	"name": "Xbox",
+	"fullName": "Microsoft Xbox",
+	"emus": ["cxbx-reloaded", "xemu"],
+	"mediaType": "disc",
+	"gameExts": ["iso", "xbe", "xiso"],
+	"gameFolders": true
+}

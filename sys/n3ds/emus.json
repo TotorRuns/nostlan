@@ -1,0 +1,52 @@
+{
+	"citra": {
+		"name": "Citra",
+		"sys": "n3ds",
+		"site": "https://citra-emu.org/",
+		"patreon": "https://www.patreon.com/citraemu",
+		"discord": "https://citra-emu.org/discord/",
+		"app": {
+			"linux": "org.citra_emu.citra"
+		},
+		"appDirs": {
+			"mac": ["/Applications/Citra/nightly", "/Applications/Citra/canary"],
+			"win": [
+				"$home/AppData/Local/Citra/nightly-mingw",
+				"$home/AppData/Local/Citra/canary-mingw",
+				"$emu/nightly-mingw",
+				"$emu/canary-mingw"
+			]
+		},
+		"appRegex": {
+			"mac": "citra-qt\\.app",
+			"win": "citra-qt\\.exe"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "${game}", "-f"],
+			"mac": ["${app}", "${game}", "-f"],
+			"win": ["${app}", "${game}", "-f"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "org.citra_emu.citra"]
+				]
+			},
+			"mac-x64": {
+				"installer": "https://github.com/citra-emu/citra-web/releases/latest/download/citra-setup-mac.dmg"
+			},
+			"mac-arm64": {
+				"installer": "https://github.com/citra-emu/citra-web/releases/latest/download/citra-setup-mac.dmg"
+			},
+			"win-x64": {
+				"installer": "https://github.com/citra-emu/citra-web/releases/latest/download/citra-setup-windows.exe"
+			}
+		},
+		"saveDirs": {
+			"linux": ["$home/.local/share/citra-emu/sdmc"],
+			"mac": ["$home/.local/share/citra-emu/sdmc"],
+			"win": ["$home/AppData/Roaming/Citra/sdmc"]
+		}
+	}
+}

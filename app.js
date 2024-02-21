@@ -10,21 +10,25 @@
 	let arg = require('minimist')(process.argv);
 	arg.__root = __dirname.replace(/\\/g, '/');
 	arg.node_modules = arg.__root + '/node_modules';
+	arg.cli = arg.scrape || arg.db;
+
 	let version = require(arg.__root + '/package.json').version;
 
-	const {
-		app,
-		BrowserWindow
-	} = require('electron');
+	let remote = require('@electron/remote/main');
+	remote.initialize();
+
+	const { app, BrowserWindow } = require('electron');
 	app.allowRendererProcessReuse = false;
 
 	// command line options
 	if (arg.h || arg.help) {
 		log('-h|--help : print command line options');
 		log('-v|--version : get the version of the app');
-		if (arg.dev) {
-			log('--cli : run "scrape" or "db"');
-		}
+		log('--sys systemCode : load system');
+		log('--scrape websiteCode : scrape a website');
+		log('--db');
+		log('	generate : ');
+		log(' merge: ');
 	} else if (arg.v || arg.version) {
 		log('v' + version);
 	} else {
@@ -53,9 +57,12 @@
 				node_modules: arg.node_modules
 			};
 			log(locals);
-			let pug = await setupPug({
-				pretty: true
-			}, locals);
+			let pug = await setupPug(
+				{
+					pretty: true
+				},
+				locals
+			);
 			// pug.on('error', err => console.error('electron-pug error', err))
 			pug.on('error', function () {});
 		} catch (err) {
@@ -81,12 +88,17 @@
 		}
 
 		mainWindow = new BrowserWindow(windowPrms);
+		remote.enable(mainWindow.webContents);
 
 		let url = 'file://' + arg.__root;
 		if (!arg.cli) {
 			url += '/views/index.pug';
+		} else if (arg.scrape) {
+			url += `/cli/scrape-cli.pug`;
+		} else if (arg.db) {
+			url += `/cli/db-cli.pug`;
 		} else if (!arg.cli.includes('.')) {
-			url += `/${arg.cli}/cli/${arg.cli}-cli.pug`;
+			url += `/cli/${arg.cli}-cli.pug`;
 		} else {
 			url += arg.cli.slice(1);
 		}
@@ -123,5 +135,4 @@
 			createWindow();
 		}
 	});
-
 })();

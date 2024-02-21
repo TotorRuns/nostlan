@@ -1,0 +1,68 @@
+{
+	"mgba": {
+		"name": "mGBA",
+		"sys": "gba",
+		"site": "https://mgba.io/",
+		"patreon": "https://www.patreon.com/mgba",
+		"discord": "https://discord.gg/em2M2sG",
+		"forum": "https://forums.mgba.io/showthread.php?tid=466",
+		"app": {
+			"linux": "io.mgba.mGBA"
+		},
+		"appRegex": {
+			"mac": "mGBA\\.app",
+			"win": "mgba-sdl\\.exe"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "-f", "${game}"],
+			"mac": ["${app}", "-f", "${game}"],
+			"win": ["${app}", "-f", "${game}"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "io.mgba.mGBA"]
+				]
+			},
+			"mac-x64": {
+				"standalone": "https://github.com/mgba-emu/mgba/releases/download/0.8.3/mGBA-0.8.3-osx.tar.xz"
+			},
+			"win-x64": {
+				"portable": "https://github.com/mgba-emu/mgba/releases/download/0.8.3/mGBA-0.8.3-win64.7z"
+			}
+		}
+	},
+	"vba": {
+		"name": "Visual Boy Advance",
+		"sys": "gba",
+		"site": "https://github.com/visualboyadvance-m/visualboyadvance-m",
+		"forum": "https://board.vba-m.com/",
+		"app": {
+			"linux": "vbam-sdl"
+		},
+		"appRegex": {
+			"mac": "visualboyadvance-m\\.app",
+			"win": "visualboyadvance-m\\.exe"
+		},
+		"cmd": {
+			"linux": ["${app}", "${game}"],
+			"mac": ["${app}", "${game}"],
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_arch": ["pacman", "-S", "${app}"]
+			},
+			"mac-x64": {
+				"standalone": "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest/download/visualboyadvance-m-Mac-64bit.zip"
+			},
+			"mac-arm64": {
+				"standalone": "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest/download/visualboyadvance-m-Mac-64bit.zip"
+			},
+			"win-x64": {
+				"standalone": "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest/download/visualboyadvance-m-Win-64bit.zip"
+			}
+		}
+	}
+}

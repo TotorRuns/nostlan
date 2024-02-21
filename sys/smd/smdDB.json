@@ -1,0 +1,521 @@
+{
+	"games": [
+		{
+			"id": "ed427ea9",
+			"title": "Aladdin",
+			"region": "USA",
+			"img": {
+				"coverFull": "https://www.covercentury.com/covers/genesis/a/genesis_aladdin.jpg"
+			}
+		},
+		{
+			"id": "47dba0ac",
+			"title": "Alex Kidd in the Enchanted Castle",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 8440"
+			}
+		},
+		{
+			"id": "0496e06c",
+			"title": "Alien Soldier",
+			"region": "Europe",
+			"img": {
+				"coverFull": "c 12605"
+			}
+		},
+		{
+			"id": "5ab9c9f8",
+			"title": "Alien Storm",
+			"region": "World",
+			"img": {
+				"coverFull": "c 2197"
+			}
+		},
+		{
+			"id": "154d59bb",
+			"title": "Altered Beast",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 5592"
+			}
+		},
+		{
+			"id": "1110b0db",
+			"title": "Story of Thor, The",
+			"region": "Europe"
+		},
+		{
+			"id": "b97cca1c",
+			"title": "Legende de Thor, La",
+			"region": "France"
+		},
+		{
+			"id": "fa20d011",
+			"title": "Story of Thor, The",
+			"region": "Germany"
+		},
+		{
+			"id": "4f39783c",
+			"title": "Story of Thor, The: Hikari o Tsugumono",
+			"region": "Japan"
+		},
+		{
+			"id": "4631f941",
+			"title": "Story of Thor, The",
+			"region": "Spain"
+		},
+		{
+			"id": "c4728225",
+			"title": "Beyond Oasis",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2201"
+			}
+		},
+		{
+			"id": "c6aac589",
+			"title": "Bonanza Bros.",
+			"region": "Japan, Europe",
+			"img": {
+				"coverFull": "http://www.thecoverproject.net/download_cover.php?src=pending&cover_id=19923.jpg"
+			}
+		},
+		{
+			"id": "e468cee3",
+			"title": "Cave Story",
+			"region": "NTSC"
+		},
+		{
+			"id": "d6d74cfd",
+			"title": "Cave Story",
+			"region": "PAL"
+		},
+		{
+			"id": "d783c244",
+			"title": "Columns",
+			"region": "World",
+			"img": {
+				"coverFull": "c 5790"
+			}
+		},
+		{
+			"id": "dc678f6d",
+			"title": "Columns III",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 11712"
+			}
+		},
+		{
+			"id": "17da0354",
+			"title": "Comix Zone",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2206"
+			}
+		},
+		{
+			"id": "b9ce9051",
+			"title": "Crack Down",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 12222"
+			}
+		},
+		{
+			"id": "95b0ea2b",
+			"title": "Bio Hazard Battle",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 12186"
+			}
+		},
+		{
+			"id": "73dc0dd8",
+			"title": "DEcapAttack",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "http://www.thecoverproject.net/download_cover.php?src=pending&cover_id=18905.jpg"
+			}
+		},
+		{
+			"id": "d03cdb53",
+			"title": "Dynamite Headdy",
+			"region": "Japan",
+			"img": {
+				"coverFull": "c 2208"
+			}
+		},
+		{
+			"id": "3dfeeb77",
+			"title": "Dynamite Headdy",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 2208"
+			}
+		},
+		{
+			"id": "45547390",
+			"title": "Ecco the Dolphin",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 1322"
+			}
+		},
+		{
+			"id": "ccb21f98",
+			"title": "Ecco: The Tides of Time",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2211"
+			}
+		},
+		{
+			"id": "5b13fc7c",
+			"title": "Ecco Jr.",
+			"region": "USA, Australia",
+			"img": {
+				"coverFull": "c 2209"
+			}
+		},
+		{
+			"id": "e72f8a36",
+			"title": "ESWAT: City Under Siege",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 8656"
+			}
+		},
+		{
+			"id": "48f1a42e",
+			"title": "Eternal Champions",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2212"
+			}
+		},
+		{
+			"id": "5f0bd984",
+			"title": "Fatal Labyrinth",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 15224"
+			}
+		},
+		{
+			"id": "4291c8ab",
+			"title": "Flicky",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 13913"
+			}
+		},
+		{
+			"id": "83e7b8ae",
+			"title": "Gain Ground",
+			"region": "World",
+			"img": {
+				"coverFull": "c 14842"
+			}
+		},
+		{
+			"id": "e4d84e4a",
+			"title": "Galaxy Force II",
+			"region": "World",
+			"img": {
+				"coverFull": "c 8689"
+			}
+		},
+		{
+			"id": "665d7df9",
+			"title": "Golden Axe",
+			"region": "World",
+			"img": {
+				"coverFull": "c 5792"
+			}
+		},
+		{
+			"id": "725e0a18",
+			"title": "Golden Axe II",
+			"region": "World",
+			"img": {
+				"coverFull": "c 2219"
+			}
+		},
+		{
+			"id": "c7862ea3",
+			"title": "Golden Axe III",
+			"region": "Japan",
+			"img": {
+				"coverFull": "c 10774"
+			}
+		},
+		{
+			"id": "b813cf0d",
+			"title": "Gunstar Heroes",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2218"
+			}
+		},
+		{
+			"id": "ce36e6cc",
+			"title": "Kid Chameleon",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 2223"
+			}
+		},
+		{
+			"id": "fbbb5b97",
+			"title": "Landstalker",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 3724"
+			}
+		},
+		{
+			"id": "beb715dc",
+			"title": "Light Crusader",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2225"
+			}
+		},
+		{
+			"id": "c24bc5e4",
+			"title": "Wonder Boy III: Monster Lair",
+			"region": "Japan, Europe",
+			"img": {
+				"coverFull": "c 3492"
+			}
+		},
+		{
+			"id": "45a50f96",
+			"title": "Wonder Boy V: Monster World III",
+			"region": "Japan, Korea"
+		},
+		{
+			"id": "1592f5b0",
+			"title": "Wonder Boy in Monster World",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 11854"
+			}
+		},
+		{
+			"id": "75af3d59",
+			"title": "Phantasy Star II",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 2240"
+			}
+		},
+		{
+			"id": "cc194ad8",
+			"title": "Phantasy Star III: Generations of Doom",
+			"region": "USA, Europe"
+		},
+		{
+			"id": "b23cd7aa",
+			"title": "Phantasy Star IV",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2241"
+			}
+		},
+		{
+			"id": "6511aa61",
+			"title": "Ristar",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 11849"
+			}
+		},
+		{
+			"id": "c7ca517f",
+			"title": "Dr. Robotnik's Mean Bean Machine",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 7360"
+			}
+		},
+		{
+			"id": "5cd3e295",
+			"title": "Shadow Dancer: The Secret of Shinobi",
+			"region": "World",
+			"img": {
+				"coverFull": "c 11756"
+			}
+		},
+		{
+			"id": "4815e075",
+			"title": "Shining Force II",
+			"region": "USA"
+		},
+		{
+			"id": "4d2785bc",
+			"title": "Shining in the Darkness",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 7529"
+			}
+		},
+		{
+			"id": "e0594abe",
+			"title": "Shining Force",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2252"
+			}
+		},
+		{
+			"id": "5381506f",
+			"title": "Shinobi III: Return of the Ninja Master",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2253"
+			}
+		},
+		{
+			"id": "0c06aa82",
+			"title": "Sonic & Knuckles + Sonic The Hedgehog 3",
+			"region": "USA"
+		},
+		{
+			"id": "afe05eee",
+			"title": "Sonic The Hedgehog",
+			"region": "Japan, Korea",
+			"img": {
+				"coverFull": "c 1315"
+			}
+		},
+		{
+			"id": "7b905383",
+			"title": "Sonic The Hedgehog 2",
+			"region": "World",
+			"img": {
+				"coverFull": "c 1316"
+			}
+		},
+		{
+			"id": "44a2ca44",
+			"title": "Sonic 3D Blast ~ Sonic 3D Flickies' Island",
+			"region": "USA, Europe"
+		},
+		{
+			"id": "677206cb",
+			"title": "Sonic Spinball",
+			"region": "USA"
+		},
+		{
+			"id": "36d2f822",
+			"title": "Sword of Vermilion",
+			"region": "USA, Europe"
+		},
+		{
+			"id": "e5c9cbb0",
+			"title": "Space Harrier II",
+			"region": "World",
+			"img": {
+				"coverFull": "c 11852"
+			}
+		},
+		{
+			"id": "b13087ee",
+			"title": "Super Thunder Blade",
+			"region": "World",
+			"img": {
+				"coverFull": "c 16490"
+			}
+		},
+		{
+			"id": "4052e845",
+			"title": "Bare Knuckle: Ikari no Tetsuken ~ Streets of Rage",
+			"region": "World"
+		},
+		{
+			"id": "e01fa526",
+			"title": "Streets of Rage 2",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2265"
+			}
+		},
+		{
+			"id": "90ef991e",
+			"title": "Streets of Rage 3",
+			"region": "Asia",
+			"img": {
+				"coverFull": "c 2266"
+			}
+		},
+		{
+			"id": "5d09236f",
+			"title": "Bare Knuckle III",
+			"region": "Japan"
+		},
+		{
+			"id": "d5bb15d9",
+			"title": "Streets of Rage 3",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2266"
+			}
+		},
+		{
+			"id": "5ca24f66",
+			"title": "Revenge of Shinobi, The",
+			"region": "World",
+			"img": {
+				"coverFull": "c 5023"
+			}
+		},
+		{
+			"id": "7a588f4b",
+			"title": "ToeJam & Earl",
+			"region": "World",
+			"img": {
+				"coverFull": "c 1320"
+			}
+		},
+		{
+			"id": "aa021bdd",
+			"title": "ToeJam & Earl in Panic on Funkotron",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 5702"
+			}
+		},
+		{
+			"id": "d38b3354",
+			"title": "Vectorman",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 11788"
+			}
+		},
+		{
+			"id": "c1a24088",
+			"title": "Vectorman 2",
+			"region": "USA",
+			"img": {
+				"coverFull": "c 2323"
+			}
+		},
+		{
+			"id": "937380f3",
+			"title": "Virtua Fighter 2",
+			"region": "USA, Europe",
+			"img": {
+				"coverFull": "c 9610"
+			}
+		},
+		{
+			"id": "292080ae",
+			"title": "Cave Story",
+			"region": "World"
+		}
+	]
+}

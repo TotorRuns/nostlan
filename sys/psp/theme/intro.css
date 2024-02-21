@@ -1,0 +1,73 @@
+@font-face {
+	font-family: BioRhyme;
+	src: url('../../../fonts/biorhyme.woff') format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Plation;
+	src: url('../../../fonts/plation.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BTSEPS2';
+	src: url('../../../fonts/btseps2.woff2') format('woff2');
+	font-display: swap;
+}
+
+body {
+	background: #223;
+	margin: 0;
+	user-select: none;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 9em;
+}
+
+.created {
+	background: url(https://assets.codepen.io/154065/internal/avatars/users/default.png),
+		linear-gradient(to bottom, #884ced, #ec1cce);
+	background-size: 75px 75px, cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 250px;
+	height: 75px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 2em;
+}
+
+.created span,
+.created h2,
+.created p,
+.created a {
+	font-family: Montserrat;
+	margin: 0;
+}
+
+.created a,
+.created p,
+.created span {
+	color: #fff;
+}
+
+.created h2 {
+	font-weight: 700;
+	transform: translate(0, -4px);
+}
+
+.created a {
+	-webkit-text-decoration-color: rgba(255, 255, 255, 0.4);
+	text-decoration-color: rgba(255, 255, 255, 0.4);
+}
+
+.created a:hover {
+	color: #e6e82a;
+}

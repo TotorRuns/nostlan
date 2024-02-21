@@ -18,7 +18,7 @@ class Browser {
 					log(ping);
 					cui.imgSearchMenu.imgUrl = ping.src;
 				});
-				if (prefs.args.dev) page.openDevTools();
+				if (cf.args.dev) page.openDevTools();
 				isFirstPage = false;
 			}
 		});

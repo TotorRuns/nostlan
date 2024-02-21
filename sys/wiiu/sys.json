@@ -1,0 +1,10 @@
+{
+	"name": "Wii U",
+	"fullName": "Nintendo Wii U",
+	"emus": ["cemu"],
+	"mediaType": "disc",
+	"gameExts": ["wua", "rpx", "rpl", "wud", "wux"],
+	"gameFolders": true,
+	"gameFolderSearchDepthLimit": 1,
+	"gameRoot": "code"
+}

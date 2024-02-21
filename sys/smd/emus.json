@@ -1,0 +1,34 @@
+{
+	"webretro": {
+		"name": "webretro",
+		"site": "https://github.com/BinBashBanana/webretro",
+		"appRegex": "index\\.html",
+		"jsEmu": true,
+		"multiSys": {
+			"smd": {
+				"core": "genesis_plus_gx"
+			},
+			"gba": {
+				"core": "mgba"
+			},
+			"n64": {
+				"core": "mupen64plus_next"
+			},
+			"nes": {
+				"core": "nestopia"
+			},
+			"snes": {
+				"core": "snes9x"
+			}
+		},
+		"saveStateSlots": 1,
+		"loadStateSlots": 1,
+		"install": {
+			"jsEmu": "https://github.com/BinBashBanana/webretro/releases/download/v6.5/webretro-v6.5.zip"
+		},
+		"latestVersion": "6.5.0",
+		"dev": false,
+		"mute": false,
+		"keyboard": [{}, {}]
+	}
+}

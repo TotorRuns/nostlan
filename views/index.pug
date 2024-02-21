@@ -18,7 +18,7 @@ html
 		#languageMenu.menu.row-y
 			h1.title0 Language Menu
 		#donateMenu.menu.row-y
-			p(style="font-style: italic;") Kali Drake and Brandon VanStratum
+			p(id="patreonDonors" style="font-style: italic;") Corey Anderson, Brandon VanStratum, D.J. Rivera, dmb79, Catfan, Danny19901, Termax14, Zerron21, and Chazer
 			.cui.opt0(name='verify') access premium features
 			.cui.opt1(name='patreon') open Patreon page
 			.cui.opt2(name='remind') remind me later
@@ -40,30 +40,38 @@ html
 			.cui.opt2(name='finishSetup') finish setup
 		#pauseMenu_10.menu.row-y
 			h1.title0 Emulation Paused
-			.cui.col(name='unpause')
-				i.material-icons.md-left play_arrow
-				.text.opt0 unpause emulation
-				i.material-icons.md-right.invis play_arrow
-			.cui.col(name='loadState')
-				i.material-icons.md-left system_update_alt
-				.text.opt1 load state
-				i.material-icons.md-right.invis system_update_alt
-			.cui.col(name='saveState')
-				i.material-icons.md-left save
-				.text.opt2 save state
-				i.material-icons.md-right.invis save
-			.cui.col(name='mute')
-				i.material-icons.md-left volume_up
-				.text.opt4 mute
-				i.material-icons.md-right.invis volume_up
-			.cui.col(name='openDevTools')
-				i.material-icons.md-left bug_report
-				.text.opt5 show console
-				i.material-icons.md-right.invis bug_report
-			.cui.col(name='stop')
-				i.material-icons.md-left stop
-				.text.opt3 stop emulation
-				i.material-icons.md-right.invis stop
+			.row.row-x
+				.cui.col(name='unpause')
+					i.material-icons.md-left play_arrow
+					.text.opt0 unpause emulation
+					i.material-icons.md-right.invis play_arrow
+			.row.row-x
+				.cui.col(name='loadState')
+					i.material-icons.md-left system_update_alt
+					.text.opt1 load state
+					i.material-icons.md-right.invis system_update_alt
+			.row.row-x
+				.cui.col(name='saveState')
+					i.material-icons.md-left save
+					.text.opt2 save state
+					i.material-icons.md-right.invis save
+			.row.row-x
+				.cui.col(name='fullscreen')
+					i.material-icons.md-left zoom_out_map
+					.text.opt6 fullscreen
+				.cui.col(name='mute')
+					i.material-icons.md-left volume_up
+					.text.opt4 mute
+			.row.row-x
+				.cui.col(name='openDevTools')
+					i.material-icons.md-left bug_report
+					.text.opt5 show console
+					i.material-icons.md-right.invis bug_report
+			.row.row-x
+				.cui.col(name='stop')
+					i.material-icons.md-left stop
+					.text.opt3 stop emulation
+					i.material-icons.md-right.invis stop
 		#saveStateMenu_11.menu.row-y
 			h1.title0 Save State to Slot
 			.cui.col.left(name='slot0') 0
@@ -209,6 +217,7 @@ html
 		#emuMenu_5.menu.row-y
 		#emuAppMenu_6.menu.row-y
 			h1.title0 Emulator App Menu
+			p.msg16
 			.cui(name='install')
 				i.material-icons.md-left get_app
 				.text.opt0 install
@@ -244,23 +253,22 @@ html
 		#imgMenu_3.menu.row-y
 		#libMain.main.reels.row-x
 		nav.navbar.fixed-top.p-0
-			button#nav0.plastic0.navPanel.p-2.m-0: ul.nav.justify-content-left.m-0
+			button#nav0.plastic0.navPanel.p-2.m-0: ul.nav.m-0
 				.nav0.text: span#nav0Lbl
 				li.nav-item
 					#nav0Btn.nav-link.triangle: span
-			button#nav1.plastic0.navPanel.p-2.m-0: ul.nav.justify-content-right.m-0
-				li.nav-item
-					#nav1Btn Nostlan
+			button#nav1.plastic0.navPanel.p-2.m-0: ul.nav.m-0
+				#nav1Btn Nostlan
 		nav.navbar.fixed-bottom.p-0
-			button#nav2.plastic0.navPanel.p-2.m-0: ul.nav.justify-content-left.m-0
+			button#nav2.plastic0.navPanel.p-2.m-0: ul.nav.m-0
 				.nav2.text: span#nav2Lbl
 				li.nav-item
 					#nav2Btn.nav-link.square: span
-			button#nav3.plastic0.navPanel.p-2.m-0: ul.nav.justify-content-right.m-0
+			button#nav3.plastic0.navPanel.p-2.m-0: ul.nav.m-0
 				li.nav-item
 					#nav3Btn.nav-link.circle: span
 				.nav3.text: span#nav3Lbl
 		script.
 			console.log('opening index.pug');
 			console.log('#{node_modules}');
-			require('./index.js')(JSON.parse('#{arg}'.replace(/&quot;/g, '"')));
+			require('../core/main.js')(JSON.parse('#{arg}'.replace(/&quot;/g, '"')));

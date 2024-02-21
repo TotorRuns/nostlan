@@ -1,0 +1,122 @@
+/*================nes Cover====================*/
+@font-face {
+	font-family: NeedEverySoundBold-11yv;
+	size-adjust: 70%;
+	src: url('../../../fonts/NeedEverySoundBold-11yv.ttf');
+}
+
+@font-face {
+	font-family: Nintender;
+	src: url('../../../fonts/Nintender.ttf');
+}
+
+.nes .navPanel .text {
+	font-family: NeedEverySoundBold-11yv;
+	font-weight: 900;
+}
+
+.nes #nav1Btn {
+	font-family: Nintender;
+	font-size: 3vw;
+	line-height: 3vw;
+	font-weight: bold;
+	text-align-last: center;
+	appearance: none;
+	border-width: 0.5vw;
+	border-style: solid;
+	border-color: var(--nav1-text-color, var(--nav-text-color));
+	color: var(--nav1-text-color, var(--nav-text-color));
+	background-color: transparent;
+	border-radius: 3vw;
+	padding-left: 5%;
+	padding-right: 4%;
+	padding-top: 1%;
+	box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+	width: fit-content;
+}
+
+/*================nes Game Lib Viewer====================*/
+game.nes .crop.cover,
+game.nes .crop.coverFull,
+game.nes.flip .crop.coverBack {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+game.nes img.cover {
+	width: 100%;
+	height: 100%;
+}
+
+game.nes img.coverFull {
+	width: 100%;
+	height: 100%;
+	transform: translate(-60%, 0%) scale(2.204322, 1);
+}
+
+game.nes.flip img.coverFull {
+	width: 100%;
+	height: 100%;
+	transform: translate(60%, 0%) scale(2.204322, 1);
+}
+
+game.nes.flip img.coverBack {
+	width: 100%;
+	height: 100%;
+}
+
+game.nes .shade {
+	width: 0;
+}
+
+game.nes.flip .shade {
+	left: 99%;
+	width: 0;
+}
+
+game.nes .box {
+	border-radius: 1.6%;
+}
+
+game.nes .title.label {
+	top: 5%;
+}
+
+game.nes .file.label {
+	top: 70%;
+}
+
+.nes #gameMedia {
+	position: absolute;
+	border-radius: 0;
+	height: 60vh;
+	width: auto;
+	top: 59vh;
+	left: 78.25vw;
+	transform: translate(-50%, -50%);
+}
+
+.nes #gameMemory {
+	position: absolute;
+	border-radius: 0;
+	height: 10vh;
+	width: auto;
+	top: 14vh;
+	left: 55vw;
+	transform: translate(-50%, -50%);
+}
+
+.nes .zoom-gameManual {
+	transform: translate(33vw, 0vh) scale(1.2);
+}
+
+.nes .zoom-gameMedia {
+	transform: translate(-45vw, -14vh) scale(1.6);
+}
+
+.nes .zoom-gameMemory {
+	transform: translate(-30vw, 80vh) scale(2.3);
+}

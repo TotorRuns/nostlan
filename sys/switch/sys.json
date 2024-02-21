@@ -1,0 +1,7 @@
+{
+	"name": "Switch",
+	"fullName": "Nintendo Switch",
+	"emus": ["yuzu", "ryujinx", "ryujinx-ldn"],
+	"mediaType": "cart",
+	"gameExts": ["nsp", "xci", "nca", "nso"]
+}

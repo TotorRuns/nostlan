@@ -20,13 +20,13 @@
 		"opt1": "I don't support Nostlan yet"
 	},
 	"setupMenu": {
-		"opt0": "install at ~\/Documents\/emu",
+		"opt0": "install at ~/Documents/emu",
 		"opt1": "choose install location",
 		"opt2": "finish setup",
 		"err0": "You must choose an install location!",
 		"msg0": "choose the folder you want the template to go in",
 		"err1": "Can not write to folder!",
-		"err2": "This folder is read only! Right click the folder, click open as administrator, right click the folder, click edit file permissions. Change to read/write and create/delete for all user groups. Or set prefs.load.readOnlyFS to true in your prefs.json file."
+		"err2": "This folder is read only! Right click the folder, click open as administrator, right click the folder, click edit file permissions. Change to read/write and create/delete for all user groups. Or set load.readOnlyFS to true in your config.json file."
 	},
 	"libMain": {
 		"nav0Lbl": "Play",
@@ -118,7 +118,8 @@
 		"msg1": "game library has no game files"
 	},
 	"playMenu": {
-		"title0": "Play game with"
+		"title0": "Play game with",
+		"err0": "This emulator requires system bios file(s), search the internet!"
 	},
 	"emuMenu": {
 		"title0": "Emulator Menu",
@@ -145,13 +146,14 @@
 		"err3": "This emulator requires system bios file(s)",
 		"msg0": "Select emulator app",
 		"msg1": "Starting",
-		"msg2_0": "To close the emulator, press and hold the",
+		"msg2_0": "To close the emulator, press and hold the escape key or ",
 		"msg2_1": "button for",
 		"msg2_2": "seconds",
 		"msg3": "Unfortunately only one app at a time can be connected to your Gamecube Controller Adapter.  Nostlan will quit.",
 		"msg4": "launching"
 	},
 	"emuAppMenu": {
+		"title0": "Emulator not found!",
 		"opt0": "install",
 		"opt1": "browse for",
 		"err0": "This emulator is not available for your computer's operating system",
@@ -175,12 +177,14 @@
 		"msg12": "download complete",
 		"msg13": "opening macOS .dmg file",
 		"msg14": "opening installer executable",
-		"msg15": "Almost done, please finish install manually"
+		"msg15": "Almost done, please finish install manually",
+		"msg16": "To play games with this emulator you'll need to install or locate the emulator app."
 	},
 	"emptyGameLibMenu": {
 		"title0": "No games found",
-		"opt0": "browse for games folder",
-		"opt1": "install",
+		"opt0": "retry",
+		"opt1": "browse for games folder",
+		"opt2": "install",
 		"msg0_0": "select",
 		"msg0_1": "games folder",
 		"msg1_0": "Game files must have the file extension",
@@ -189,7 +193,8 @@
 		"msg1_3": "games yet you might want to install the",
 		"msg1_4": "emulator app first.",
 		"err0": "You already have this emulator installed on your computer!",
-		"err1": "If you don't have this app, install it using your linux package manager to add/remove software"
+		"err1": "If you don't have this app, install it using your linux package manager to add/remove software",
+		"nav3Lbl": "Sys"
 	},
 	"alertMenu": {
 		"title0": "Success!",
@@ -208,7 +213,9 @@
 		"opt1": "load state",
 		"opt2": "save state",
 		"opt3": "stop emulation",
-		"opt4": ["mute", "unmute"]
+		"opt4": ["mute", "unmute"],
+		"opt5": "show console",
+		"opt6": "fullscreen"
 	},
 	"imgMenu": {
 		"title0": "Select image type"

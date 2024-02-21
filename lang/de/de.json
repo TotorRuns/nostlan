@@ -20,13 +20,13 @@
 		"opt1": "Ich supporte Nostlan zur Zeit nicht"
 	},
 	"setupMenu": {
-		"opt0": "Installieren im Verzeichnis ~\/Documents\/emu",
+		"opt0": "Installieren im Verzeichnis ~/Documents/emu",
 		"opt1": "Installationsverzeichnis auswählen",
 		"opt2": "Setup fertigstellen",
 		"err0": "Du musst ein Installationsverzeichnis auswählen!",
 		"msg0": "Wähle den Ordner, in dem die Vorlage abgelegt werden soll",
 		"err1": "Kann in diesen Ordner nicht schreiben!",
-		"err2": "Dieser Ordner ist read only! Klicke mit der rechten Maustaste auf den Ordner, klicke auf Als Administrator öffnen, klicke mit der rechten Maustaste auf den Ordner, klicke auf Dateiberechtigungen bearbeiten. Ändere auf Lesen/Schreiben und Erstellen/Löschen für alle Benutzergruppen. Oder setzee prefs.load.readOnlyFS in deiner prefs.json-Datei auf true."
+		"err2": "Dieser Ordner ist read only! Klicke mit der rechten Maustaste auf den Ordner, klicke auf Als Administrator öffnen, klicke mit der rechten Maustaste auf den Ordner, klicke auf Dateiberechtigungen bearbeiten. Ändere auf Lesen/Schreiben und Erstellen/Löschen für alle Benutzergruppen. Oder setzee load.readOnlyFS in deiner config.json-Datei auf true."
 	},
 	"libMain": {
 		"nav0Lbl": "Spielen",
@@ -176,8 +176,8 @@
 		"msg15": "Fast fertig, bitte Installation manuell beenden"
 	},
 	"emptyGameLibMenu": {
-		"opt0": "Spieleordner suchen",
-		"opt1": "installieren",
+		"opt1": "Spieleordner suchen",
+		"opt2": "installieren",
 		"msg0_0": "auswählen",
 		"msg0_1": "Spieleordner",
 		"msg1_0": "Spieldateien müssen die Dateierweiterung haben",
@@ -186,7 +186,8 @@
 		"msg1_3": "zur Zeit hast, musst du den",
 		"msg1_4": "Emulator zuerst installieren.",
 		"err0": "Du hast diesen Emulator bereits auf deinen Computer installiert!",
-		"err1": "Wenn Sie diese App nicht haben, installierst du sie mit deinem Linux-Paketmanager zum Hinzufügen/Entfernen von Software"
+		"err1": "Wenn Sie diese App nicht haben, installierst du sie mit deinem Linux-Paketmanager zum Hinzufügen/Entfernen von Software",
+		"nav3Lbl": "Sys"
 	},
 	"alertMenu": {
 		"title0": "Erfolg!",
@@ -207,7 +208,7 @@
 		"opt3": "Emulation stoppen",
 		"opt4": ["mute", "unmute"]
 	},
-        "imgMenu": {
+	"imgMenu": {
 		"title0": "Image Typ auswählen"
 	},
 	"imageSearchMenu": {

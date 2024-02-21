@@ -1,5 +1,4 @@
 class CuiState extends cui.State {
-
 	async intro() {
 		$('#dialogs').show();
 		await nostlan.themes.loadFrame('intro');
@@ -9,8 +8,8 @@ class CuiState extends cui.State {
 	}
 
 	async removeIntro(time) {
-		time = time || prefs.load.delay;
-		if (prefs.args.testIntro) time = 1000000;
+		time = time || cf.load.delay;
+		if (cf.args.testIntro) time = 1000000;
 		log('removing intro: ' + time);
 		await delay(time);
 		$('#intro').remove();
@@ -22,14 +21,13 @@ class CuiState extends cui.State {
 		cui.clearDialogs();
 		// 'loading additional images'
 		$('#loadDialog0').text(lang.loading.msg1);
-		let gh = 'https://github.com/quinton-ashley/nostlan-img/raw/master/shared';
-		if (!prefs.nlaDir) return;
-		let dir = prefs.nlaDir + '/images';
+		let gh = 'https://github.com/quinton-ashley/nostlan-img/raw/main/shared';
+		if (!cf.nlaDir) return;
+		let dir = cf.nlaDir + '/images';
 
-		let assetPacks = ['discSleeve', 'labels', 'plastic', 'stickers', 'wraps'];
+		let assetPacks = specificAssets || ['discSleeve', 'labels', 'plastic', 'stickers', 'wraps'];
 
 		for (let pack of assetPacks) {
-			if (specificAssets && !specificAssets.includes(pack)) continue;
 			$('#loadDialog2').text(pack);
 			let url = gh + `/${pack}.zip`;
 			let file = dir + `/${pack}.zip`;
@@ -38,7 +36,7 @@ class CuiState extends cui.State {
 				file = await nostlan.scraper.dl(url, file, {
 					timeout: 10000
 				});
-				if (!file) break;
+				if (!file) continue;
 				await fs.extract(file, dir);
 			}
 		}

@@ -7,33 +7,41 @@
 global.fs.extract = async (input, output, opt) => {
 	opt = opt || {};
 	let ext = path.parse(input).ext;
-	if (ext == '.7z') {
-		return new Promise((resolve, reject) => {
-			opt.$bin = require('7zip-bin').path7za;
-			require('node-7z').extractFull(input, output, opt)
-				.on('end', () => {
-					fs.remove(input);
-					resolve(output);
-				})
-				.on('error', (ror) => {
-					console.error(ror);
-					resolve();
-				});
-		});
-	} else {
+	let res;
+	if (ext != '.7z') {
 		try {
 			await require('extract-zip')(input, {
 				dir: output
 			});
+			res = output;
+			await fs.remove(input);
 		} catch (ror) {
 			if (mac || linux) {
-				await spawn('tar', ['-xzvf', input, '-C', output]);
+				res = await spawn('tar', ['-xzvf', input, '-C', output]);
+				if (res instanceof Error) {
+					er(res);
+					return;
+				}
 			} else {
 				er(ror);
 			}
 		}
-		fs.remove(input);
 	}
+	if (res) return res;
+	return new Promise((resolve, reject) => {
+		opt.$bin = require('7zip-bin').path7za;
+		require('node-7z')
+			.extractFull(input, output, opt)
+			.on('end', () => {
+				fs.remove(input);
+				resolve(output);
+			})
+			.on('error', (ror) => {
+				console.error(ror);
+				fs.remove(input);
+				resolve();
+			});
+	});
 };
 
 class Utility {
@@ -41,10 +49,13 @@ class Utility {
 
 	absPath(file) {
 		if (!file) return '';
+		if (file[0] === '~') {
+			file = path.join(os.homedir(), file.slice(1));
+		}
 		let lib = file.match(/\$\d+/g);
 		if (lib) {
 			lib = lib[0].slice(1);
-			file = file.replace(/\$\d+/g, prefs[sys].libs[lib]);
+			file = file.replace(/\$\d+/g, cf[sys].libs[lib]);
 		}
 		let tags = file.match(/\$[a-zA-Z]+/g);
 		if (!tags) return file;
@@ -52,9 +63,13 @@ class Utility {
 		for (let tag of tags) {
 			tag = tag.slice(1);
 			if (tag == 'home') {
-				replacement = os.homedir().replace(/\\/g, '/');
+				replacement = os.homedir();
 			} else if (tag == 'emu') {
-				replacement = `${systemsDir}/${sys}/${emu}`;
+				if (emu && emus[emu].jsEmu && emus[emu].multiSys) {
+					replacement = `${systemsDir}/nostlan/jsEmu/${emu}`;
+				} else {
+					replacement = `${systemsDir}/${sys}/${emu}`;
+				}
 			}
 			file = file.replace('$' + tag, replacement);
 		}
@@ -81,7 +96,6 @@ class Utility {
 		}
 		return data;
 	}
-
 }
 
 module.exports = new Utility();

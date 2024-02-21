@@ -1,0 +1,122 @@
+@font-face {
+	font-family: Yellowtail;
+	src: url('../../../../../fonts/Yellowtail.ttf');
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	background: #000;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	background: transparent;
+	left: 0;
+	z-index: 0;
+}
+
+.wrapper {
+	background: transparent;
+}
+
+.main {
+	opacity: 0;
+}
+
+#logo {
+	left: 50%;
+	margin: -275px 0 0 -325px !important;
+	position: absolute;
+	top: 64%;
+	width: 700px;
+	z-index: 11;
+	filter: drop-shadow(40px -10px 2px rgba(29, 0, 177, 0.1)) drop-shadow(40px -10px 2px rgba(29, 0, 177, 0.2))
+		drop-shadow(-80px -30px 2px rgba(209, 100, 177, 0.3)) drop-shadow(30px 40px 2px rgba(209, 0, 177, 0.3));
+	animation: wave 10s 0s linear infinite;
+}
+@keyframes wave {
+	25% {
+		filter: drop-shadow(-40px 50px 2px rgba(29, 0, 177, 0.1)) drop-shadow(-20px 40px 2px rgba(209, 200, 177, 0.2))
+			drop-shadow(-30px -20px 2px rgba(209, 100, 177, 0.3)) drop-shadow(-30px -40px 2px rgba(209, 0, 107, 0.3));
+	}
+
+	38% {
+		filter: drop-shadow(0px 0px 2px rgba(209, 0, 177, 0.1)) drop-shadow(0px 0px 2px rgba(209, 0, 177, 0.2))
+			drop-shadow(-30px 20px 2px rgba(209, 100, 17, 0.3)) drop-shadow(0px 0px 2px rgba(209, 0, 177, 0.3));
+	}
+
+	50% {
+		filter: drop-shadow(20px 30px 2px rgba(209, 0, 177, 0.1)) drop-shadow(-60px -30px 2px rgba(209, 20, 177, 0.2))
+			drop-shadow(-20px 50px 2px rgba(109, 70, 177, 0.3)) drop-shadow(10px 20px 2px rgba(209, 0, 177, 0.3));
+		transform: scale(0.9);
+	}
+
+	63% {
+		filter: drop-shadow(50px 0px 2px rgba(209, 0, 177, 0.1)) drop-shadow(0px 0px 2px rgba(73, 0, 255, 0.2))
+			drop-shadow(0px 0px 2px rgba(59, 0, 17, 0.3)) drop-shadow(0px 0px 2px rgba(149, 200, 177, 0.3));
+	}
+
+	75% {
+		filter: drop-shadow(40px 10px 2px rgba(209, 0, 177, 0.1)) drop-shadow(40px 10px 2px rgba(209, 0, 177, 0.2))
+			drop-shadow(-80px 30px 2px rgba(209, 0, 177, 0.3)) drop-shadow(30px -40px 2px rgba(209, 0, 177, 0.3));
+	}
+}
+@keyframes tri {
+	0% {
+		transform: translate(-50%) scale(0.8, 0.2) rotateZ(0deg);
+	}
+
+	25% {
+		transform: translate(-50%) scale(1, 0.4) rotateZ(450deg);
+	}
+
+	50% {
+		transform: translate(-50%, -30%) scale(0.5, 0.2) rotateZ(650deg);
+	}
+
+	75% {
+		transform: translate(-50%) scale(1, 0.3) rotateZ(880deg);
+	}
+
+	100% {
+		transform: translate(-50%) scale(0.8, 0.2) rotateZ(1080deg);
+	}
+}
+
+h2 {
+	color: #d100b1;
+	display: block;
+	font-family: 'Yellowtail', cursive;
+	font-weight: bold;
+	font-size: 150px !important;
+	margin-top: -50px !important;
+	margin-right: -8em;
+	position: absolute;
+	text-shadow: 0 0 1px #d100b1, 0 -3px 3px rgba(255, 255, 0, 0.8), 0 3px 3px rgba(0, 0, 0, 0.5), 0 0 15px #d100b1,
+		0 0 45px rgba(209, 0, 177, 0.8);
+	text-align: center;
+	text-decoration: underline;
+	text-transform: none;
+	-webkit-transform: skew(-10deg) rotate(-10deg);
+	-ms-transform: skew(-10deg) rotate(-10deg);
+	transform: skew(-10deg) rotate(-10deg);
+	top: 57%;
+	width: 100%;
+	z-index: 11;
+	animation: wave 10s 0s linear infinite;
+}
+
+#triangle {
+	display: none;
+	left: 50%;
+	margin-top: -20%;
+	position: absolute;
+	top: 66%;
+	z-index: 8;
+	filter: drop-shadow(0px 4px 10px rgba(40, 205, 255, 0.7));
+	animation: tri 60s 0s linear infinite;
+}

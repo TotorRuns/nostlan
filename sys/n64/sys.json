@@ -1,0 +1,9 @@
+{
+	"name": "N64",
+	"fullName": "Nintendo 64",
+	"emus": ["project64", "mupen64plus", "webretro"],
+	"mediaType": "cart",
+	"containerType": "box",
+	"hash": "sha1",
+	"gameExts": ["n64", "rom", "bin", "jap", "pal", "usa", "eur", "u64", "v64", "z64", "d64"]
+}

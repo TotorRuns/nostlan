@@ -20,13 +20,12 @@
 		"opt1": "אני לא תומך ב-Nostlan עדיין"
 	},
 	"setupMenu": {
-		"opt0": "התקן בנתיב ~\/Documents\/emu",
+		"opt0": "התקן בנתיב ~/Documents/emu",
 		"opt1": "בחר נתיב התקנה",
 		"opt2": "סיים התקנה",
 		"err0": "עליך לבחור נתיב התקנה!",
 		"msg0": "בחר את התיקייה שבה תרצה למקם את התבנית",
-		"err1": "לא היה ניתן לכתוב לתיקייה!",
-		"err2": "This folder is read only! Right click the folder, click open as administrator, right click the folder, click edit file permissions. Change to read/write and create/delete for all user groups. Or set prefs.load.readOnlyFS to true in your prefs.json file."
+		"err1": "לא היה ניתן לכתוב לתיקייה!"
 	},
 	"libMain": {
 		"nav0Lbl": "שחק",
@@ -176,8 +175,8 @@
 		"msg15": "כמעט סיימנו, נא סיים את ההתקנה ידנית"
 	},
 	"emptyGameLibMenu": {
-		"opt0": "עיין אל תיקיית המשחקים",
-		"opt1": "התקן",
+		"opt1": "עיין אל תיקיית המשחקים",
+		"opt2": "התקן",
 		"msg0_0": "בחר",
 		"msg0_1": "תיקיית המשחקים",
 		"msg1_0": "קבצי משחק חייבים להסתיים בסיומת",
@@ -186,7 +185,8 @@
 		"msg1_3": "משחק עדיין יתכן שתרצה להתקין את",
 		"msg1_4": "תוכנת האמולטור קודם כל.",
 		"err0": "אמולטור זה כבר פועל על המחשב שלך!",
-		"err1": "אם אין ברשותך את התוכנה הזו, התקן אותה בעזרת מנהל החבילות של לינוקס כדי להוסיף או להסיר תוכנות."
+		"err1": "אם אין ברשותך את התוכנה הזו, התקן אותה בעזרת מנהל החבילות של לינוקס כדי להוסיף או להסיר תוכנות.",
+		"nav3Lbl": "מערכת"
 	},
 	"alertMenu": {
 		"title0": "הצלחה!",

@@ -1,5 +1,4 @@
 class CuiState extends cui.State {
-
 	async onAction(act) {
 		if (act == 'toggleCover') {
 			cui.buttonPressed('select');
@@ -10,7 +9,7 @@ class CuiState extends cui.State {
 			}
 			cui.removeView('themeMenu');
 			let themeMenu = 'h1.title0\n';
-			for (let palette of (await nostlan.themes.getColorPalettes())) {
+			for (let palette of await nostlan.themes.getColorPalettes()) {
 				let p = palette.sys + ' ' + palette.name;
 				if (!palette.name) palette.name = 'default';
 				palette = systems[palette.sys].name + ' ' + palette.name;
@@ -20,7 +19,7 @@ class CuiState extends cui.State {
 			cui.addView('themeMenu');
 			cui.change('themeMenu');
 		} else if (act == 'altReelsScrolling') {
-			prefs.ui.altReelsScrolling = !prefs.ui.altReelsScrolling;
+			cf.ui.altReelsScrolling = !cf.ui.altReelsScrolling;
 			cui.removeView('libMain');
 			cui.change('loading');
 			await cui.loading.intro();

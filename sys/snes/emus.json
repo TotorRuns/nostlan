@@ -1,0 +1,64 @@
+{
+	"bsnes": {
+		"name": "bsnes",
+		"sys": "snes",
+		"site": "https://github.com/bsnes-emu/bsnes",
+		"discord": "https://discord.gg/B27hf27ZVf",
+		"appRegex": {
+			"linux": "bsnes_hd",
+			"mac": "bsnes_hd\\.app",
+			"win": "bsnes\\.exe"
+		},
+		"cmd": {
+			"linux": ["${app}", "${game}", "--fullscreen"],
+			"mac": ["${app}", "${game}", "--fullscreen"],
+			"win": ["${app}", "${game}", "--fullscreen"]
+		},
+		"install": {
+			"linux-x64": {
+				"portable": "https://github.com/DerKoun/bsnes-hd/releases/download/beta_10_6/bsnes_hd_beta_10_6_linux.tar.bz2"
+			},
+			"mac-x64": {
+				"portable": "https://github.com/DerKoun/bsnes-hd/releases/download/beta_10_6/bsnes_hd_beta_10_6_mac.tar.bz2"
+			},
+			"mac-arm64": {
+				"portable": "https://github.com/DerKoun/bsnes-hd/releases/download/beta_10_6/bsnes_hd_beta_10_6_mac.tar.bz2"
+			},
+			"win-x64": {
+				"portable": "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-windows.zip"
+			}
+		}
+	},
+	"snes9x": {
+		"name": "snes9x",
+		"sys": "snes",
+		"site": "https://www.snes9x.com/",
+		"forum": "https://www.snes9x.com/phpbb3",
+		"app": {
+			"linux": "com.snes9x.Snes9x"
+		},
+		"appRegex": {
+			"mac": "snes9x-x64\\.exe",
+			"win": "snes9x-x64\\.exe"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "${game}", "-fullscreen"],
+			"mac": ["wine64", "${app}", "${game}", "-fullscreen"],
+			"win": ["${app}", "${game}", "-fullscreen"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "com.snes9x.Snes9x"]
+				]
+			},
+			"mac-x64": {
+				"portable": "https://www.emulator-zone.com/download.php/emulators/snes/snes9x/snes9x-1.60-win32-x64.zip"
+			},
+			"win-x64": {
+				"portable": "https://www.emulator-zone.com/download.php/emulators/snes/snes9x/snes9x-1.60-win32-x64.zip"
+			}
+		}
+	}
+}

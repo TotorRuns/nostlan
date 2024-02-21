@@ -1,0 +1,7 @@
+{
+	"name": "3DS",
+	"fullName": "Nintendo 3DS",
+	"emus": ["citra"],
+	"mediaType": "cart",
+	"gameExts": ["3ds", "cci", "cxi", "cfa"]
+}

@@ -1,0 +1,52 @@
+{
+	"mame": {
+		"name": "MAME",
+		"sys": "arcade",
+		"site": "https://www.mamedev.org/",
+		"forum": "https://forums.bannister.org/ubbthreads.php?ubb=postlist&Board=1",
+		"app": {
+			"linux": "mame"
+		},
+		"appDirs": {
+			"linux": ["~/.mame"]
+		},
+		"gamesDir": "$emu/roms",
+		"imagesDir": "$emu/artwork",
+		"appRegex": {
+			"mac": "mame",
+			"win": "mame\\.exe"
+		},
+		"cmd": {
+			"linux": ["${app}", "-inipath", "${cwd}", "${game.id}"],
+			"mac": ["${app}", "-inipath", "${cwd}", "${game.id}"],
+			"win": ["${app}", "-inipath", "${cwd}", "${game.id}"]
+		},
+		"install": {
+			"mac-x64": {
+				"prereqs": [
+					{
+						"installer": {
+							"url": "https://www.libsdl.org/release/SDL2-2.28.5.dmg",
+							"dest": "/Library/Frameworks"
+						}
+					}
+				],
+				"portable": "https://sdlmame.lngn.net/stable/mame0261-x86.zip"
+			},
+			"mac-arm64": {
+				"prereqs": [
+					{
+						"installer": {
+							"url": "https://www.libsdl.org/release/SDL2-2.28.5.dmg",
+							"dest": "/Library/Frameworks"
+						}
+					}
+				],
+				"portable": "https://sdlmame.lngn.net/stable/mame0261-arm64.zip"
+			},
+			"win-x64": {
+				"portable": "https://github.com/mamedev/mame/releases/download/mame0261/mame0261b_64bit.exe"
+			}
+		}
+	}
+}

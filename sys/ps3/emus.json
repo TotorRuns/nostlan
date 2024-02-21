@@ -1,0 +1,39 @@
+{
+	"rpcs3": {
+		"name": "RPCS3",
+		"sys": "ps3",
+		"site": "https://rpcs3.net/",
+		"patreon": "https://www.patreon.com/Nekotekina",
+		"discord": "https://discord.me/RPCS3",
+		"forum": "https://forums.rpcs3.net/",
+		"app": {
+			"linux": "net.rpcs3.RPCS3"
+		},
+		"appRegex": {
+			"mac": "RPCS3.app",
+			"win": "rpcs3\\.exe"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "${game}"],
+			"mac": ["${app}", "${game}"],
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "net.rpcs3.RPCS3"]
+				]
+			},
+			"win-x64": {
+				"portable": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-60c01ef9a9d59150f006192d5d72a4e8af97be33/rpcs3-v0.0.25-14397-60c01ef9_win64.7z"
+			},
+			"mac-x64": {
+				"installer": "https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-60c01ef9a9d59150f006192d5d72a4e8af97be33/rpcs3-v0.0.25-14397-60c01ef9_macos.dmg"
+			},
+			"mac-arm64": {
+				"installer": "https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-60c01ef9a9d59150f006192d5d72a4e8af97be33/rpcs3-v0.0.25-14397-60c01ef9_macos.dmg"
+			}
+		}
+	}
+}

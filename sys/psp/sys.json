@@ -1,0 +1,8 @@
+{
+	"name": "PSP",
+	"fullName": "Sony PlayStation Portable",
+	"emus": ["ppsspp"],
+	"mediaType": "disc",
+	"gameFolders": true,
+	"gameRoot": "/EBOOT.PBP"
+}

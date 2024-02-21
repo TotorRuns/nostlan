@@ -1,0 +1,89 @@
+{
+	"ryujinx": {
+		"name": "Ryujinx",
+		"sys": "switch",
+		"site": "https://ryujinx.org/",
+		"patreon": "https://www.patreon.com/ryujinx",
+		"discord": "https://discord.gg/VkQYXAZ",
+		"appRegex": {
+			"linux": "^Ryujinx",
+			"mac": "Ryujinx\\.app",
+			"win": "^Ryujinx\\.exe"
+		},
+		"cmd": {
+			"linux": ["${app}", "${game}"],
+			"mac": ["${app}", "${game}"],
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"linux-x64": {
+				"portable": "https://github.com/Ryujinx/release-channel-master/releases/download/1.1.1104/ryujinx-1.1.1104-linux_x64.tar.gz"
+			},
+			"mac-arm64": {
+				"standalone": "https://github.com/Ryujinx/release-channel-macos/releases/download/1.1.0-macos1/Ryujinx-1.1.0-macos1-macos_universal.app.tar.gz"
+			},
+			"mac-x64": {
+				"standalone": "https://github.com/Ryujinx/release-channel-macos/releases/download/1.1.0-macos1/Ryujinx-1.1.0-macos1-macos_universal.app.tar.gz"
+			},
+			"win-x64": {
+				"portable": "https://github.com/Ryujinx/release-channel-master/releases/download/1.1.1104/ryujinx-1.1.1104-win_x64.zip"
+			}
+		}
+	},
+	"ryujinx-ldn": {
+		"name": "Ryujinx LDN",
+		"sys": "switch",
+		"site": "https://ryujinx.org/",
+		"patreon": "https://patreon.com/Ryujinx",
+		"discord": "https://discord.gg/VkQYXAZ",
+		"appRegex": {
+			"linux": "^Ryujinx",
+			"mac": "^Ryujinx",
+			"win": "^Ryujinx\\.exe"
+		},
+		"cmd": {
+			"linux": ["${app}", "${game}"],
+			"mac": ["${app}", "${game}"],
+			"win": ["${app}", "${game}"]
+		}
+	},
+	"yuzu": {
+		"name": "Yuzu",
+		"sys": "switch",
+		"site": "https://yuzu-emu.org/",
+		"patreon": "https://www.patreon.com/yuzuteam",
+		"discord": "https://discord.gg/u77vRWY",
+		"app": {
+			"linux": "org.yuzu_emu.yuzu"
+		},
+		"appDirs": {
+			"win": ["$home/AppData/Local/yuzu/yuzu-windows-msvc", "$home/AppData/Local/yuzu/yuzu-windows-msvc-early-access"]
+		},
+		"appRegex": {
+			"win": "yuzu\\.exe"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "-g", "${game}", "-f"],
+			"win": ["${app}", "-g", "${game}", "-f"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "org.yuzu_emu.yuzu"]
+				]
+			},
+			"win-x64": {
+				"prereqs": [
+					{
+						"installer": "https://aka.ms/vs/16/release/vc_redist.x64.exe"
+					}
+				],
+				"installer": "https://github.com/yuzu-emu/liftinstall/releases/download/1.9/yuzu_install.exe"
+			}
+		},
+		"update": {
+			"win": ["$home/AppData/Local/yuzu/maintenancetool.exe", "--launcher", "${app}"]
+		}
+	}
+}

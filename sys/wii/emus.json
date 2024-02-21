@@ -1,0 +1,37 @@
+{
+	"dolphin": {
+		"name": "Dolphin",
+		"sys": "wii",
+		"site": "https://dolphin-emu.org/",
+		"forum": "https://forums.dolphin-emu.org/",
+		"app": {
+			"linux": "org.DolphinEmu.dolphin-emu"
+		},
+		"appRegex": {
+			"mac": "dolphin\\.app",
+			"win": "Dolphin\\.exe"
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "-e", "${game}", "--config", "\"Dolphin.Display.Fullscreen=True\""],
+			"mac": ["${app}", "-e", "${game}", "--config", "\"Dolphin.Display.Fullscreen=True\""],
+			"win": ["${app}", "-e", "${game}", "--config", "\"Dolphin.Display.Fullscreen=True\""]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "org.DolphinEmu.dolphin-emu"]
+				]
+			},
+			"mac-x64": {
+				"installer": "https://dl.dolphin-emu.org/builds/ba/46/dolphin-master-5.0-20347-universal.dmg"
+			},
+			"mac-arm64": {
+				"installer": "https://dl.dolphin-emu.org/builds/79/15/dolphin-master-5.0-20347-universal.dmg"
+			},
+			"win-x64": {
+				"portable": "https://dl.dolphin-emu.org/builds/25/5f/dolphin-master-5.0-20347-x64.7z"
+			}
+		}
+	}
+}

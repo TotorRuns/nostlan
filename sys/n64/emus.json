@@ -1,0 +1,61 @@
+{
+	"mupen64plus": {
+		"name": "mupen64plus",
+		"sys": "n64",
+		"site": "https://github.com/mupen64plus/mupen64plus-ui-python",
+		"app": {
+			"linux": "com.github.Rosalie241.RMG"
+		},
+		"appRegex": {
+			"mac": "M64Py\\.app",
+			"win": "m64py\\.exe"
+		},
+		"appDirs": {
+			"win": ["$emu/M64Py"]
+		},
+		"cmd": {
+			"linux": ["flatpak", "run", "${app}", "${game}"],
+			"mac": ["${app}", "${game}"],
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"linux-x64": {
+				"pkgManager_flatpak": [
+					["flatpak", "remote-add", "--if-not-exists", "flathub", "https://flathub.org/repo/flathub.flatpakrepo"],
+					["flatpak", "install", "flathub", "com.github.Rosalie241.RMG"]
+				]
+			},
+			"mac-x64": {
+				"installer": "https://github.com/mupen64plus/mupen64plus-ui-python/releases/download/0.2.4/m64py-0.2.4.dmg"
+			},
+			"mac-arm64": {
+				"installer": "https://github.com/mupen64plus/mupen64plus-ui-python/releases/download/0.2.4/m64py-0.2.4.dmg"
+			},
+			"win-x64": {
+				"portable": "https://github.com/mupen64plus/mupen64plus-ui-python/releases/download/0.2.5/m64py-0.2.5-portable.zip"
+			}
+		}
+	},
+	"project64": {
+		"name": "Project 64",
+		"sys": "n64",
+		"site": "https://www.pj64-emu.com/",
+		"discord": "https://discord.gg/Cg3zquF",
+		"donate": "https://www.pj64-emu.com/support-project64.html",
+		"appRegex": {
+			"win": "Project64\\.exe"
+		},
+		"appDirs": {
+			"win": ["$emu/Project 3.0"]
+		},
+		"cmd": {
+			"win": ["${app}", "${game}"]
+		},
+		"install": {
+			"win-x64": {
+				"installer": "https://www.pj64-emu.com/file/setup-project64-3-0-0-5632-f83bee9 .exe",
+				"portable": "https://www.pj64-emu.com/file/project64-3-0-0-5632-f83bee9 .zip"
+			}
+		}
+	}
+}

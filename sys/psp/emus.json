@@ -1,0 +1,23 @@
+{
+	"ppsspp": {
+		"name": "PPSSPP",
+		"sys": "psp",
+		"site": "https://www.ppsspp.org",
+		"appRegex": "PPSSPPSDL\\.app",
+		"gamesDir": "~/.config/ppsspp/PSP/GAME",
+		"cmd": {
+			"mac": ["${app}", "${game}"]
+		},
+		"install": {
+			"mac-arm64": {
+				"standalone": "https://github.com/hrydgard/ppsspp/releases/download/v1.13.2/PPSSPPSDL-macOS-v1.13.2.zip"
+			},
+			"mac-x64": {
+				"standalone": "https://github.com/hrydgard/ppsspp/releases/download/v1.13.2/PPSSPPSDL-macOS-v1.13.2.zip"
+			},
+			"win-x64": {
+				"portable": "https://www.ppsspp.org/files/1_13_2/ppsspp_win.zip"
+			}
+		}
+	}
+}

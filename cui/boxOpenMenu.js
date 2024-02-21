@@ -1,5 +1,4 @@
 class CuiState extends cui.State {
-
 	async load(disableWiki) {
 		let game = cui.libMain.getCurGame();
 		if (!game) return;
@@ -12,8 +11,7 @@ class CuiState extends cui.State {
 		$('#gameWiki').html('');
 
 		$('#gameBoxOpen').prop('src', await nostlan.scraper.imgExists(template, 'boxOpen'));
-		$('#gameBoxOpenMask').prop('src',
-			await nostlan.scraper.imgExists(template, 'boxOpenMask'));
+		$('#gameBoxOpenMask').prop('src', await nostlan.scraper.imgExists(template, 'boxOpenMask'));
 		$('#gameMemory').prop('src', await nostlan.scraper.imgExists(template, 'memory'));
 		$('#gameManual').prop('src', await nostlan.scraper.imgExists(template, 'manual'));
 		if (!disableWiki) {
@@ -28,7 +26,7 @@ class CuiState extends cui.State {
 			mediaImg += '?' + Date.now();
 		}
 		if (!mediaImg && syst.mediaType == 'disc') {
-			mediaImg = prefs.nlaDir + '/images/discSleeve/disc.png';
+			mediaImg = cf.nlaDir + '/images/discSleeve/disc.png';
 		}
 		$('#gameMedia').prop('src', mediaImg);
 	}
@@ -37,7 +35,7 @@ class CuiState extends cui.State {
 		if (act == 'x') act = 'manual';
 		if (act == 'y') act = 'memory';
 		if (act == 'a') act = 'media';
-		if (!(/(memory|manual|media)/gi).test(act)) return;
+		if (!/(memory|manual|media)/gi.test(act)) return;
 		act = act[0].toUpperCase() + act.slice(1);
 		act = 'game' + act;
 		this.$elem.addClass('zoom-' + act);

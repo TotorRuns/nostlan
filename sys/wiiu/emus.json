@@ -1,0 +1,33 @@
+{
+	"cemu": {
+		"name": "Cemu",
+		"sys": "wiiu",
+		"site": "http://cemu.info/",
+		"patreon": "https://www.patreon.com/cemu",
+		"discord": "https://discord.gg/5psYsup",
+		"appRegex": {
+			"linux": "Cemu\\.AppImage",
+			"mac": "Cemu\\.app",
+			"win": "Cemu\\.exe"
+		},
+		"cmd": {
+			"linux": ["${app}", "-g", "${game}", "-f"],
+			"mac": ["${app}", "-g", "${game}", "-f"],
+			"win": ["${app}", "-g", "${game}", "-f"]
+		},
+		"install": {
+			"linux-x64": {
+				"portable": "https://github.com/cemu-project/Cemu/releases/download/v2.0-61/Cemu-2.0-61-x86_64.AppImage"
+			},
+			"mac-arm64": {
+				"installer": "https://github.com/cemu-project/Cemu/releases/download/v2.0-61/cemu-2.0-61-macos-12-x64.dmg"
+			},
+			"mac-x64": {
+				"installer": "https://github.com/cemu-project/Cemu/releases/download/v2.0-61/cemu-2.0-61-macos-12-x64.dmg"
+			},
+			"win-x64": {
+				"portable": "https://github.com/cemu-project/Cemu/releases/download/v2.0-61/cemu-2.0-61-windows-x64.zip"
+			}
+		}
+	}
+}

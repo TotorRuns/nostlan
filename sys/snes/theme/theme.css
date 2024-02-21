@@ -1,0 +1,138 @@
+/*================snes Cover====================*/
+@font-face {
+	font-family: SNES_Italic;
+	size-adjust: 130%;
+	src: url('../../../fonts/SNES_Italic.ttf');
+}
+
+@font-face {
+	font-family: Nintender;
+	src: url('../../../fonts/Nintender.ttf');
+}
+
+.snes .menu .cui,
+.snes .text {
+	text-shadow: none;
+}
+
+.snes .navPanel .text {
+	font-family: 'SNES_Italic', sans-serif;
+	font-weight: 1000;
+	letter-spacing: 0.2vw;
+}
+
+.snes.box .menu .cursor,
+.snes.box .menu .cursor * {
+	filter: brightness(20);
+}
+
+.snes #nav1Btn {
+	font-family: Nintender;
+	font-size: 3vw;
+	line-height: 3vw;
+	font-weight: bold;
+	text-align-last: center;
+	appearance: none;
+	border-width: 0.5vw;
+	border-style: solid;
+	border-color: var(--nav1-text-color, var(--nav-text-color));
+	color: var(--nav1-text-color, var(--nav-text-color));
+	background-color: transparent;
+	border-radius: 3vw;
+	padding-left: 5%;
+	padding-right: 4%;
+	padding-top: 1%;
+	box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+	width: fit-content;
+}
+
+.snes.game-box #nav3 .nav-link {
+	border-width: 0;
+}
+
+.snes.game-box .nav-link {
+	border-width: 0.5vw;
+}
+
+/*================snes Game Lib Viewer====================*/
+game.snes .crop.coverFull {
+	width: 98.1%;
+	height: 98.5%;
+	top: 0;
+	left: 0.73%;
+	border-radius: 10px;
+}
+
+game.snes .crop.cover {
+	width: 98.1%;
+	height: 99%;
+	top: 0;
+	left: 0.73%;
+	border-radius: 10px;
+}
+
+game.snes img.cover {
+	width: 100%;
+	height: 100%;
+	transform: translate(0.3%, 0%);
+}
+
+game.snes img.coverFull {
+	width: 100%;
+	height: 100%;
+	transform: rotateZ(-90deg) translate(-41.27%, 0.3%) scale(1.52, 1.45);
+}
+
+game.snes.flip .crop.cover {
+	top: 1%;
+}
+
+game.snes.flip .crop.coverFull {
+	top: 1.5%;
+}
+
+game.snes.flip img.coverFull {
+	width: 100%;
+	height: 100%;
+	transform: rotateZ(90deg) translate(41.27%, 0%) scale(1.52, 1.45);
+}
+
+game.snes .shade {
+	width: 0;
+}
+
+game.snes.flip .shade {
+	left: 99%;
+	width: 0;
+}
+
+game.snes .box {
+	border-radius: 1.6%;
+}
+
+game.snes .title.label,
+game.snes .title.label-input {
+	top: 6%;
+	left: 3%;
+	right: 20%;
+}
+
+game.snes .file.label,
+game.snes .file.label-input {
+	top: 72%;
+	left: 3%;
+	right: 20%;
+}
+
+.snes #gameMedia {
+	position: absolute;
+	border-radius: 0;
+	height: 50vh;
+	width: auto;
+	left: 75vw;
+	transform: translate(-50%, -50%);
+}
+
+.snes .zoom-gameMedia {
+	transform: translate(-48vw) scale(1.9);
+}
